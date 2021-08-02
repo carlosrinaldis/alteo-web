@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 10px;
+}
+
+ul,
+li,
+a,
+button {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background-color: red;
+  font-family: "Comfortaa", arial, sans;
+}
+
+.ct-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../assets/backdrop-image-001.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+header .logo {
+  width: 75px;
+  height: 75px;
+}
+header .logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header .access-button,
+header .menu-button {
+  width: 25px;
+  height: 25px;
+}
+header .access-button img,
+header .menu-button img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=style.css.map */
