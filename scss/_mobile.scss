@@ -1,25 +1,24 @@
 @use 'variables';
 body {
-  background-color: variables.$monkey;
-  font-family: variables.$fontSans;
+  font-family: variables.$fontMain;
 }
 
 .ct-center {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../assets/backdrop-image-001.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 header {
   width: 100%;
+  height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
 
   .logo {
     width: 75px;
@@ -42,5 +41,57 @@ header {
       height: 100%;
       object-fit: contain;
     }
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  section.hero {
+    height: 610px;
+    background-image: url("../assets/backdrop-image-001.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .ct-content {
+      display: flex;
+      position: relative;
+      top: 110px;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 15px;
+
+      h1 {
+        text-align: center;
+        margin-top: 15px;
+        color: variables.$mainTextColor;
+      }
+
+      h2 {
+        text-align: center;
+        margin-top: 250px;
+        color: variables.$mainTextColor;
+      }
+
+      button {
+        width: 50vw;
+        height: 50px;
+        margin-top: 30px;
+        border-radius: 10px;
+        background-color: white;
+      }
+    }
+  }
+
+  section.contact {
+    height: 202px;
   }
 }
