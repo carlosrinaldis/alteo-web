@@ -1,4 +1,6 @@
 @use 'variables';
+@use 'experiences';
+
 body {
   font-family: variables.$fontMain;
 }
@@ -7,6 +9,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+a {
+  color: black;
+  &:visited {
+    color: black;
+  }
+  &:hover {
+    color: variables.$mainTextColor;
+  }
+  &:active {
+    color: black;
+  }
 }
 
 header {
