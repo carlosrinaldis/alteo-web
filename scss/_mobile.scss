@@ -136,11 +136,11 @@ main {
         color: #bebebe;
         border-color: #d3d1d3;
         border: 2px solid;
-      }
 
-      ::placeholder {
-        padding-left: 15px;
-        color: #d3d1d3;
+        &::placeholder {
+          padding-left: 15px;
+          color: #d3d1d3;
+        }
       }
 
       button {

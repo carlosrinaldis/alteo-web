@@ -158,15 +158,15 @@ main section.contact .ct-form input {
   border-color: #d3d1d3;
   border: 2px solid;
 }
-main section.contact .ct-form ::-moz-placeholder {
+main section.contact .ct-form input::-moz-placeholder {
   padding-left: 15px;
   color: #d3d1d3;
 }
-main section.contact .ct-form :-ms-input-placeholder {
+main section.contact .ct-form input:-ms-input-placeholder {
   padding-left: 15px;
   color: #d3d1d3;
 }
-main section.contact .ct-form ::placeholder {
+main section.contact .ct-form input::placeholder {
   padding-left: 15px;
   color: #d3d1d3;
 }
