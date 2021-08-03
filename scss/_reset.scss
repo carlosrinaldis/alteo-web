@@ -17,3 +17,18 @@ button {
   text-decoration: none;
   list-style-type: none;
 }
+
+input,
+button,
+textarea,
+select,
+fieldset {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
