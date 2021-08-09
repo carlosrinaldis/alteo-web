@@ -1,120 +1,8 @@
-@use 'reset';
 @use 'variables';
-
-body {
-  font-family: variables.$fontMain;
-}
-
-.ct-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 360px;
-  max-width: 414px;
-  overflow: hidden;
-  margin: auto;
-}
-
-a {
-  color: variables.$black;
-  &:visited {
-    color: variables.$black;
-  }
-  &:hover {
-    color: variables.$gold;
-  }
-  &:active {
-    color: variables.$black;
-  }
-}
-
-/* Header */
-
-header {
-  width: 100%;
-  height: 100px;
-  min-width: 360px;
-  max-width: 414px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  position: fixed;
-  top: 0px;
-  z-index: 100;
-
-  .logo {
-    width: 60px;
-    height: 60px;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
-  }
-
-  .access-button,
-  .menu-button {
-    width: 25px;
-    height: 25px;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
-  }
-}
-
-/* Footer */
-
-footer {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: 232px;
-  background-color: variables.$silver;
-  margin-top: 22px;
-
-  .sitemap ul {
-    width: 330px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 45px;
-    font-size: 12px;
-  }
-
-  .social ul {
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 32px;
-    font-size: 12px;
-  }
-
-  .logo {
-    width: 60px;
-    height: 60px;
-    margin-top: 32px;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
-  }
-}
-
-/* HOME */
 
 /* Main */
 
-#home main {
+#experiences main {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -127,7 +15,7 @@ footer {
 
   section.hero {
     height: 610px;
-    background-image: url("../assets/backdrop-image-001.jpg");
+    background-image: url("../assets/backdrop-image-004.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,21 +30,21 @@ footer {
 
       h1 {
         text-align: center;
-        margin-top: 15px;
+        margin-top: 0px;
         color: variables.$gold;
       }
 
       h2 {
         text-align: center;
-        margin-top: 250px;
+        margin-top: 194px;
         color: variables.$gold;
       }
 
       button {
-        width: 50%;
+        width: 50px;
         height: 50px;
-        margin-top: 34px;
-        border-radius: 10px;
+        margin-top: 16px;
+        border-radius: 100%;
         background-color: whitesmoke;
         color: variables.$silver;
         border-color: variables.$silver;
@@ -165,11 +53,12 @@ footer {
     }
   }
 
-  section.contact {
+  section.experiences {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px 15px;
+    margin-bottom: 24px;
 
     h1 {
       text-align: center;
@@ -227,6 +116,6 @@ footer {
 
 /* Footer */
 
-#home footer .sitemap ul a.current {
+#experiences footer .sitemap ul a.current {
   color: variables.$gold;
 }
