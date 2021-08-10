@@ -185,6 +185,7 @@ footer .logo img {
   color: #d3d1d3;
   border-color: #d3d1d3;
   border: 2px solid;
+  text-transform: uppercase;
 }
 #home main section.contact {
   display: flex;
@@ -286,7 +287,7 @@ footer .logo img {
 }
 #experiences main section.hero .ct-content h2 {
   text-align: center;
-  margin-top: 190px;
+  margin-top: 225px;
   color: #bb9d58;
   text-shadow: 0px 0px 10px #ffffff;
 }
