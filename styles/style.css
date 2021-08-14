@@ -35,6 +35,7 @@ fieldset {
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: whitesmoke;
 }
 
 .ct-center {
@@ -45,6 +46,7 @@ body {
   max-width: 414px;
   overflow: hidden;
   margin: auto;
+  background-color: white;
 }
 
 a {
@@ -472,6 +474,7 @@ footer .logo img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0 15px;
 }
 #about main section.our-story .quote h1 {
   text-align: center;
@@ -501,6 +504,7 @@ footer .logo img {
   text-align: center;
   margin-top: 12px;
   color: #282828;
+  padding: 0 15px;
 }
 #about main section.our-story h4 {
   font-size: 14px;
@@ -548,6 +552,7 @@ footer .logo img {
 }
 #about main section.our-story .testimonial {
   overflow: hidden;
+  width: 100%;
   height: 202px;
   background-image: url("../assets/experiences-image-002.jpg");
   background-position: center;
