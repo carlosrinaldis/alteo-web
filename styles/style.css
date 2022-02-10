@@ -294,7 +294,7 @@ footer .logo img {
   text-shadow: 0px 0px 10px #ffffff;
 }
 #experiences main section.hero .ct-content button {
-  width: 50px;
+  width: 50%;
   height: 50px;
   margin-top: 16px;
   border-radius: 10px;
