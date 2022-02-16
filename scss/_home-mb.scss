@@ -72,6 +72,79 @@ header {
       object-fit: contain;
     }
   }
+
+  .menu {
+
+    input {
+        display: none;
+    }
+  
+    label {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        text-align: center;
+    }
+  
+    .-burgerOpen {
+        line-height: 8px;
+        font-size: 3rem;
+        font-family: variables.$fontMain;
+        vertical-align: bottom;
+        color: variables.$gold;
+    }
+  
+    .-burgerClose {
+        display: none;
+        line-height: 8px;
+        font-size: 2.5rem;
+        font-family: variables.$fontMain;
+        font-weight: 600;
+        color: variables.$gold;
+    }
+  
+    .-items {
+        display: none;
+        box-sizing: border-box;
+        position: absolute;
+        min-width: 320px;
+        width: 100%;
+        min-height: 226px;
+        top: 100px;
+        left: 0px;
+        padding: 16px;
+        background-color: rgba(255, 255, 255, 0.95);
+        text-align: center;
+  
+        li {
+            margin-top: 24px;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+    
+            &:first-child {
+                margin-top: 0px;
+            }
+
+            a.current {
+              color: variables.$gold;
+            }
+        }
+  
+    }
+  
+    #menuCheckbox:checked ~ .-items {
+        display: block;
+    }
+  
+    #menuCheckbox:checked ~ label .-burgerOpen {
+        display: none;
+    }
+  
+    #menuCheckbox:checked ~ label .-burgerClose {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+  }  
 }
 
 /* Footer */
@@ -238,6 +311,10 @@ footer {
 
 /* Footer */
 
-#home footer .sitemap ul a.current {
+footer .sitemap ul a.current {
   color: variables.$gold;
+}
+
+footer .sitemap ul li {
+  margin: 0 0.5rem;
 }

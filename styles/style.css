@@ -99,6 +99,64 @@ header .menu-button img {
   -o-object-fit: contain;
      object-fit: contain;
 }
+header .menu input {
+  display: none;
+}
+header .menu label {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+}
+header .menu .-burgerOpen {
+  line-height: 8px;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  vertical-align: bottom;
+  color: #bb9d58;
+}
+header .menu .-burgerClose {
+  display: none;
+  line-height: 8px;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #bb9d58;
+}
+header .menu .-items {
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  min-width: 320px;
+  width: 100%;
+  min-height: 226px;
+  top: 100px;
+  left: 0px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+}
+header .menu .-items li {
+  margin-top: 24px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+header .menu .-items li:first-child {
+  margin-top: 0px;
+}
+header .menu .-items li a.current {
+  color: #bb9d58;
+}
+header .menu #menuCheckbox:checked ~ .-items {
+  display: block;
+}
+header .menu #menuCheckbox:checked ~ label .-burgerOpen {
+  display: none;
+}
+header .menu #menuCheckbox:checked ~ label .-burgerClose {
+  display: inline-block;
+  vertical-align: bottom;
+}
 
 /* Footer */
 footer {
@@ -251,8 +309,12 @@ footer .logo img {
 }
 
 /* Footer */
-#home footer .sitemap ul a.current {
+footer .sitemap ul a.current {
   color: #bb9d58;
+}
+
+footer .sitemap ul li {
+  margin: 0 0.5rem;
 }
 
 /* Main */
@@ -391,10 +453,6 @@ footer .logo img {
 }
 
 /* Footer */
-#experiences footer .sitemap ul a.current {
-  color: #bb9d58;
-}
-
 /* Main */
 #about main {
   position: relative;
