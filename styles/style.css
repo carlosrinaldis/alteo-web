@@ -233,21 +233,24 @@ footer .logo img {
   padding: 0px 15px;
 }
 #home main section.hero .ct-content h1 {
+  position: absolute;
   text-align: center;
-  margin-top: 15px;
+  top: 15px;
   color: #bb9d58;
   text-shadow: 0px 0px 10px #ffffff;
 }
 #home main section.hero .ct-content h2 {
+  position: absolute;
   text-align: center;
-  margin-top: 250px;
+  top: 370px;
   color: #bb9d58;
   text-shadow: 0px 0px 10px #ffffff;
 }
 #home main section.hero .ct-content button {
+  position: absolute;
   min-width: 50%;
   height: 50px;
-  margin-top: 34px;
+  top: 420px;
   border-radius: 10px;
   background-color: whitesmoke;
   color: #d3d1d3;
