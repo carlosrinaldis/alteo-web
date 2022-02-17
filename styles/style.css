@@ -394,6 +394,7 @@ footer .sitemap ul a.current {
   margin-bottom: 24px;
   max-width: 920px;
   min-width: 320px;
+  width: 100%;
   margin: auto;
 }
 #experiences main section.experiences h1 {
@@ -422,7 +423,10 @@ footer .sitemap ul a.current {
 }
 #experiences main section.experiences .image-box {
   position: relative;
-  min-width: 320px;
+  min-width: 290px;
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
   min-height: 160px;
   overflow: hidden;
   margin-top: 22px;
@@ -443,11 +447,17 @@ footer .sitemap ul a.current {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.75);
 }
-#experiences main section.experiences .image-box img {
-  min-width: 320px;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+#experiences main section.experiences .image-box.one {
+  background-image: url("../assets/experiences-image-004.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#experiences main section.experiences .image-box.two {
+  background-image: url("../assets/experiences-image-005.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #experiences main section.experiences .hg {
   color: #bb9d58;
@@ -459,11 +469,16 @@ footer .sitemap ul a.current {
 }
 #experiences main section.experiences .ct-icons {
   min-width: 320px;
+  max-width: 920px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 16px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 #experiences main section.experiences .ct-icons .service-icons {
   width: 50px;
