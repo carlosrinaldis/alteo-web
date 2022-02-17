@@ -249,7 +249,9 @@ footer .logo img {
 }
 #home main section.hero .ct-content button {
   position: absolute;
-  min-width: 50%;
+  min-width: 180px;
+  max-width: 920px;
+  width: 50%;
   height: 50px;
   top: 420px;
   border-radius: 10px;
@@ -281,7 +283,7 @@ footer .logo img {
   position: relative;
   display: block;
   width: 100%;
-  max-width: 1080px;
+  max-width: 920px;
   min-height: 420px;
   margin-top: 11px;
   overflow: hidden;
