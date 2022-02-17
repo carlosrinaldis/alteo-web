@@ -107,7 +107,7 @@ header {
         display: none;
         box-sizing: border-box;
         position: absolute;
-        min-width: 320px;
+        min-width: 322px;
         width: 100%;
         min-height: 226px;
         top: 100px;
@@ -115,6 +115,7 @@ header {
         padding: 16px;
         background-color: rgba(255, 255, 255, 0.95);
         text-align: center;
+        border-bottom: solid 2px variables.$gold;
   
         li {
             margin-top: 24px;
@@ -163,8 +164,8 @@ footer {
     width: 100%;
     min-width: 320px;
     max-width: 920px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .sitemap ul {
@@ -274,7 +275,7 @@ footer {
 
     h1 {
       text-align: center;
-      margin-top: 33px;
+      margin-top: 40px;
       color: variables.$black;
     }
 
@@ -322,6 +323,7 @@ footer {
         color: variables.$silver;
         border-color: variables.$silver;
         border: 2px solid;
+        text-transform: uppercase;
       }
     }
   }

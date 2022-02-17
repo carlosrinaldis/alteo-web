@@ -126,7 +126,7 @@ header .menu .-items {
   display: none;
   box-sizing: border-box;
   position: absolute;
-  min-width: 320px;
+  min-width: 322px;
   width: 100%;
   min-height: 226px;
   top: 100px;
@@ -134,6 +134,7 @@ header .menu .-items {
   padding: 16px;
   background-color: rgba(255, 255, 255, 0.95);
   text-align: center;
+  border-bottom: solid 2px #bb9d58;
 }
 header .menu .-items li {
   margin-top: 24px;
@@ -172,8 +173,8 @@ footer .sitemap {
   width: 100%;
   min-width: 320px;
   max-width: 920px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 footer .sitemap ul {
   display: flex;
@@ -268,7 +269,7 @@ footer .logo img {
 }
 #home main section.contact h1 {
   text-align: center;
-  margin-top: 33px;
+  margin-top: 40px;
   color: #282828;
 }
 #home main section.contact h2 {
@@ -319,6 +320,7 @@ footer .logo img {
   color: #d3d1d3;
   border-color: #d3d1d3;
   border: 2px solid;
+  text-transform: uppercase;
 }
 
 /* Footer */
