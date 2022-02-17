@@ -500,6 +500,20 @@ footer .sitemap ul a.current {
   border: 2px solid;
   text-transform: uppercase;
 }
+#experiences main section.experiences .services p {
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#experiences main section.experiences .services h4 {
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+#experiences main section.experiences .services hr {
+  margin-top: 18px;
+  margin-bottom: 15px;
+  border-top: 1px solid #bb9d58;
+}
 
 /* Footer */
 /* Main */
