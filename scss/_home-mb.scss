@@ -250,7 +250,7 @@ footer {
       button {
         position: absolute;
         min-width: 180px;
-        max-width: 920px;
+        max-width: 680px;
         width: 50%;
         height: 50px;
         top: 420px;
@@ -306,9 +306,11 @@ footer {
         color: variables.$silver;
         border-color: variables.$silver;
         border: 2px solid;
+        overflow: hidden;
+        padding-left: 15px;
 
         &::placeholder {
-          padding-left: 15px;
+          // padding-left: 15px;
           color: #d3d1d3;
         }
       }
