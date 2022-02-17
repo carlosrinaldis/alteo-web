@@ -43,7 +43,6 @@ body {
   flex-direction: column;
   align-items: center;
   min-width: 320px;
-  max-width: 1080px;
   overflow: hidden;
   margin: auto;
   background-color: white;
@@ -169,8 +168,14 @@ footer {
   background-color: #d3d1d3;
   margin-top: 0px;
 }
-footer .sitemap ul {
+footer .sitemap {
+  width: 100%;
   min-width: 320px;
+  max-width: 920px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer .sitemap ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -270,7 +275,8 @@ footer .logo img {
 #home main section.contact .ct-form {
   position: relative;
   display: block;
-  min-width: 100%;
+  width: 100%;
+  max-width: 1080px;
   min-height: 420px;
   margin-top: 11px;
   overflow: hidden;

@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-width: 320px;
-  max-width: 1080px;
+  // max-width: 1080px;
   overflow: hidden;
   margin: auto;
   background-color: white;
@@ -159,8 +159,15 @@ footer {
   background-color: variables.$silver;
   margin-top: 0px;
 
-  .sitemap ul {
+  .sitemap {
+    width: 100%;
     min-width: 320px;
+    max-width: 920px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .sitemap ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -273,7 +280,8 @@ footer {
     .ct-form {
       position: relative;
       display: block;
-      min-width: 100%;
+      width: 100%;
+      max-width: 1080px;
       min-height: 420px;
       margin-top: 11px;
       overflow: hidden;
