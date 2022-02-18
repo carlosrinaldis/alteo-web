@@ -668,14 +668,23 @@ footer .sitemap ul a.current {
   margin-top: 22px;
   color: #282828;
 }
+#about main section.our-story .ct-center {
+  width: 100%;
+  padding: 0 15px;
+}
 #about main section.our-story .image-box {
   position: relative;
-  width: 340px;
-  height: 340px;
+  min-width: 290px;
+  min-height: 290px;
+  width: 100%;
   overflow: hidden;
   margin-top: 22px;
   border-radius: 15px;
   background: linear-gradient(0deg, rgba(177, 177, 177, 0.5) 0%, rgba(236, 236, 236, 0) 100%);
+  background-image: url("../assets/about-image-001.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #about main section.our-story .image-box h5 {
   position: absolute;
