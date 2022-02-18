@@ -78,7 +78,7 @@
       .ct-icons {
         position: absolute;
         top: 427px;
-        width: 80%;
+        width: 90%;
         max-width: 920px;
         display: flex;
         flex-direction: row;
@@ -91,6 +91,46 @@
           height: 50px;
           background-color: variables.$silver;
           border-radius: 10px;
+
+          &.ski{
+            background-image: url("../assets/icons-ski.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.75;
+          }
+
+          &.bell{
+            background-image: url("../assets/icons-conciergebell.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.75;
+          }
+
+          &.world{
+            background-image: url("../assets/icons-world.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.75;
+          }
+
+          &.clock{
+            background-image: url("../assets/icons-stopclock.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.75;
+          }
+
+          &.plane{
+            background-image: url("../assets/icons-plane.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.75;
+          }
         }
       }
     }

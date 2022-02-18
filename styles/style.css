@@ -661,7 +661,7 @@ footer .sitemap ul a.current {
 #about main section.hero .ct-content .ct-icons {
   position: absolute;
   top: 427px;
-  width: 80%;
+  width: 90%;
   max-width: 920px;
   display: flex;
   flex-direction: row;
@@ -674,6 +674,41 @@ footer .sitemap ul a.current {
   height: 50px;
   background-color: #d3d1d3;
   border-radius: 10px;
+}
+#about main section.hero .ct-content .ct-icons .about-icons.ski {
+  background-image: url("../assets/icons-ski.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+#about main section.hero .ct-content .ct-icons .about-icons.bell {
+  background-image: url("../assets/icons-conciergebell.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+#about main section.hero .ct-content .ct-icons .about-icons.world {
+  background-image: url("../assets/icons-world.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+#about main section.hero .ct-content .ct-icons .about-icons.clock {
+  background-image: url("../assets/icons-stopclock.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+#about main section.hero .ct-content .ct-icons .about-icons.plane {
+  background-image: url("../assets/icons-plane.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
 }
 #about main section.our-story {
   display: flex;
