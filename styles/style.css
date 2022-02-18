@@ -515,7 +515,7 @@ footer .sitemap ul a.current {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 16px;
+  margin-top: 25px;
   overflow: hidden;
   flex-wrap: wrap;
   padding-left: 15px;
@@ -526,6 +526,36 @@ footer .sitemap ul a.current {
   height: 50px;
   background-color: #d3d1d3;
   border-radius: 10px;
+}
+#experiences main section.experiences .ct-icons .service-icons.ski {
+  background-image: url("../assets/icons-ski.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#experiences main section.experiences .ct-icons .service-icons.volcano {
+  background-image: url("../assets/icons-volcano.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#experiences main section.experiences .ct-icons .service-icons.spa {
+  background-image: url("../assets/icons-spa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#experiences main section.experiences .ct-icons .service-icons.sake {
+  background-image: url("../assets/icons-sake.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#experiences main section.experiences .ct-icons .service-icons.sushi {
+  background-image: url("../assets/icons-sushi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #experiences main section.experiences button {
   min-width: 180px;
@@ -540,6 +570,9 @@ footer .sitemap ul a.current {
   border-color: #d3d1d3;
   border: 2px solid;
   text-transform: uppercase;
+}
+#experiences main section.experiences .services {
+  margin-top: 10px;
 }
 #experiences main section.experiences .services p {
   padding: 0px;
