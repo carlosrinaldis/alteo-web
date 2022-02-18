@@ -44,6 +44,7 @@
         top: 350px;
         color: variables.$gold;
         text-shadow: 0px 0px 10px #ffffff;
+        padding: 0 15px;
       }
 
       button {
@@ -152,6 +153,7 @@
 
     .hg {
       color: variables.$gold;
+      text-transform: uppercase;
     }
 
     .cs {

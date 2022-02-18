@@ -370,6 +370,7 @@ footer .sitemap ul a.current {
   top: 350px;
   color: #bb9d58;
   text-shadow: 0px 0px 10px #ffffff;
+  padding: 0 15px;
 }
 #experiences main section.hero .ct-content button {
   position: absolute;
@@ -461,6 +462,7 @@ footer .sitemap ul a.current {
 }
 #experiences main section.experiences .hg {
   color: #bb9d58;
+  text-transform: uppercase;
 }
 #experiences main section.experiences .cs {
   margin-top: 20px;
@@ -588,6 +590,7 @@ footer .sitemap ul a.current {
   position: absolute;
   top: 427px;
   width: 80%;
+  max-width: 920px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -736,10 +739,18 @@ footer .sitemap ul a.current {
 #about main section.our-story .hg {
   color: #bb9d58;
 }
+#about main section.our-story .cs {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
 #about main section.our-story button {
-  width: 90%;
+  min-width: 180px;
+  max-width: 680px;
+  width: 75%;
   height: 50px;
   margin-top: 18px;
+  margin-bottom: 15px;
   border-radius: 10px;
   background-color: whitesmoke;
   color: #d3d1d3;
