@@ -185,24 +185,67 @@ footer .sitemap ul {
   flex-wrap: wrap;
   gap: 0.8rem;
 }
-footer .social ul {
-  min-width: 200px;
+footer .social.ct-icons {
+  min-width: 320px;
+  max-width: 680px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 32px;
-  font-size: 12px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+footer .social.ct-icons .icons {
+  width: 20px;
+  height: 20px;
+  opacity: 0.75;
+}
+footer .social.ct-icons .icons.fb {
+  background-image: url("../assets/social-facebook-square-brands.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .social.ct-icons .icons.ig {
+  background-image: url("../assets/social-instagram-brands.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .social.ct-icons .icons.yt {
+  background-image: url("../assets/social-youtube-brands.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .social.ct-icons .icons.wa {
+  background-image: url("../assets/social-whatsapp-brands.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .social.ct-icons .icons a {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 footer .logo {
   width: 60px;
   height: 60px;
-  margin-top: 32px;
+  margin-top: 28px;
 }
 footer .logo img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+footer .sitemap ul a.current {
+  color: #bb9d58;
 }
 
 /* HOME */
@@ -325,10 +368,6 @@ footer .logo img {
 }
 
 /* Footer */
-footer .sitemap ul a.current {
-  color: #bb9d58;
-}
-
 /* Main */
 #experiences main {
   position: relative;
