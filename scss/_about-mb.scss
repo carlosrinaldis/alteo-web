@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 
   h1 {
     text-transform: uppercase;
@@ -14,7 +15,7 @@
   }
 
   section.hero {
-    height: 610px;
+    min-height: 620px;
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,47 +24,66 @@
     .ct-content {
       display: flex;
       position: relative;
-      top: 110px;
+      top: 100px;
       flex-direction: column;
       align-items: center;
-      padding: 0px 15px;
+      padding: 0px 30px;
 
       h1 {
+        position: absolute;
         text-align: center;
-        margin-top: 14px;
+        top: 37px;
         color: variables.$gold;
         text-shadow: 0px 0px 10px #ffffff;
+        max-width: 920px;
+        padding: 0 15px 0 15px;
       }
 
       h2 {
+        position: absolute;
         text-align: center;
-        margin-top: 14px;
+        top: 125px;
         color: variables.$gold;
         text-shadow: 0px 0px 10px #ffffff;
         font-size: 16px;
+        max-width: 920px;
+        padding: 0 15px 0 15px;
       }
 
       h4 {
+        position: absolute;
         font-size: 14px;
-        margin-top: 5px;
+        top: 5px;
         color: variables.$silver;
         text-transform: uppercase;
+        max-width: 920px;
+        padding: 0 15px 0 15px;
       }
 
       p {
+        position: absolute;
         padding: 0 5px;
         font-size: 14px;
         text-align: center;
-        margin-top: 14px;
+        top: 215px;
         color: variables.$black;
+        max-width: 920px;
+        padding: 0 15px 0 15px;
+
+        &:nth-child(5n) {
+          top: 355px;
+        }
       }
 
       .ct-icons {
+        position: absolute;
+        top: 427px;
         width: 80%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         margin-top: 18px;
+        padding: 0 5px 0 5px;
 
         .about-icons {
           width: 50px;
@@ -83,33 +103,43 @@
     margin-bottom: 24px;
 
     .quote {
+      display: flex;
+      flex-direction: column;
+      position: relative;
       overflow: hidden;
-      height: 202px;
+      min-height: 202px;
+      min-width: 320px;
+      width: 100%;
       background-image: url("../assets/experiences-image-001.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      padding: 0 15px;
+      padding: 15px 15px;
+      align-items: center;
+      justify-content: space-around;
+      // border-top: 2px solid variables.$gold;
+      border-bottom: 2px solid variables.$gold;
 
       h1 {
+        margin: 0px;
         text-align: center;
-        margin-top: 12px;
         color: variables.$silver;
-        font-size: 30px;
+        font-size: 24px;
       }
 
       h2 {
+        margin: 0px;
         text-align: center;
-        margin-top: 12px;
         color: variables.$silver;
       }
 
       h4 {
+        margin: 0px;
         text-align: center;
         font-size: 14px;
-        margin-top: 30px;
         color: variables.$black;
         text-transform: uppercase;
+        align-items: center;
       }
     }
 
