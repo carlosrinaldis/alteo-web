@@ -718,6 +718,7 @@ footer .sitemap ul a.current {
   background-size: cover;
   margin-top: 22px;
   padding: 15px;
+  border-bottom: 2px solid #bb9d58;
 }
 #about main section.our-story .testimonial h1 {
   text-align: center;
@@ -744,6 +745,24 @@ footer .sitemap ul a.current {
   color: #d3d1d3;
   border-color: #d3d1d3;
   border: 2px solid;
+  text-transform: uppercase;
+}
+#about main section.vision {
+  padding: 0 15px;
+}
+#about main section.vision p {
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#about main section.vision h4 {
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+#about main section.vision hr {
+  margin-top: 18px;
+  margin-bottom: 15px;
+  border-top: 1px solid #bb9d58;
 }
 
 /* Footer */
