@@ -1113,7 +1113,7 @@ footer .sitemap ul a.current {
   min-height: 202px;
   min-width: 320px;
   width: 100%;
-  background-image: url("../assets/experiences-image-001.jpg");
+  background-image: url("../assets/experiences-image-003.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1238,6 +1238,9 @@ footer .sitemap ul a.current {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#destination main section.next-trip .destination-info .image-box.one {
+  background-image: url("../assets/pexels-thirdman-6500563.jpg");
+}
 #destination main section.next-trip .destination-info .image-box.one h5 {
   position: absolute;
   bottom: 35px;
@@ -1322,7 +1325,7 @@ footer .sitemap ul a.current {
   overflow: hidden;
   width: 100%;
   height: 202px;
-  background-image: url("../assets/experiences-image-002.jpg");
+  background-image: url("../assets/pexels-pixabay-372959.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
