@@ -891,11 +891,6 @@ footer .sitemap ul a.current {
   border-top: 1px solid #bb9d58;
 }
 
-/* Footer */
-#about footer .sitemap ul a.current {
-  color: #bb9d58;
-}
-
 /* Main */
 #contact main {
   position: relative;
@@ -985,4 +980,420 @@ footer .sitemap ul a.current {
   margin-bottom: 0px;
   text-transform: uppercase;
   color: #bb9d58;
+}
+
+/* Main */
+#destination main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+#destination main h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+#destination main section.hero {
+  min-height: 620px;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.hero .ct-content {
+  display: flex;
+  position: relative;
+  top: 100px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 30px;
+}
+#destination main section.hero .ct-content h1 {
+  position: absolute;
+  text-align: center;
+  top: 37px;
+  color: #bb9d58;
+  text-shadow: 0px 0px 10px #ffffff;
+  max-width: 920px;
+  padding: 0 15px 0 15px;
+}
+#destination main section.hero .ct-content h2 {
+  position: absolute;
+  text-align: center;
+  top: 125px;
+  color: #bb9d58;
+  text-shadow: 0px 0px 10px #ffffff;
+  font-size: 16px;
+  max-width: 920px;
+  padding: 0 15px 0 15px;
+}
+#destination main section.hero .ct-content h4 {
+  position: absolute;
+  font-size: 14px;
+  top: 5px;
+  color: #d3d1d3;
+  text-transform: uppercase;
+  max-width: 920px;
+  padding: 0 15px 0 15px;
+}
+#destination main section.hero .ct-content p {
+  position: absolute;
+  padding: 0 5px;
+  font-size: 14px;
+  text-align: center;
+  top: 215px;
+  color: #282828;
+  max-width: 920px;
+  padding: 0 15px 0 15px;
+}
+#destination main section.hero .ct-content p:nth-child(5n) {
+  top: 355px;
+}
+#destination main section.hero .ct-content .ct-icons {
+  position: absolute;
+  top: 427px;
+  width: 90%;
+  max-width: 920px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 18px;
+  padding: 0 5px 0 5px;
+}
+#destination main section.hero .ct-content .ct-icons .about-icons {
+  width: 50px;
+  height: 50px;
+  background-color: #d3d1d3;
+  border-radius: 10px;
+}
+#destination main section.hero .ct-content .ct-icons .about-icons.ski {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+#destination main section.hero .ct-content .ct-icons .about-icons.bell {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+#destination main section.hero .ct-content .ct-icons .about-icons.world {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+#destination main section.hero .ct-content .ct-icons .about-icons.clock {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+#destination main section.hero .ct-content .ct-icons .about-icons.plane {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+#destination main section.next-trip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px;
+  margin-bottom: 24px;
+}
+#destination main section.next-trip .cta-stripe {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  min-height: 202px;
+  min-width: 320px;
+  width: 100%;
+  background-image: url("../assets/experiences-image-001.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px 15px;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid #bb9d58;
+}
+#destination main section.next-trip .cta-stripe h1 {
+  margin: 0px;
+  text-align: center;
+  color: #d3d1d3;
+  font-size: 24px;
+}
+#destination main section.next-trip .cta-stripe h2 {
+  margin: 0px;
+  text-align: center;
+  color: #d3d1d3;
+}
+#destination main section.next-trip .cta-stripe h4 {
+  margin: 0px;
+  text-align: center;
+  font-size: 14px;
+  color: #282828;
+  text-transform: uppercase;
+  align-items: center;
+}
+#destination main section.next-trip .destination-info h1 {
+  text-align: center;
+  margin-top: 12px;
+  color: #282828;
+  font-size: 24px;
+  max-width: 920px;
+}
+#destination main section.next-trip .destination-info h2 {
+  text-align: center;
+  margin-top: 12px;
+  color: #282828;
+  padding: 0 15px;
+  max-width: 920px;
+}
+#destination main section.next-trip .destination-info h4 {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+  color: #d3d1d3;
+  text-transform: uppercase;
+  max-width: 920px;
+}
+#destination main section.next-trip .destination-info p {
+  padding: 0 20px;
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 22px;
+  color: #282828;
+  max-width: 960px;
+}
+#destination main section.next-trip .destination-info .ct-icons {
+  min-width: 320px;
+  max-width: 920px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 25px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#destination main section.next-trip .destination-info .ct-icons .service-icons {
+  width: 50px;
+  height: 50px;
+  background-color: #d3d1d3;
+  border-radius: 10px;
+}
+#destination main section.next-trip .destination-info .ct-icons .service-icons.ski {
+  background-image: url("../assets/icons-ski.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip .destination-info .ct-icons .service-icons.volcano {
+  background-image: url("../assets/icons-volcano.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip .destination-info .ct-icons .service-icons.spa {
+  background-image: url("../assets/icons-spa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip .destination-info .ct-icons .service-icons.sake {
+  background-image: url("../assets/icons-sake.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip .destination-info .ct-icons .service-icons.sushi {
+  background-image: url("../assets/icons-sushi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip .destination-info .ct-center {
+  max-width: 950px;
+  width: 100%;
+  padding: 0 15px;
+}
+#destination main section.next-trip .destination-info .image-box {
+  position: relative;
+  min-width: 290px;
+  min-height: 290px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 22px;
+  border-radius: 15px;
+  background: linear-gradient(0deg, rgba(177, 177, 177, 0.5) 0%, rgba(236, 236, 236, 0) 100%);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip .destination-info .image-box h5 {
+  position: absolute;
+  bottom: 35px;
+  left: 15px;
+  font-size: 12px;
+  color: rgba(187, 157, 88, 0.75);
+}
+#destination main section.next-trip .destination-info .image-box h6 {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 12px;
+  color: rgba(187, 157, 88, 0.5);
+}
+#destination main section.next-trip .destination-info .image-box img {
+  width: 340px;
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right top;
+     object-position: right top;
+}
+#destination main section.next-trip .destination-info .ct-calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#destination main section.next-trip .destination-info .ct-calendar .calendar-box {
+  position: relative;
+  min-width: 290px;
+  min-height: 290px;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 22px;
+  border-radius: 15px;
+  background: linear-gradient(0deg, rgba(177, 177, 177, 0.5) 0%, rgba(236, 236, 236, 0) 100%);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip .testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 202px;
+  background-image: url("../assets/experiences-image-002.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 22px;
+  padding: 50px;
+  border-bottom: 2px solid #bb9d58;
+}
+#destination main section.next-trip .testimonial h1 {
+  text-align: center;
+  color: #d3d1d3;
+  font-size: 22px;
+}
+#destination main section.next-trip .testimonial h4 {
+  text-align: center;
+  font-size: 14px;
+  color: #bb9d58;
+  text-transform: uppercase;
+}
+#destination main section.next-trip .hg {
+  color: #bb9d58;
+}
+#destination main section.next-trip .cs {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+#destination main section.next-trip button {
+  min-width: 180px;
+  max-width: 680px;
+  width: 75%;
+  height: 50px;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  color: #d3d1d3;
+  border-color: #d3d1d3;
+  border: 2px solid;
+  text-transform: uppercase;
+}
+#destination main section.next-trip section.services {
+  padding: 0 15px;
+  max-width: 940px;
+}
+#destination main section.next-trip section.services .ct-icons {
+  min-width: 320px;
+  max-width: 920px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 25px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#destination main section.next-trip section.services .ct-icons .service-icons {
+  width: 50px;
+  height: 50px;
+  background-color: #d3d1d3;
+  border-radius: 10px;
+}
+#destination main section.next-trip section.services .ct-icons .service-icons.ski {
+  background-image: url("../assets/icons-ski.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip section.services .ct-icons .service-icons.volcano {
+  background-image: url("../assets/icons-volcano.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip section.services .ct-icons .service-icons.spa {
+  background-image: url("../assets/icons-spa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip section.services .ct-icons .service-icons.sake {
+  background-image: url("../assets/icons-sake.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip section.services .ct-icons .service-icons.sushi {
+  background-image: url("../assets/icons-sushi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip section.services p {
+  font-size: 14px;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#destination main section.next-trip section.services h4 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color: #d3d1d3;
+  text-transform: uppercase;
+}
+#destination main section.next-trip section.services hr {
+  margin-top: 18px;
+  margin-bottom: 15px;
+  border-top: 1px solid #bb9d58;
 }/*# sourceMappingURL=style.css.map */
