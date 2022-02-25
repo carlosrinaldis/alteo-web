@@ -296,30 +296,69 @@
                 background-position: right;
                 background-repeat: no-repeat;
                 background-size: cover;
-          
-                h5 {
-                    position: absolute;
-                    bottom: 35px;
-                    left: 15px;
-                    font-size: 12px;
-                    color: rgba(187, 157, 88, 0.75);
+                
+                &.one {
+                    h5 {
+                        position: absolute;
+                        bottom: 35px;
+                        left: 15px;
+                        font-size: 12px;
+                        color: rgba(187, 157, 88, 0.75);
+                    }
+    
+                    h6 {
+                        position: absolute;
+                        bottom: 15px;
+                        left: 15px;
+                        font-size: 12px;
+                        color: rgba(187, 157, 88, 0.5);
+                    }
+            
+                    img {
+                        width: 340px;
+                        height: 340px;
+                        object-fit: cover;
+                        object-position: right top;
+                    }
                 }
 
-                h6 {
-                    position: absolute;
-                    bottom: 15px;
-                    left: 15px;
-                    font-size: 12px;
-                    color: rgba(187, 157, 88, 0.5);
-                }
-        
-                img {
-                    width: 340px;
-                    height: 340px;
-                    object-fit: cover;
-                    object-position: right top;
+
+                &.six {
+                    h5 {
+                        position: absolute;
+                        top: 15px;
+                        left: 15px;
+                        font-size: 12px;
+                        color: rgba(187, 157, 88, 0.75);
+                    }
+    
+                    h6 {
+                        position: absolute;
+                        top: 35px;
+                        left: 15px;
+                        font-size: 12px;
+                        color: rgba(187, 157, 88, 0.5);
+                    }
                 }
             }
+
+            .image-grid {
+                display: grid;
+                min-width: 290px;
+                min-height: 290px;
+                width: 100%;
+                overflow: hidden;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(5, 1fr);
+                grid-column-gap: 15px;
+                grid-row-gap: 15px;
+                    
+                .two { grid-area: 1 / 1 / 4 / 2; }
+                .three { grid-area: 4 / 1 / 6 / 2; }
+                .four { grid-area: 3 / 2 / 6 / 3; }
+                .five { grid-area: 1 / 2 / 3 / 3; }
+            }
+
             .ct-calendar {
                 display: flex;
                 flex-direction: column;
@@ -329,7 +368,6 @@
                     position: relative;
                     min-width: 290px;
                     min-height: 290px;
-                    max-width: 100%;
                     overflow: hidden;
                     margin-top: 22px;
                     border-radius: 15px;

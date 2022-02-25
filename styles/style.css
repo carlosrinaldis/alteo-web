@@ -1237,27 +1237,64 @@ footer .sitemap ul a.current {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#destination main section.next-trip .destination-info .image-box h5 {
+#destination main section.next-trip .destination-info .image-box.one h5 {
   position: absolute;
   bottom: 35px;
   left: 15px;
   font-size: 12px;
   color: rgba(187, 157, 88, 0.75);
 }
-#destination main section.next-trip .destination-info .image-box h6 {
+#destination main section.next-trip .destination-info .image-box.one h6 {
   position: absolute;
   bottom: 15px;
   left: 15px;
   font-size: 12px;
   color: rgba(187, 157, 88, 0.5);
 }
-#destination main section.next-trip .destination-info .image-box img {
+#destination main section.next-trip .destination-info .image-box.one img {
   width: 340px;
   height: 340px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: right top;
      object-position: right top;
+}
+#destination main section.next-trip .destination-info .image-box.six h5 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 12px;
+  color: rgba(187, 157, 88, 0.75);
+}
+#destination main section.next-trip .destination-info .image-box.six h6 {
+  position: absolute;
+  top: 35px;
+  left: 15px;
+  font-size: 12px;
+  color: rgba(187, 157, 88, 0.5);
+}
+#destination main section.next-trip .destination-info .image-grid {
+  display: grid;
+  min-width: 290px;
+  min-height: 290px;
+  width: 100%;
+  overflow: hidden;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+#destination main section.next-trip .destination-info .image-grid .two {
+  grid-area: 1/1/4/2;
+}
+#destination main section.next-trip .destination-info .image-grid .three {
+  grid-area: 4/1/6/2;
+}
+#destination main section.next-trip .destination-info .image-grid .four {
+  grid-area: 3/2/6/3;
+}
+#destination main section.next-trip .destination-info .image-grid .five {
+  grid-area: 1/2/3/3;
 }
 #destination main section.next-trip .destination-info .ct-calendar {
   display: flex;
@@ -1268,7 +1305,6 @@ footer .sitemap ul a.current {
   position: relative;
   min-width: 290px;
   min-height: 290px;
-  max-width: 100%;
   overflow: hidden;
   margin-top: 22px;
   border-radius: 15px;
