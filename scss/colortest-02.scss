@@ -1,0 +1,67 @@
+@use 'variables' as v;
+
+.ct-center {
+    background-color: none !important;
+}
+
+section.hero {
+    background-color: v.$black !important;
+}
+
+#about main section.hero .ct-content {
+    h1 {
+        text-shadow: 0px 0px 10px #353535;
+    }
+
+    h2 {
+        text-shadow: 0px 0px 10px #353535;
+    }
+    
+    p {
+        color: v.$silver;
+    }
+}
+
+header {
+    background: none;
+}
+
+p {
+    color: v.$silver !important;
+}
+
+#about main section.hero .ct-content .ct-icons .about-icons {
+    background-color: v.$silver;
+}
+
+#about main section.vision h4 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+#about main section.our-story {
+
+    h4 {
+        color: v.$gold;
+    }
+}
+
+#about main section.our-story .quote {
+    border-top: 2px solid v.$gold;
+    border-bottom: none;
+
+}
+
+#about main section.our-story .testimonial {
+    border-top: 2px solid v.$gold;
+    border-bottom: 2px solid v.$gold;
+}
+
+
+footer {
+    background-color: v.$gold;
+}
+
+footer .sitemap ul a.current {
+    color: v.$black;
+    font-weight: 600;
+}

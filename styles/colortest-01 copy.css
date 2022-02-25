@@ -1,0 +1,61 @@
+body {
+  background-color: #282828 !important;
+}
+
+.ct-center {
+  background-color: #282828 !important;
+}
+
+section.hero {
+  background-color: #282828 !important;
+}
+
+#about main section.hero .ct-content h1 {
+  text-shadow: 0px 0px 10px #353535;
+}
+#about main section.hero .ct-content h2 {
+  text-shadow: 0px 0px 10px #353535;
+}
+#about main section.hero .ct-content p {
+  color: #d3d1d3;
+}
+
+header {
+  background: none;
+}
+
+p {
+  color: #d3d1d3 !important;
+}
+
+#about main section.hero .ct-content .ct-icons .about-icons {
+  background-color: #bb9d58;
+}
+
+#about main section.vision h4 {
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+#about main section.our-story h4 {
+  color: #bb9d58;
+}
+
+#about main section.our-story .quote {
+  border-top: 2px solid #bb9d58;
+  border-bottom: 2px solid #bb9d58;
+}
+
+#about main section.our-story .testimonial {
+  border-top: 2px solid #bb9d58;
+  border-bottom: 2px solid #bb9d58;
+}
+
+footer {
+  background-color: #bb9d58;
+}
+
+footer .sitemap ul a.current {
+  color: #282828;
+  font-weight: 600;
+}/*# sourceMappingURL=colortest-01 copy.css.map */
