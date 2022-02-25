@@ -898,6 +898,7 @@ footer .sitemap ul a.current {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  top: 50px;
 }
 #contact main h1 {
   text-transform: uppercase;
@@ -936,7 +937,7 @@ footer .sitemap ul a.current {
   display: block;
   width: 100%;
   max-width: 920px;
-  min-height: 420px;
+  min-height: 200px;
   margin-top: 11px;
   overflow: hidden;
   text-align: center;
