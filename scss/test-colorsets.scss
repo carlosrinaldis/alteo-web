@@ -464,6 +464,53 @@
     }
 }  
 
+#test-colorset {
+
+  header {
+    width: 100%;
+    max-width: none;
+    background: none;
+    background: linear-gradient(
+      180deg,
+      rgba(40, 40, 40, 1) 15%,
+      rgba(40, 40, 40, 0.75) 50%,
+      rgba(40, 40, 40, 0) 100%
+    );
+
+    .max-width {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      min-height: 100px;
+      min-width: 320px;
+      max-width: 1080px;
+    }
+  }
+
+  section.hero {
+    background-color: variables.$black !important;
+
+    h1 {
+      padding: 15px;
+    }
+  }
+
+  footer {
+    a {
+      
+      &:hover {
+        color: variables.$black;
+        font-weight: bold;
+      }
+    }
+
+    .current{
+      font-weight: bold;
+    }
+  }
+}
 
 #test-colorset.one {
     
@@ -497,6 +544,109 @@
     
 
     footer {
-        background-color: variables.$gold !important; 
+        background-color: variables.$gold !important;
+        
+        .current {
+          color: variables.$black;
+        }
     }
+}
+
+#test-colorset.two {
+    
+  section.hero {
+      background-color: variables.$black !important;
+      border-bottom: 2px solid variables.$gold;
+  }
+
+  main {
+    background-color: variables.$black !important;
+    
+    h1, h2, h3 {
+      color: variables.$gold !important;
+    }
+
+    p {
+      color: variables.$silver !important;
+    }
+
+    button h3 {
+      color: variables.$silver !important;
+    }
+
+  }
+
+  section.our-story{
+      background-color: variables.$black !important;
+
+      h2 {
+          color: variables.$gold !important;
+      }
+
+      .testimonial {
+          margin-bottom: 15px;
+          border-top: 2px solid variables.$gold;
+      }
+      
+      .vision {
+          h4 {
+              color: variables.$gold;
+          }
+
+          p {
+              color: variables.$silver; 
+          }
+      }
+  }
+
+  
+
+  footer {
+      background-color: variables.$gold !important;
+      
+      .current {
+        color: variables.$black;
+      }
+  }
+}
+
+#test-colorset.three {  
+
+  footer {
+    background-color: variables.$black !important;
+
+      a {
+        color: variables.$silver;
+
+        &:hover {
+          color: variables.$gold;
+          font-weight: bold;
+        }
+      }
+      
+      .current {
+        color: variables.$gold;
+      }
+
+  }
+
+  .icons {
+    opacity: 0.75;
+
+    &.fb {
+      background-image: url("../assets/social-facebook-square-brands-silver.svg") !important;
+    }
+
+    &.ig {
+      background-image: url("../assets/social-instagram-brands-silver.svg");
+    }
+
+    &.yt {
+      background-image: url("../assets/social-youtube-brands-silver.svg");
+    }
+
+    &.wa {
+      background-image: url("../assets/social-whatsapp-brands-silver.svg");
+    }
+  }
 }

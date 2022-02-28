@@ -399,6 +399,36 @@
   border-top: 1px solid #bb9d58;
 }
 
+#test-colorset header {
+  width: 100%;
+  max-width: none;
+  background: none;
+  background: linear-gradient(180deg, #282828 15%, rgba(40, 40, 40, 0.75) 50%, rgba(40, 40, 40, 0) 100%);
+}
+#test-colorset header .max-width {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+  min-width: 320px;
+  max-width: 1080px;
+}
+#test-colorset section.hero {
+  background-color: #282828 !important;
+}
+#test-colorset section.hero h1 {
+  padding: 15px;
+}
+#test-colorset footer a:hover {
+  color: #282828;
+  font-weight: bold;
+}
+#test-colorset footer .current {
+  font-weight: bold;
+}
+
 #test-colorset.one section.hero {
   background-color: #282828 !important;
 }
@@ -419,4 +449,75 @@
 }
 #test-colorset.one footer {
   background-color: #bb9d58 !important;
+}
+#test-colorset.one footer .current {
+  color: #282828;
+}
+
+#test-colorset.two section.hero {
+  background-color: #282828 !important;
+  border-bottom: 2px solid #bb9d58;
+}
+#test-colorset.two main {
+  background-color: #282828 !important;
+}
+#test-colorset.two main h1, #test-colorset.two main h2, #test-colorset.two main h3 {
+  color: #bb9d58 !important;
+}
+#test-colorset.two main p {
+  color: #d3d1d3 !important;
+}
+#test-colorset.two main button h3 {
+  color: #d3d1d3 !important;
+}
+#test-colorset.two section.our-story {
+  background-color: #282828 !important;
+}
+#test-colorset.two section.our-story h2 {
+  color: #bb9d58 !important;
+}
+#test-colorset.two section.our-story .testimonial {
+  margin-bottom: 15px;
+  border-top: 2px solid #bb9d58;
+}
+#test-colorset.two section.our-story .vision h4 {
+  color: #bb9d58;
+}
+#test-colorset.two section.our-story .vision p {
+  color: #d3d1d3;
+}
+#test-colorset.two footer {
+  background-color: #bb9d58 !important;
+}
+#test-colorset.two footer .current {
+  color: #282828;
+}
+
+#test-colorset.three footer {
+  background-color: #282828 !important;
+}
+#test-colorset.three footer a {
+  color: #d3d1d3;
+}
+#test-colorset.three footer a:hover {
+  color: #bb9d58;
+  font-weight: bold;
+}
+#test-colorset.three footer .current {
+  color: #bb9d58;
+}
+#test-colorset.three .icons {
+  opacity: 0.75;
+}
+#test-colorset.three .icons.fb {
+  background-image: url("../assets/social-facebook-square-brands-silver.svg") !important;
+}
+#test-colorset.three .icons.ig {
+  background-image: url("../assets/social-instagram-brands-silver.svg");
+}
+#test-colorset.three .icons.yt {
+  background-image: url("../assets/social-youtube-brands-silver.svg");
+}
+#test-colorset.three .icons.wa {
+  background-image: url("../assets/social-whatsapp-brands-silver.svg");
 }/*# sourceMappingURL=test-colorsets.css.map */
