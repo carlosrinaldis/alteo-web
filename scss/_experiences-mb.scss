@@ -16,7 +16,9 @@
 
   section.hero {
     min-height: 610px;
-    background-image: url("../assets/backdrop-image-004.jpg");
+    background-image:
+    linear-gradient( 180deg, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 100%),
+      url("../assets/backdrop-image-007.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

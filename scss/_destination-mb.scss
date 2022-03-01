@@ -297,12 +297,13 @@
                 background-size: cover;
                 
                 &.one {
-                    background-image: url("../assets/pexels-thirdman-6500563.jpg");
+                    background-image: url("../assets/destinations-image-001.jpg");
+                    background-position: top;
                     
                     h5 {
                         position: absolute;
                         bottom: 35px;
-                        left: 15px;
+                        right: 15px;
                         font-size: 12px;
                         color: rgba(187, 157, 88, 0.75);
                     }
@@ -310,7 +311,7 @@
                     h6 {
                         position: absolute;
                         bottom: 15px;
-                        left: 15px;
+                        right: 15px;
                         font-size: 12px;
                         color: rgba(187, 157, 88, 0.5);
                     }
@@ -325,6 +326,9 @@
 
 
                 &.six {
+                  background-image: url("../assets/destinations-image-006.jpg");
+                  background-position: center;
+
                     h5 {
                         position: absolute;
                         top: 15px;
@@ -354,10 +358,24 @@
                 grid-column-gap: 15px;
                 grid-row-gap: 15px;
                     
-                .two { grid-area: 1 / 1 / 4 / 2; }
-                .three { grid-area: 4 / 1 / 6 / 2; }
-                .four { grid-area: 3 / 2 / 6 / 3; }
-                .five { grid-area: 1 / 2 / 3 / 3; }
+                .two { 
+                  grid-area: 1 / 1 / 4 / 2;
+                  background-image: url("../assets/destinations-image-002.jpg");
+                  background-position: left;  
+                }
+                .three { 
+                  grid-area: 4 / 1 / 6 / 2; 
+                  background-image: url("../assets/destinations-image-003.jpg");
+                }
+                .four { 
+                  grid-area: 3 / 2 / 6 / 3; 
+                  background-image: url("../assets/destinations-image-004.jpg");
+                  background-position: bottom; 
+                }
+                .five { 
+                  grid-area: 1 / 2 / 3 / 3;
+                  background-image: url("../assets/destinations-image-005.jpg");
+                }
             }
 
             .ct-calendar {
