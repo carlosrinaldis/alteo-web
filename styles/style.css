@@ -1148,6 +1148,9 @@ footer .sitemap ul a.current {
   color: #282828;
   font-size: 24px;
   max-width: 920px;
+  width: 100%;
+  min-width: 290px;
+  overflow: hidden;
 }
 #destination main section.next-trip .destination-info h2 {
   text-align: center;
@@ -1221,97 +1224,6 @@ footer .sitemap ul a.current {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#destination main section.next-trip .destination-info .ct-center {
-  max-width: 950px;
-  width: 100%;
-  padding: 0 15px;
-}
-#destination main section.next-trip .destination-info .image-box {
-  position: relative;
-  min-width: 290px;
-  min-height: 290px;
-  width: 100%;
-  overflow: hidden;
-  margin-top: 22px;
-  border-radius: 15px;
-  background: linear-gradient(0deg, rgba(177, 177, 177, 0.5) 0%, rgba(236, 236, 236, 0) 100%);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#destination main section.next-trip .destination-info .image-box.one {
-  background-image: url("../assets/destinations-image-001.jpg");
-  background-position: top;
-}
-#destination main section.next-trip .destination-info .image-box.one h5 {
-  position: absolute;
-  bottom: 35px;
-  right: 15px;
-  font-size: 12px;
-  color: rgba(187, 157, 88, 0.75);
-}
-#destination main section.next-trip .destination-info .image-box.one h6 {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-  font-size: 12px;
-  color: rgba(187, 157, 88, 0.5);
-}
-#destination main section.next-trip .destination-info .image-box.one img {
-  width: 340px;
-  height: 340px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: right top;
-     object-position: right top;
-}
-#destination main section.next-trip .destination-info .image-box.six {
-  background-image: url("../assets/destinations-image-006.jpg");
-  background-position: center;
-}
-#destination main section.next-trip .destination-info .image-box.six h5 {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 12px;
-  color: rgba(187, 157, 88, 0.75);
-}
-#destination main section.next-trip .destination-info .image-box.six h6 {
-  position: absolute;
-  top: 35px;
-  left: 15px;
-  font-size: 12px;
-  color: rgba(187, 157, 88, 0.5);
-}
-#destination main section.next-trip .destination-info .image-grid {
-  display: grid;
-  min-width: 290px;
-  min-height: 290px;
-  width: 100%;
-  overflow: hidden;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
-}
-#destination main section.next-trip .destination-info .image-grid .two {
-  grid-area: 1/1/4/2;
-  background-image: url("../assets/destinations-image-002.jpg");
-  background-position: left;
-}
-#destination main section.next-trip .destination-info .image-grid .three {
-  grid-area: 4/1/6/2;
-  background-image: url("../assets/destinations-image-003.jpg");
-}
-#destination main section.next-trip .destination-info .image-grid .four {
-  grid-area: 3/2/6/3;
-  background-image: url("../assets/destinations-image-004.jpg");
-  background-position: bottom;
-}
-#destination main section.next-trip .destination-info .image-grid .five {
-  grid-area: 1/2/3/3;
-  background-image: url("../assets/destinations-image-005.jpg");
-}
 #destination main section.next-trip .destination-info .ct-calendar {
   display: flex;
   flex-direction: column;
@@ -1360,9 +1272,11 @@ footer .sitemap ul a.current {
   color: #bb9d58;
 }
 #destination main section.next-trip .cs {
+  min-width: 300px;
   margin-top: 20px;
   margin-bottom: 6px;
   text-transform: uppercase;
+  text-align: center;
 }
 #destination main section.next-trip button {
   min-width: 180px;
@@ -1448,6 +1362,112 @@ footer .sitemap ul a.current {
   margin-top: 18px;
   margin-bottom: 15px;
   border-top: 1px solid #bb9d58;
+}
+#destination main section.next-trip .destination-images {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  min-width: 290px;
+  width: 100%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+#destination main section.next-trip .destination-images p {
+  padding: 0;
+}
+#destination main section.next-trip .image-box {
+  position: relative;
+  min-width: 290px;
+  min-height: 290px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 22px;
+  border-radius: 15px;
+  background: linear-gradient(0deg, rgba(177, 177, 177, 0.5) 0%, rgba(236, 236, 236, 0) 100%);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination main section.next-trip .image-box.one {
+  background-image: url("../assets/destinations-image-001.jpg");
+  background-position: top;
+}
+#destination main section.next-trip .image-box.one h5 {
+  position: absolute;
+  bottom: 35px;
+  right: 15px;
+  font-size: 12px;
+  color: rgba(187, 157, 88, 0.75);
+}
+#destination main section.next-trip .image-box.one h6 {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 12px;
+  color: rgba(187, 157, 88, 0.5);
+}
+#destination main section.next-trip .image-box.one img {
+  width: 340px;
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right top;
+     object-position: right top;
+}
+#destination main section.next-trip .image-box.six {
+  background-image: url("../assets/destinations-image-006.jpg");
+  background-position: center;
+}
+#destination main section.next-trip .image-box.six h5 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 12px;
+  color: rgba(187, 157, 88, 0.75);
+}
+#destination main section.next-trip .image-box.six h6 {
+  position: absolute;
+  top: 35px;
+  left: 15px;
+  font-size: 12px;
+  color: rgba(187, 157, 88, 0.5);
+}
+#destination main section.next-trip .image-grid {
+  display: grid;
+  min-width: 290px;
+  min-height: 290px;
+  width: 100%;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fill, minmax(2, 1fr));
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+#destination main section.next-trip .image-grid .two {
+  grid-area: 1/1/4/2;
+  background-image: url("../assets/destinations-image-002.jpg");
+  background-position: left;
+}
+#destination main section.next-trip .image-grid .three {
+  grid-area: 4/1/6/2;
+  background-image: url("../assets/destinations-image-003.jpg");
+}
+#destination main section.next-trip .image-grid .four {
+  grid-area: 3/2/6/3;
+  background-image: url("../assets/destinations-image-004.jpg");
+  background-position: bottom;
+}
+#destination main section.next-trip .image-grid .five {
+  grid-area: 1/2/3/3;
+  background-image: url("../assets/destinations-image-005.jpg");
+}
+@media screen and (max-width: 620px) {
+  #destination main section.next-trip .image-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Main */
