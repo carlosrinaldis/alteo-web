@@ -74,65 +74,45 @@
             top: 355px;
           }
         }
-  
-        .ct-icons {
+        
+        .destination-nav {
           position: absolute;
-          top: 427px;
-          width: 90%;
+          top: 355px;
+          width: 100%;
+          min-width: 320px;
           max-width: 920px;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around;
-          margin-top: 18px;
-          padding: 0 5px 0 5px;
-  
-          .about-icons {
-            width: 50px;
-            height: 50px;
-            background-color: variables.$silver;
-            border-radius: 10px;
-  
-            &.ski{
-            //   background-image: url("../assets/icons-ski.png");
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              opacity: 0.75;
+          padding-left: 15px;
+          padding-right: 15px;
+           
+          ul {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              margin-top: 45px;
+              font-size: 12px;
+              flex-wrap: wrap;
+              gap: 0.8rem;
+              text-transform: uppercase;
+          }
+
+          @media screen and (max-width: 620px) {
+            .destination-nav {
+              top: 0px;
+              margin-top: 0px;
             }
-  
-            &.bell{
-            //   background-image: url("../assets/icons-conciergebell.png");
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              opacity: 0.75;
-            }
-  
-            &.world{
-            //   background-image: url("../assets/icons-world.png");
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              opacity: 0.75;
-            }
-  
-            &.clock{
-            //   background-image: url("../assets/icons-stopclock.png");
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              opacity: 0.75;
-            }
-  
-            &.plane{
-            //   background-image: url("../assets/icons-plane.png");
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              opacity: 0.75;
+
+            ul {
+              margin-top: 0px;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+
+              li {
+                min-height: 25px;
+              }
             }
           }
-        }
+        }        
       }
     }
   

@@ -1052,52 +1052,39 @@ footer .sitemap ul a.current {
 #destination main section.hero .ct-content p:nth-child(5n) {
   top: 355px;
 }
-#destination main section.hero .ct-content .ct-icons {
+#destination main section.hero .ct-content .destination-nav {
   position: absolute;
-  top: 427px;
-  width: 90%;
+  top: 355px;
+  width: 100%;
+  min-width: 320px;
   max-width: 920px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#destination main section.hero .ct-content .destination-nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 18px;
-  padding: 0 5px 0 5px;
+  margin-top: 45px;
+  font-size: 12px;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  text-transform: uppercase;
 }
-#destination main section.hero .ct-content .ct-icons .about-icons {
-  width: 50px;
-  height: 50px;
-  background-color: #d3d1d3;
-  border-radius: 10px;
-}
-#destination main section.hero .ct-content .ct-icons .about-icons.ski {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.75;
-}
-#destination main section.hero .ct-content .ct-icons .about-icons.bell {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.75;
-}
-#destination main section.hero .ct-content .ct-icons .about-icons.world {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.75;
-}
-#destination main section.hero .ct-content .ct-icons .about-icons.clock {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.75;
-}
-#destination main section.hero .ct-content .ct-icons .about-icons.plane {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.75;
+@media screen and (max-width: 620px) {
+  #destination main section.hero .ct-content .destination-nav .destination-nav {
+    top: 0px;
+    margin-top: 0px;
+  }
+  #destination main section.hero .ct-content .destination-nav ul {
+    margin-top: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #destination main section.hero .ct-content .destination-nav ul li {
+    min-height: 25px;
+  }
 }
 #destination main section.next-trip {
   display: flex;
