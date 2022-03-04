@@ -534,8 +534,8 @@ footer .sitemap ul a.current {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#experiences main section.experiences .ct-icons .service-icons.volcano {
-  background-image: url("../assets/icons-volcano.png");
+#experiences main section.experiences .ct-icons .service-icons.onsen {
+  background-image: url("../assets/icons-onsen.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -552,8 +552,8 @@ footer .sitemap ul a.current {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#experiences main section.experiences .ct-icons .service-icons.sushi {
-  background-image: url("../assets/icons-sushi.png");
+#experiences main section.experiences .ct-icons .service-icons.ramen {
+  background-image: url("../assets/icons-ramen.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -704,8 +704,8 @@ footer .sitemap ul a.current {
   background-size: cover;
   opacity: 0.75;
 }
-#about main section.hero .ct-content .ct-icons .about-icons.plane {
-  background-image: url("../assets/icons-plane.png");
+#about main section.hero .ct-content .ct-icons .about-icons.car {
+  background-image: url("../assets/icons-car.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
