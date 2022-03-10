@@ -148,6 +148,55 @@ header {
   }  
 }
 
+@media screen and (min-width: 800px) {
+  header {
+    .access-button {
+      display: none;
+    }
+  
+    .menu {
+
+      label {
+          display: none; 
+      }
+
+      .-items {
+          display: flex; 
+          position: relative;
+          z-index: 100; 
+          min-width: 433px; 
+          min-height: 36px; 
+          top: 0; 
+          left: 0; 
+          padding: 0px; 
+          background-color: unset; 
+          align-items: center; 
+          justify-content: space-between;
+
+          li {
+              margin-top: 0px; 
+              margin-left: 48px; 
+          
+              a {
+                  color: variables.$black; 
+
+                  &:hover {
+                      color: variables.$gold;
+                      font-weight: 500;
+                  }
+
+                  &:active {
+                      color: variables.$black;
+                      font-weight: 400;
+                      opacity: 0.56;
+                  }
+              }
+          }
+      }
+    }
+  }
+}
+
 /* Footer */
 
 footer {

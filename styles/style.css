@@ -158,6 +158,43 @@ header .menu #menuCheckbox:checked ~ label .-burgerClose {
   vertical-align: bottom;
 }
 
+@media screen and (min-width: 800px) {
+  header .access-button {
+    display: none;
+  }
+  header .menu label {
+    display: none;
+  }
+  header .menu .-items {
+    display: flex;
+    position: relative;
+    z-index: 100;
+    min-width: 433px;
+    min-height: 36px;
+    top: 0;
+    left: 0;
+    padding: 0px;
+    background-color: unset;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .menu .-items li {
+    margin-top: 0px;
+    margin-left: 48px;
+  }
+  header .menu .-items li a {
+    color: #282828;
+  }
+  header .menu .-items li a:hover {
+    color: #bb9d58;
+    font-weight: 500;
+  }
+  header .menu .-items li a:active {
+    color: #282828;
+    font-weight: 400;
+    opacity: 0.56;
+  }
+}
 /* Footer */
 footer {
   position: relative;
