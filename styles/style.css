@@ -106,6 +106,7 @@ header .menu label {
   width: 18px;
   height: 18px;
   text-align: center;
+  cursor: pointer;
 }
 header .menu .-burgerOpen {
   line-height: 8px;

@@ -84,6 +84,7 @@ header {
         width: 18px;
         height: 18px;
         text-align: center;
+        cursor: pointer;
     }
   
     .-burgerOpen {
@@ -157,7 +158,7 @@ header {
     .menu {
 
       label {
-          display: none; 
+          display: none;
       }
 
       .-items {
