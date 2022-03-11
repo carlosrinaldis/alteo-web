@@ -421,7 +421,7 @@ footer .sitemap ul a.current {
 }
 #experiences main section.hero {
   min-height: 610px;
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 100%), url("../assets/backdrop-image-007.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 100%), url("../assets/backdrop-image-012-SQ-BIG.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -512,31 +512,71 @@ footer .sitemap ul a.current {
   border-radius: 15px;
   background: linear-gradient(0deg, rgba(177, 177, 177, 0.5) 0%, rgba(236, 236, 236, 0) 100%);
 }
-#experiences main section.experiences .image-box h5 {
+#experiences main section.experiences .image-box.one {
+  background-image: url("../assets/experiences-image-006.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 500px) {
+  #experiences main section.experiences .image-box.one {
+    background-image: url("../assets/experiences-image-006-big.jpg");
+    background-position: center;
+  }
+}
+#experiences main section.experiences .image-box.one h5 {
   position: absolute;
   bottom: 35px;
   right: 15px;
   font-size: 12px;
   color: white;
 }
-#experiences main section.experiences .image-box h6 {
+#experiences main section.experiences .image-box.one h6 {
   position: absolute;
   bottom: 15px;
   right: 15px;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.75);
 }
-#experiences main section.experiences .image-box.one {
-  background-image: url("../assets/experiences-image-004.jpg");
+#experiences main section.experiences .image-box.two {
+  background-image: url("../assets/experiences-image-008.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-#experiences main section.experiences .image-box.two {
-  background-image: url("../assets/experiences-image-005.jpg");
+#experiences main section.experiences .image-box.two h5 {
+  position: absolute;
+  bottom: 35px;
+  right: 15px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+}
+#experiences main section.experiences .image-box.two h6 {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+}
+#experiences main section.experiences .image-box.three {
+  background-image: url("../assets/experiences-image-007.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#experiences main section.experiences .image-box.three h5 {
+  position: absolute;
+  bottom: 35px;
+  left: 15px;
+  font-size: 12px;
+  color: #bb9d58;
+}
+#experiences main section.experiences .image-box.three h6 {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 12px;
+  color: #bb9d58;
 }
 #experiences main section.experiences .hg {
   color: #bb9d58;
@@ -1230,8 +1270,8 @@ footer .sitemap ul a.current {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#destination main section.next-trip .destination-info .ct-icons .service-icons.volcano {
-  background-image: url("../assets/icons-volcano.png");
+#destination main section.next-trip .destination-info .ct-icons .service-icons.onsen {
+  background-image: url("../assets/icons-onsen.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1248,8 +1288,8 @@ footer .sitemap ul a.current {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#destination main section.next-trip .destination-info .ct-icons .service-icons.sushi {
-  background-image: url("../assets/icons-sushi.png");
+#destination main section.next-trip .destination-info .ct-icons .service-icons.ramen {
+  background-image: url("../assets/icons-ramen.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1344,8 +1384,8 @@ footer .sitemap ul a.current {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#destination main section.next-trip section.services .ct-icons .service-icons.volcano {
-  background-image: url("../assets/icons-volcano.png");
+#destination main section.next-trip section.services .ct-icons .service-icons.onsen {
+  background-image: url("../assets/icons-onsen.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1362,8 +1402,8 @@ footer .sitemap ul a.current {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#destination main section.next-trip section.services .ct-icons .service-icons.sushi {
-  background-image: url("../assets/icons-sushi.png");
+#destination main section.next-trip section.services .ct-icons .service-icons.ramen {
+  background-image: url("../assets/icons-ramen.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
