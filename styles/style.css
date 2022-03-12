@@ -1706,8 +1706,8 @@ h2.cs {
 
 .card {
   background: white;
-  padding: 38px 36px;
-  margin-top: 40px;
+  padding: 15px 36px 36px 36px;
+  margin-top: 0px;
   margin-bottom: 40px;
   border-radius: 4px;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
@@ -1722,7 +1722,7 @@ h2.cs {
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-title);
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .card details {
   display: flex;
