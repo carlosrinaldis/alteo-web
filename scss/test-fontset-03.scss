@@ -1,0 +1,10 @@
+@use 'variables';
+
+body {
+  font-family: variables.$fontTest03;
+}
+
+.hero .ct-content h1 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
