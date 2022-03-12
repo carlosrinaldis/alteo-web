@@ -1449,7 +1449,7 @@ footer .sitemap ul a.current {
   background-size: cover;
 }
 #destination main section.next-trip .image-box.one {
-  background-image: url("../assets/destinations-image-001.jpg");
+  background-image: url("../assets/destinations-image-011.jpg");
   background-position: top;
 }
 #destination main section.next-trip .image-box.one h5 {
@@ -1457,14 +1457,14 @@ footer .sitemap ul a.current {
   bottom: 35px;
   right: 15px;
   font-size: 12px;
-  color: rgba(187, 157, 88, 0.75);
+  color: #282828;
 }
 #destination main section.next-trip .image-box.one h6 {
   position: absolute;
   bottom: 15px;
   right: 15px;
   font-size: 12px;
-  color: rgba(187, 157, 88, 0.5);
+  color: rgba(40, 40, 40, 0.75);
 }
 #destination main section.next-trip .image-box.one img {
   width: 340px;
@@ -1484,14 +1484,14 @@ footer .sitemap ul a.current {
   top: 15px;
   left: 15px;
   font-size: 12px;
-  color: rgba(187, 157, 88, 0.75);
+  color: white;
 }
 #destination main section.next-trip .image-box.six h6 {
   position: absolute;
   top: 35px;
   left: 15px;
   font-size: 12px;
-  color: rgba(187, 157, 88, 0.5);
+  color: rgba(255, 255, 255, 0.75);
 }
 #destination main section.next-trip .image-grid {
   display: grid;

@@ -443,7 +443,7 @@
         background-size: cover;
         
         &.one {
-            background-image: url("../assets/destinations-image-001.jpg");
+            background-image: url("../assets/destinations-image-011.jpg");
             background-position: top;
             
             h5 {
@@ -451,7 +451,7 @@
                 bottom: 35px;
                 right: 15px;
                 font-size: 12px;
-                color: rgba(187, 157, 88, 0.75);
+                color: rgba(40, 40, 40, 1);
             }
 
             h6 {
@@ -459,7 +459,7 @@
                 bottom: 15px;
                 right: 15px;
                 font-size: 12px;
-                color: rgba(187, 157, 88, 0.5);
+                color: rgba(40, 40, 40, 0.75);
             }
     
             img {
@@ -481,7 +481,7 @@
                 top: 15px;
                 left: 15px;
                 font-size: 12px;
-                color: rgba(187, 157, 88, 0.75);
+                color: rgba(255, 255, 255, 1);
             }
 
             h6 {
@@ -489,7 +489,7 @@
                 top: 35px;
                 left: 15px;
                 font-size: 12px;
-                color: rgba(187, 157, 88, 0.5);
+                color: rgba(255, 255, 255, 0.75);
             }
         }
     }
