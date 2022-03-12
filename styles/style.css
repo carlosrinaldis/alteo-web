@@ -539,7 +539,7 @@ footer .sitemap ul a.current {
   color: rgba(255, 255, 255, 0.75);
 }
 #experiences main section.experiences .image-box.two {
-  background-image: url("../assets/experiences-image-008.jpg");
+  background-image: url("../assets/experiences-image-010.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -547,19 +547,19 @@ footer .sitemap ul a.current {
 #experiences main section.experiences .image-box.two h5 {
   position: absolute;
   bottom: 35px;
-  right: 15px;
+  left: 15px;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.75);
+  color: white;
 }
 #experiences main section.experiences .image-box.two h6 {
   position: absolute;
   bottom: 15px;
-  right: 15px;
+  left: 15px;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.75);
 }
 #experiences main section.experiences .image-box.three {
-  background-image: url("../assets/experiences-image-007.jpg");
+  background-image: url("../assets/experiences-image-005.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -567,16 +567,16 @@ footer .sitemap ul a.current {
 #experiences main section.experiences .image-box.three h5 {
   position: absolute;
   bottom: 35px;
-  left: 15px;
+  right: 15px;
   font-size: 12px;
-  color: #bb9d58;
+  color: white;
 }
 #experiences main section.experiences .image-box.three h6 {
   position: absolute;
   bottom: 15px;
-  left: 15px;
+  right: 15px;
   font-size: 12px;
-  color: #bb9d58;
+  color: rgba(255, 255, 255, 0.75);
 }
 #experiences main section.experiences .hg {
   color: #bb9d58;
