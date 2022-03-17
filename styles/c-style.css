@@ -1,0 +1,34 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 10px;
+}
+
+ul,
+li,
+a,
+button {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+input,
+button,
+textarea,
+select,
+fieldset {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}/*# sourceMappingURL=c-style.css.map */
