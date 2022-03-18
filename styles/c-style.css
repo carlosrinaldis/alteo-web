@@ -122,4 +122,44 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 30px 30px;
+}
+
+body {
+  background: lightblue;
+}
+
+.c-details.-style.--01 {
+  display: flex;
+  width: 100%;
+  min-width: 256px;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  font-size: 10px;
+  background-color: beige;
+  font-size: 10px;
+}
+.c-details.-style.--01 details {
+  max-width: 920px;
+  width: 100%;
+  margin: auto;
+  background: linear-gradient(to right, lightgray 15px, whitesmoke 15px);
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+.c-details.-style.--01 details summary {
+  list-style: none;
+  min-height: 28px;
+}
+.c-details.-style.--01 details summary h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #282828;
+  text-transform: uppercase;
+  margin-top: 14px;
+  margin-left: 25px;
+}
+.c-details.-style.--01 details p {
+  height: 100px;
 }/*# sourceMappingURL=c-style.css.map */
