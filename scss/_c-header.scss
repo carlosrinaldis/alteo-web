@@ -1,0 +1,115 @@
+body {
+    background: lightblue;
+}
+
+.c-header.-style.--01 {
+    display: block;
+    width: 100%;
+    min-width: 256px;
+    overflow: hidden;
+    font-size: 10px;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0) 100%
+      );
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.2em;
+        font-weight: 500;
+        color: #282828;
+    }
+
+    .ct-content {
+        display: grid;
+        max-width: 920px;
+        min-height: 100px;
+        margin: auto;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    }
+
+    .nav.-item.--02, 
+    .nav.-item.--03,
+    .nav.-item.--04,
+    .nav.-item.--06,
+    .nav.-item.--07,
+    .nav.-item.--08 {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        
+        .nav.-item.--01,
+        .nav.-item.--09 {
+            display: none;
+        }
+
+        .nav.-item.--02, 
+        .nav.-item.--03,
+        .nav.-item.--04,
+        .nav.-item.--06,
+        .nav.-item.--07,
+        .nav.-item.--08 {
+            display: block;
+        }
+    }
+}
+
+.c-header.-style.--01.--alteo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    color: #282828;
+
+    a:hover {
+        color: #bb9d58;
+        font-weight: 500;
+    }
+
+    a.---current {
+        color: #bb9d58;
+        font-weight: 600;
+    }
+
+    .nav.-item.--01 {
+
+
+        div {
+            display: block;
+            width: 70px;
+            height: 70px;
+            background-image: url("../assets/access-gold-100px-alt.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 30px 30px;
+        }
+    }
+    
+    .nav.-item.--05 {
+        
+        div {
+            display: block;
+            width: 70px;
+            height: 70px;
+            background-image: url("../assets/logo-gold-100px.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 60px 60px;
+        }
+    }
+
+    .nav.-item.--09 {
+
+        div {
+            display: block;
+            width: 70px;
+            height: 70px;
+            background-image: url("../assets/menu-gold-100px.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 30px 30px;
+        }
+    }
+}
