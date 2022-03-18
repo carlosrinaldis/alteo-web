@@ -149,33 +149,80 @@ body {
 .c-details.-style.--01 details summary {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   list-style: none;
   min-height: 45px;
   min-width: 100%;
   padding: 15px 30px 15px 30px;
+  cursor: pointer;
 }
 .c-details.-style.--01 details summary h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2em;
+  font-family: sans-serif;
+  font-size: 1.4em;
   font-weight: 600;
   color: #aaa;
   text-transform: uppercase;
 }
-.c-details.-style.--01 details summary div {
+.c-details.-style.--01 details summary span {
   display: block;
-  width: 15px;
-  height: 15px;
-  background-image: url("../assets/menu-silver-100px.png");
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/angle-circle-left.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 15px 15px;
+  background-size: 20px;
+  transform-origin: center;
+  transform: rotate(0deg);
+  transition: 200ms linear;
+}
+.c-details.-style.--01 details .ct-details-content {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px 15px 30px;
+  gap: 15px;
+  overflow: hidden;
+  height: 100%;
 }
 .c-details.-style.--01 details p {
-  display: block;
   font-family: "Montserrat", sans-serif;
+  min-height: 25px;
+  height: 100%;
   font-size: 1.2em;
   font-weight: 500;
-  height: 25px;
-  margin-left: 30px;
-  margin-bottom: 15px;
+  color: #aaa;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.c-details.-style.--01 details[open] summary span {
+  transform-origin: center;
+  transform: rotate(-90deg);
+  transition: 200ms linear;
+}
+.c-details.-style.--01 details[open] .ct-details-content {
+  -webkit-animation-name: test-02;
+          animation-name: test-02;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes test-02 {
+  from {
+    max-height: 0px;
+  }
+  to {
+    max-height: 500px;
+  }
+}
+@keyframes test-02 {
+  from {
+    max-height: 0px;
+  }
+  to {
+    max-height: 500px;
+  }
 }/*# sourceMappingURL=c-style.css.map */
