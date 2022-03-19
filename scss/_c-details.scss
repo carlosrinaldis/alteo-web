@@ -18,7 +18,7 @@ body {
         margin: auto;
         background: linear-gradient(to right, lightgray 15px, whitesmoke 15px);
         border: 1px solid #aaa;
-        border-radius: 4px;
+        border-radius: 5px;
 
         summary {
             display: flex;
@@ -98,4 +98,10 @@ body {
             }                
         }
     }
+}
+
+/* ALTEO SPECIFIC */
+
+.c-details.-style.--01.--alteo {
+    margin-top: 15px;
 }
