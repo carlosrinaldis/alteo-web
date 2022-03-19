@@ -65,14 +65,33 @@
     font-size: 1.2em;
     color: #282828;
 
+    a {
+        color: #282828;
+    }
+
     a:hover {
         color: #bb9d58;
         font-weight: 500;
     }
 
+    a:active {
+        color: #282828;
+        font-weight: 500;  
+    }
+
+    a:visited {
+        color: #282828;
+        font-weight: 500;  
+    }
+
     a.---current {
         color: #bb9d58;
         font-weight: 600;
+    }
+
+    a:-webkit-any-link {
+        color: #282828;
+        font-weight: 500;  
     }
 
     .nav.-item.--01 {

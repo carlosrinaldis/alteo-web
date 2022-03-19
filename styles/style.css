@@ -676,6 +676,7 @@ footer .sitemap ul a.current {
 #experiences main section.experiences .services h4 {
   margin-bottom: 0px;
   margin-top: 20px;
+  color: #bb9d58;
 }
 #experiences main section.experiences .services hr {
   margin-top: 18px;
@@ -1199,7 +1200,7 @@ footer .sitemap ul a.current {
   min-height: 202px;
   min-width: 320px;
   width: 100%;
-  background-image: url("../assets/destination-stripe-005.jpg");
+  background-image: url("../assets/destination-stripe-006.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1211,7 +1212,7 @@ footer .sitemap ul a.current {
 #destination main section.next-trip .cta-stripe h1 {
   margin: 0px;
   text-align: center;
-  color: #d3d1d3;
+  color: #282828;
   font-size: 24px;
 }
 #destination main section.next-trip .cta-stripe h2 {
@@ -1223,7 +1224,7 @@ footer .sitemap ul a.current {
   margin: 0px;
   text-align: center;
   font-size: 14px;
-  color: #282828;
+  color: #bb9d58;
   text-transform: uppercase;
   align-items: center;
 }
@@ -1433,7 +1434,7 @@ footer .sitemap ul a.current {
   font-size: 14px;
   margin-bottom: 0px;
   margin-top: 20px;
-  color: #d3d1d3;
+  color: #bb9d58;
   text-transform: uppercase;
 }
 #destination main section.next-trip .destination-images {
