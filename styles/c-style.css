@@ -409,7 +409,7 @@ html, body {
 .c-hero.-style.--01 .ct-content.-img {
   display: block;
   margin: auto;
-  width: 75%;
+  width: 100%;
   min-width: 256px;
   height: 100%;
   min-width: 256px;
@@ -432,13 +432,12 @@ html, body {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  background-color: rgba(225, 225, 225, 0.5);
 }
 .c-hero.-style.--01 .ct-content.-data .-block.--01 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 10px;
+  gap: 15px;
 }
 .c-hero.-style.--01 .ct-content.-data .-block.--01 h1, .c-hero.-style.--01 .ct-content.-data .-block.--01 h4 {
   text-transform: uppercase;
@@ -449,9 +448,23 @@ html, body {
   width: 100%;
   border: 2px dashed rgba(57, 255, 20, 0.75);
 }
-.c-hero.-style.--01 .cosita {
+.c-hero.-style.--01 .ct-content.-data .-block.--02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+.c-hero.-style.--01 a.button.-style.--01 span {
   display: block;
-  width: 100px;
-  height: 50px;
-  background-color: purple;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  text-align: center;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+.c-hero.-style.--01 a.button.-style.--01 span h1 {
+  font-size: 1.4em;
+  color: #aaa;
 }/*# sourceMappingURL=c-style.css.map */
