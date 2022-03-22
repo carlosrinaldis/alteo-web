@@ -218,8 +218,8 @@ body {
   transition: 200ms linear;
 }
 .c-details.-style.--01 details[open] .ct-details-content {
-  -webkit-animation-name: test-02;
-          animation-name: test-02;
+  -webkit-animation-name: slow-open;
+          animation-name: slow-open;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
   -webkit-animation-timing-function: ease-out;
@@ -227,7 +227,7 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-@-webkit-keyframes test-02 {
+@-webkit-keyframes slow-open {
   from {
     max-height: 0px;
   }
@@ -235,7 +235,7 @@ body {
     max-height: 500px;
   }
 }
-@keyframes test-02 {
+@keyframes slow-open {
   from {
     max-height: 0px;
   }
@@ -388,4 +388,70 @@ body {
   .c-profile-card.-style.--02.--alteo .-img {
     background-position: center left 165px;
   }
+}
+
+html, body {
+  height: 100%;
+}
+
+.c-hero.-style.--01 {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 256px;
+  height: 610px;
+  overflow: hidden;
+  font-size: 10px;
+  background-color: blue;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.c-hero.-style.--01 .ct-content.-img {
+  display: block;
+  margin: auto;
+  width: 75%;
+  min-width: 256px;
+  height: 100%;
+  min-width: 256px;
+  background-image: url("../assets/ALTEO-backdrop-image-grid-SAFEAREA.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.c-hero.-style.--01 .ct-content.-data {
+  position: relative;
+  display: flex;
+  max-width: 920px;
+  width: 100%;
+  min-width: 250px;
+  height: 100%;
+  margin: auto;
+  top: -100%;
+  padding: 0px 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgba(225, 225, 225, 0.5);
+}
+.c-hero.-style.--01 .ct-content.-data .-block.--01 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.c-hero.-style.--01 .ct-content.-data .-block.--01 h1, .c-hero.-style.--01 .ct-content.-data .-block.--01 h4 {
+  text-transform: uppercase;
+}
+.c-hero.-style.--01 .ct-content.-data .-window {
+  display: block;
+  height: 45%;
+  width: 100%;
+  border: 2px dashed rgba(57, 255, 20, 0.75);
+}
+.c-hero.-style.--01 .cosita {
+  display: block;
+  width: 100px;
+  height: 50px;
+  background-color: purple;
 }/*# sourceMappingURL=c-style.css.map */

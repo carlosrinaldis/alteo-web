@@ -82,13 +82,13 @@ body {
         }
 
         .ct-details-content {
-            animation-name: test-02;
+            animation-name: slow-open;
             animation-duration: 0.5s;
             animation-timing-function: ease-out;
             animation-fill-mode: forwards;
         }
 
-        @keyframes test-02 {
+        @keyframes slow-open {
             from {
                 max-height: 0px;
             }
