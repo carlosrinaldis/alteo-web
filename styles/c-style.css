@@ -623,4 +623,71 @@ html, body {
 .c-footer.-style.--01 a.button.-style.--01 span h1 {
   font-size: 1.4em;
   color: #aaa;
+}
+
+body {
+  background-color: white;
+}
+
+.c-segment-toggle.-style.--01 {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  min-width: 256px;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 10px;
+  margin-top: 25px;
+  /* Temporary */
+}
+.c-segment-toggle.-style.--01 .ct-content.-bar {
+  max-width: 920px;
+  width: 100%;
+  min-height: 36px;
+  margin: auto;
+  background: whitesmoke;
+  border-radius: 5px;
+}
+.c-segment-toggle.-style.--01 .ct-content.-bar .-items {
+  display: flex;
+  min-height: 36px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.c-segment-toggle.-style.--01 .ct-content.-bar .-items .-item {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-height: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.c-segment-toggle.-style.--01 .ct-content.-bar .-items .-item:last-child {
+  border-right: none;
+}
+.c-segment-toggle.-style.--01 .ct-content.-bar .-items .-item h1 {
+  font-size: 1.2em;
+  text-align: center;
+  color: #aaa;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.c-segment-toggle.-style.--01 .ct-content.-bar .-items .-item.--01 {
+  pointer-events: none;
+  cursor: default;
+}
+.c-segment-toggle.-style.--01 .ct-content.-bar .-items .-item.--03 {
+  pointer-events: none;
+  cursor: default;
+}
+.c-segment-toggle.-style.--01 .ct-content.-bar .-items .-item.--04 {
+  pointer-events: none;
+  cursor: default;
+}
+.c-segment-toggle.-style.--01 .ct-content.-bar .-items .-item.---current {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }/*# sourceMappingURL=c-style.css.map */
