@@ -1,0 +1,87 @@
+.c-footer.-style.--01 {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 256px;
+    height: 170px;
+    overflow: hidden;
+    font-size: 10px;
+    background-color: blue;
+    font-family: sans-serif;
+    font-size: 10px;
+
+
+    .ct-content.-data {
+        position: relative;
+        display: flex;
+        max-width: 920px;
+        width: 100%;
+        min-width: 250px;
+        height: 100%;
+        margin: auto;
+        padding: 20px 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 2em;
+        background-color: rgba(225,225, 225, 0.5);
+
+        .-block.--01, .-block.--02, .-block.--03 {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            text-align: center;
+            justify-content: space-between;
+        }
+
+        .-block.--01.-nav {
+            min-height: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .-block.--02.-social {
+            justify-content: space-around;
+
+            .-item {
+                width: 20px;
+                height: 20px;
+                opacity: 0.75;
+                background-color: red;
+
+                &.--02 {
+                    background-color: green;  
+                }
+            }
+        }
+
+        .-block.--03.-extras {
+            justify-content: space-around;
+
+            .-item.--01 span {
+                display: block;
+                width: 60px;
+                height: 60px;
+                background-image: url("../assets/logo-gold-100px.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 60px 60px;
+            }
+        }
+    }
+
+    a.button.-style.--01 span {
+        display: block;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        border: 1px solid #aaa;
+        text-align: center;
+        overflow: hidden;
+        padding: 10px 20px;
+
+        h1 {
+            font-size: 1.4em;
+            color: #aaa;
+        }
+    }
+}
