@@ -1,0 +1,79 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 10px;
+}
+
+ul,
+li,
+a,
+button {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+input,
+button,
+textarea,
+select,
+fieldset {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body {
+  background-color: lime;
+}
+
+#experiences.--alteo {
+  /* Hero Section */
+  /* Footer */
+}
+#experiences.--alteo .c-hero.-style.--01 {
+  height: 710px;
+  font-family: "Montserrat", sans-serif;
+}
+#experiences.--alteo .c-hero.-style.--01 .ct-content.-img {
+  background-image: url("../assets/backdrop-image-006-HR-2880px.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#experiences.--alteo .c-hero.-style.--01 .-block.--01 {
+  gap: 10px;
+}
+#experiences.--alteo .c-hero.-style.--01 .-block.--01 h4 {
+  font-size: 1.4em;
+  color: #d3d1d3;
+}
+#experiences.--alteo .c-hero.-style.--01 .-block.--01 h1 {
+  font-size: 3em;
+  color: #bb9d58;
+}
+#experiences.--alteo .c-hero.-style.--01 .-block.--02 {
+  gap: 20px;
+}
+#experiences.--alteo .c-hero.-style.--01 .-block.--02 h2 {
+  color: #bb9d58;
+}
+#experiences.--alteo .c-footer.-style.--01 {
+  background-color: #d3d1d3;
+}
+#experiences.--alteo .c-footer.-style.--01 .ct-content.-data {
+  background-color: initial;
+}
+#experiences.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--01 span, #experiences.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--02 span, #experiences.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--03 span {
+  color: #282828;
+}/*# sourceMappingURL=style-rsp.css.map */

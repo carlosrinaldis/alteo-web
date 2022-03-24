@@ -6,7 +6,7 @@
     height: 170px;
     overflow: hidden;
     font-size: 10px;
-    background-color: blue;
+    background-color: whitesmoke;
     font-family: sans-serif;
     font-size: 10px;
 
@@ -31,7 +31,11 @@
             width: 100%;
             flex-direction: row;
             text-align: center;
-            justify-content: space-between;
+            justify-content: space-around;
+            
+            span {
+                color: black;
+            }
         }
 
         .-block.--01.-nav {

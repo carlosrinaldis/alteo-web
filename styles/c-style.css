@@ -40,6 +40,8 @@ fieldset {
 }
 
 .c-header.-style.--01 {
+  position: absolute;
+  z-index: 100;
   display: block;
   width: 100%;
   min-width: 256px;
@@ -402,7 +404,7 @@ html, body {
   height: 610px;
   overflow: hidden;
   font-size: 10px;
-  background-color: blue;
+  background-color: whitesmoke;
   font-family: sans-serif;
   font-size: 10px;
 }
@@ -556,7 +558,7 @@ html, body {
   height: 170px;
   overflow: hidden;
   font-size: 10px;
-  background-color: blue;
+  background-color: whitesmoke;
   font-family: sans-serif;
   font-size: 10px;
 }
@@ -580,7 +582,10 @@ html, body {
   width: 100%;
   flex-direction: row;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.c-footer.-style.--01 .ct-content.-data .-block.--01 span, .c-footer.-style.--01 .ct-content.-data .-block.--02 span, .c-footer.-style.--01 .ct-content.-data .-block.--03 span {
+  color: black;
 }
 .c-footer.-style.--01 .ct-content.-data .-block.--01.-nav {
   min-height: 20px;

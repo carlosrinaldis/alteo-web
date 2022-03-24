@@ -1,0 +1,62 @@
+@use 'variables' as *;
+
+body {
+    background-color: lime;
+}
+
+#experiences.--alteo {
+
+    /* Hero Section */
+
+    .c-hero.-style.--01 {
+        height: 710px;
+
+        font-family: 'Montserrat', sans-serif;
+
+        .ct-content.-img {
+            background-image: url("../assets/backdrop-image-006-HR-2880px.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .-block.--01 {
+            gap: 10px;
+
+            h4 {
+                font-size: 1.4em;
+                color: $silver;  
+            }
+
+            h1 {
+                font-size: 3em;
+                color: $gold; 
+            }
+        }
+
+        .-block.--02 {
+            gap: 20px;
+
+            h2 {
+                color: $gold; 
+            }
+        }
+    }
+
+    /* Footer */
+
+    .c-footer.-style.--01 {
+        background-color: $silver;
+
+        .ct-content.-data {
+            background-color: initial;
+
+            .-block.--01, .-block.--02, .-block.--03{
+                
+                span {
+                    color: $black;
+                }
+            }
+        }
+    }
+}
