@@ -34,6 +34,10 @@ body {
             }
         }
 
+        .-window {
+            height: 45%;
+        }
+
         .-block.--02 {
             gap: 20px;
 
@@ -56,6 +60,18 @@ body {
                 
                 span {
                     color: $black;
+                }
+            }
+
+            .-block.--01 {
+                .nav.-item {
+                    flex-basis: 0;
+                    flex-grow: 1;
+                    font-size: 1em;
+                    &:hover span {
+                        color: $gold;
+                        font-weight: 500;
+                    }
                 }
             }
 

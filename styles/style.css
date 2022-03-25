@@ -436,7 +436,7 @@ footer .sitemap ul a.current {
 }
 #experiences main section.hero {
   min-height: 610px;
-  background-image: url("../assets/ALTEO-backdrop-image-grid-SAFEAREA.png"), linear-gradient(180deg, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 100%), url("../assets/backdrop-image-012-SQ-BIG.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.75) 100%), url("../assets/backdrop-image-012-SQ-BIG.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
