@@ -40,7 +40,7 @@ fieldset {
 }
 
 .c-header.-style.--01 {
-  position: absolute;
+  position: fixed;
   z-index: 100;
   display: block;
   width: 100%;
@@ -599,10 +599,7 @@ html, body {
   width: 20px;
   height: 20px;
   opacity: 0.75;
-  background-color: red;
-}
-.c-footer.-style.--01 .ct-content.-data .-block.--02.-social .-item.--02 {
-  background-color: green;
+  background-color: lightgrey;
 }
 .c-footer.-style.--01 .ct-content.-data .-block.--03.-extras {
   justify-content: space-around;
@@ -695,4 +692,62 @@ body {
   border-radius: 5px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.c-article.-style.--01 {
+  width: 100%;
+  min-width: 256px;
+  overflow: hidden;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.c-article.-style.--01 h1, .c-article.-style.--01 h4 {
+  text-transform: uppercase;
+}
+.c-article.-style.--01 h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.c-article.-style.--01 h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.c-article.-style.--01 h4 {
+  color: #aaa;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.c-article.-style.--01 p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+.c-article.-style.--01 .ct-content.-data {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 30px;
+  gap: 20px;
+}
+.c-article.-style.--01 .-block.--01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.c-article.-style.--01 .-block.--02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: justify;
 }/*# sourceMappingURL=c-style.css.map */

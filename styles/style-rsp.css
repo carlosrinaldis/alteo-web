@@ -70,10 +70,29 @@ body {
 }
 #experiences.--alteo .c-footer.-style.--01 {
   background-color: #d3d1d3;
+  font-family: "Montserrat", sans-serif;
 }
 #experiences.--alteo .c-footer.-style.--01 .ct-content.-data {
   background-color: initial;
 }
 #experiences.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--01 span, #experiences.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--02 span, #experiences.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--03 span {
   color: #282828;
+}
+#experiences.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--02 .-item {
+  background-color: initial;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#experiences.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--02 .-item.--01 {
+  background-image: url("../assets/social-facebook-square-brands.svg");
+}
+#experiences.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--02 .-item.--02 {
+  background-image: url("../assets/social-instagram-brands.svg");
+}
+#experiences.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--02 .-item.--03 {
+  background-image: url("../assets/social-youtube-brands.svg");
+}
+#experiences.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--02 .-item.--04 {
+  background-image: url("../assets/social-whatsapp-brands.svg");
 }/*# sourceMappingURL=style-rsp.css.map */

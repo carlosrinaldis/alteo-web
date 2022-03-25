@@ -47,6 +47,7 @@ body {
 
     .c-footer.-style.--01 {
         background-color: $silver;
+        font-family: 'Montserrat', sans-serif;
 
         .ct-content.-data {
             background-color: initial;
@@ -55,6 +56,32 @@ body {
                 
                 span {
                     color: $black;
+                }
+            }
+
+            .-block.--02 {
+
+                .-item {
+                    background-color: initial;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                
+                .-item.--01 {
+                    background-image: url("../assets/social-facebook-square-brands.svg");
+                }
+
+                .-item.--02 {
+                    background-image: url("../assets/social-instagram-brands.svg");
+                }
+
+                .-item.--03 {
+                    background-image: url("../assets/social-youtube-brands.svg");
+                }
+
+                .-item.--04 {
+                    background-image: url("../assets/social-whatsapp-brands.svg");
                 }
             }
         }
