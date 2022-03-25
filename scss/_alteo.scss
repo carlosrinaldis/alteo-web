@@ -1,7 +1,7 @@
 @use 'variables' as *;
 
 body {
-    background-color: lime;
+    // background-color: lime;
 }
 
 #experiences.--alteo {
@@ -83,6 +83,40 @@ body {
                 .-item.--04 {
                     background-image: url("../assets/social-whatsapp-brands.svg");
                 }
+            }
+        }
+    }
+
+    .c-article.-style.--01 {
+        font-family: 'Montserrat', sans-serif;
+
+        .-block.--01 {
+            max-width: 800px;  
+            gap: 10px;
+
+            h4 {
+                font-size: 1.4em;
+                color: $silver;  
+            }
+
+            h1 {
+                font-size: 3em;
+                color: $black;
+            }
+
+            h2 {
+                color: $gold;
+            }
+        }
+
+        .-block.--02 {
+            max-width: 800px;  
+            gap: 10px;
+
+            p {
+                font-family: 'Rokkitt', Courier, monospace;
+                font-size: 1.5em;
+                color: $black;
             }
         }
     }

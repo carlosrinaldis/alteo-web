@@ -1,7 +1,3 @@
-body {
-    background-color: whitesmoke;
-}
-
 .c-article.-style.--01 {
     width: 100%;
     min-width: 256px;
@@ -36,14 +32,15 @@ body {
 
     .ct-content.-data {
         display: flex;
-        width: 70%;
+        width: 100%;
+        max-width: 920px;
         flex-direction: column;
         gap: 10px;
         background-color: white;
         margin: auto;
         align-items: center;
         justify-content: center;
-        padding: 30px 30px;
+        padding: 20px 30px;
         gap: 20px;
     }
 
