@@ -6,7 +6,7 @@
   padding: 0px;
 }
 
-html {
+html, body {
   font-size: 10px;
 }
 
@@ -747,4 +747,79 @@ body {
   align-items: center;
   gap: 10px;
   text-align: justify;
+}
+.c-article.-style.--01 .-block.--03 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 15px;
+}
+.c-article.-style.--01 .-images .c-image-card.-style.--01 {
+  width: 100%;
+}
+.c-article.-style.--01 .-images .c-image-card.-style.--01 h1, .c-article.-style.--01 .-images .c-image-card.-style.--01 h2, .c-article.-style.--01 .-images .c-image-card.-style.--01 h3, .c-article.-style.--01 .-images .c-image-card.-style.--01 h4, .c-article.-style.--01 .-images .c-image-card.-style.--01 h5, .c-article.-style.--01 .-images .c-image-card.-style.--01 h6 {
+  font-size: 10px;
+}
+.c-article.-style.--01 .-images .c-image-card.-style.--01 .ct-content.-img {
+  background-image: url("../assets/placeholder-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.c-article.-style.--01 .-images .c-image-card.-style.--01 .ct-content .-block.--01 {
+  align-items: initial;
+  color: black;
+}
+.c-article.-style.--01 .-images .c-image-card.-style.--01 .ct-content .-block.--01 h1 {
+  font-size: 1.2em;
+}
+.c-article.-style.--01 .-images .c-image-card.-style.--01 .ct-content .-block.--01 h2 {
+  font-size: 1.2em;
+  opacity: 0.75;
+}
+
+.c-image-card.-style.--01 {
+  width: 100%;
+  min-width: 256px;
+  overflow: hidden;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.c-image-card.-style.--01 h1, .c-image-card.-style.--01 h2, .c-image-card.-style.--01 h3, .c-image-card.-style.--01 h4, .c-image-card.-style.--01 h5, .c-image-card.-style.--01 h6 {
+  font-size: 10px;
+}
+.c-image-card.-style.--01 .ct-content {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  max-width: 920px;
+  min-height: 160px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.c-image-card.-style.--01 .ct-content.-img {
+  background-image: url("../assets/placeholder-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.c-image-card.-style.--01 .ct-content .-block.--01 {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+  font-weight: 700;
+  text-align: right;
+  color: black;
+}
+.c-image-card.-style.--01 .ct-content .-block.--01 h1 {
+  font-size: 1.2em;
+}
+.c-image-card.-style.--01 .ct-content .-block.--01 h2 {
+  font-size: 1.2em;
+  opacity: 0.75;
 }/*# sourceMappingURL=c-style.css.map */

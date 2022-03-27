@@ -103,6 +103,8 @@ body {
         }
     }
 
+    /* Article */
+
     .c-article.-style.--01 {
         font-family: 'Montserrat', sans-serif;
 
@@ -133,6 +135,31 @@ body {
                 font-family: 'Rokkitt', Courier, monospace;
                 font-size: 1.5em;
                 color: $black;
+            }
+        }
+
+        .-block.--03 {
+            width: 100%;
+            max-width: 800px;  
+            gap: 15px;
+
+            .c-image-card.-style.--01 {
+                min-width: 198px;
+                font-family: 'Montserrat', sans-serif;
+            }
+            .-block.--01.-text {
+                gap: 0.5em;
+
+                h1 {
+                    font-size: 1.2em;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                }
+    
+                h2 {
+                    font-size: 1.2em;
+                    opacity: 0.75;
+                }
             }
         }
     }

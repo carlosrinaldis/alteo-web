@@ -6,7 +6,7 @@
   padding: 0px;
 }
 
-html {
+html, body {
   font-size: 10px;
 }
 
@@ -36,6 +36,7 @@ fieldset {
 #experiences.--alteo {
   /* Hero Section */
   /* Footer */
+  /* Article */
 }
 #experiences.--alteo .c-hero.-style.--01 {
   height: 710px;
@@ -130,4 +131,25 @@ fieldset {
   font-family: "Rokkitt", Courier, monospace;
   font-size: 1.5em;
   color: #282828;
+}
+#experiences.--alteo .c-article.-style.--01 .-block.--03 {
+  width: 100%;
+  max-width: 800px;
+  gap: 15px;
+}
+#experiences.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 {
+  min-width: 198px;
+  font-family: "Montserrat", sans-serif;
+}
+#experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text {
+  gap: 0.5em;
+}
+#experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+#experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h2 {
+  font-size: 1.2em;
+  opacity: 0.75;
 }/*# sourceMappingURL=style-rsp.css.map */
