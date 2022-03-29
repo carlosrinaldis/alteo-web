@@ -52,6 +52,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.---strikethrough {
+  text-decoration: line-through;
+}
+
 .ct-center {
   display: flex;
   flex-direction: column;

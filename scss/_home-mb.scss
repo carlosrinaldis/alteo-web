@@ -5,6 +5,10 @@ body {
   font-family: variables.$fontMain;
 }
 
+.---strikethrough {
+  text-decoration: line-through;
+}
+
 .ct-center {
   display: flex;
   flex-direction: column;

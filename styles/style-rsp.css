@@ -110,6 +110,7 @@ body {
 }
 #experiences.--alteo .c-hero.-style.--01 .-window {
   height: 45%;
+  border: none;
 }
 #experiences.--alteo .c-hero.-style.--01 .-block.--02 {
   gap: 20px;
