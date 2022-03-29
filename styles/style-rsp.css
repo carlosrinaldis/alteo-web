@@ -33,6 +33,10 @@ fieldset {
   appearance: none;
 }
 
+body {
+  min-width: 375px;
+}
+
 .--alteo {
   /* Footer */
 }
@@ -113,81 +117,85 @@ fieldset {
 #experiences.--alteo .c-hero.-style.--01 .-block.--02 h2 {
   color: #bb9d58;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 {
+#experiences.--alteo .c-article.-style.--01 {
   font-family: "Montserrat", sans-serif;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--01 {
+#experiences.--alteo .c-article.-style.--01 .-block.--01 {
   max-width: 800px;
   gap: 10px;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--01 h4 {
+#experiences.--alteo .c-article.-style.--01 .-block.--01 h4 {
   font-size: 1.4em;
   color: #d3d1d3;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--01 h1 {
+#experiences.--alteo .c-article.-style.--01 .-block.--01 h1 {
   font-size: 3em;
   color: #282828;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--01 h2 {
+#experiences.--alteo .c-article.-style.--01 .-block.--01 h2 {
   color: #bb9d58;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--02, #experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--04 {
+#experiences.--alteo .c-article.-style.--01 .-block.--02, #experiences.--alteo .c-article.-style.--01 .-block.--04 {
   max-width: 800px;
   gap: 10px;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--02 p, #experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--04 p {
+#experiences.--alteo .c-article.-style.--01 .-block.--02 p, #experiences.--alteo .c-article.-style.--01 .-block.--04 p {
   font-family: "Rokkitt", Courier, monospace;
   font-size: 1.5em;
   color: #282828;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--02 h2, #experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--04 h2 {
+#experiences.--alteo .c-article.-style.--01 .-block.--02 h2, #experiences.--alteo .c-article.-style.--01 .-block.--04 h2 {
   text-transform: uppercase;
   color: #bb9d58;
   text-align: center;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--03 {
+#experiences.--alteo .c-article.-style.--01 .-block.--03 {
   width: 100%;
   max-width: 800px;
   gap: 15px;
   /* Working on This*/
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 {
+#experiences.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 {
   min-width: 198px;
   font-family: "Montserrat", sans-serif;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text {
+#experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text {
   gap: 0.5em;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h1 {
+#experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h1 {
   font-size: 1.2em;
   font-weight: 700;
   text-transform: capitalize;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h2 {
+#experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h2 {
   font-size: 1.2em;
   opacity: 0.75;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--02.-services {
+#experiences.--alteo .c-article.-style.--01 .-block.--02.-services {
   align-items: flex-start;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--02.-services h4 {
+#experiences.--alteo .c-article.-style.--01 .-block.--02.-services h4 {
   color: #bb9d58;
   text-align: left;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--04.-cta h2 {
+#experiences.--alteo .c-article.-style.--01 .-block.--04.-cta h2 {
   color: #282828;
 }
-#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--04.-cta a.button.-style.--01 {
+#experiences.--alteo .c-article.-style.--01 .-block.--04.-cta p {
+  text-transform: uppercase;
+  text-align: center;
+}
+#experiences.--alteo .c-article.-style.--01 .-block.--04.-cta a.button.-style.--01 {
   margin-top: 0.5em;
   width: 100%;
 }
 
-/* EXPERIENCES - END */
 /* DESTINATIONS - START */
 #destination.--alteo {
   /* DESTINATIONS: Hero */
   /* DESTINATIONS: Stripe */
   /* DESTINATIONS: Article */
+  /* DESTINATION: Details */
 }
 #destination.--alteo .c-hero.-style.--01 {
   height: 710px;
@@ -280,6 +288,7 @@ fieldset {
   color: #bb9d58;
 }
 #destination.--alteo .c-article.-style.--01 .-block.--02, #destination.--alteo .c-article.-style.--01 .-block.--04 {
+  width: 100%;
   max-width: 800px;
   gap: 10px;
 }
@@ -322,9 +331,40 @@ fieldset {
   text-align: left;
 }
 #destination.--alteo .c-article.-style.--01 .-block.--04.-cta h2 {
+  text-transform: uppercase;
   color: #282828;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--04.-cta p {
+  text-transform: uppercase;
+  color: #282828;
+  text-align: center;
 }
 #destination.--alteo .c-article.-style.--01 .-block.--04.-cta a.button.-style.--01 {
   margin-top: 0.5em;
   width: 100%;
+}
+#destination.--alteo .-block.--04.-calendar .c-details.-style.--01 {
+  gap: 15px;
+}
+#destination.--alteo .-block.--04.-calendar .c-details.-style.--01 details {
+  border: none;
+  border-radius: 10px;
+  background: whitesmoke;
+}
+#destination.--alteo .-block.--04.-calendar .c-details.-style.--01 details summary h3 {
+  color: #aaa;
+}
+#destination.--alteo .-block.--04.-calendar .c-details.-style.--01 details .ct-details-content {
+  padding: 15px 30px 15px 30px;
+  gap: 15px;
+  background-color: white;
+  border-bottom: 2px solid whitesmoke;
+}
+#destination.--alteo .-block.--04.-calendar .c-details.-style.--01 details p {
+  font-family: "Rokkitt", Courier, monospace;
+  min-height: 25px;
+  height: 100%;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #aaa;
 }/*# sourceMappingURL=style-rsp.css.map */
