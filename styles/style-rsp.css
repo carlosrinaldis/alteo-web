@@ -34,42 +34,11 @@ fieldset {
 }
 
 .--alteo {
-  /* Hero Section */
   /* Footer */
 }
 .--alteo hr {
   width: 100%;
   border: 1px solid #bb9d58;
-}
-.--alteo .c-hero.-style.--01 {
-  height: 710px;
-  font-family: "Montserrat", sans-serif;
-}
-.--alteo .c-hero.-style.--01 .ct-content.-img {
-  background-image: url("../assets/backdrop-image-006-HR-2880px.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.--alteo .c-hero.-style.--01 .-block.--01 {
-  gap: 10px;
-}
-.--alteo .c-hero.-style.--01 .-block.--01 h4 {
-  font-size: 1.4em;
-  color: #d3d1d3;
-}
-.--alteo .c-hero.-style.--01 .-block.--01 h1 {
-  font-size: 3em;
-  color: #bb9d58;
-}
-.--alteo .c-hero.-style.--01 .-window {
-  height: 45%;
-}
-.--alteo .c-hero.-style.--01 .-block.--02 {
-  gap: 20px;
-}
-.--alteo .c-hero.-style.--01 .-block.--02 h2 {
-  color: #bb9d58;
 }
 .--alteo .c-footer.-style.--01 {
   background-color: #d3d1d3;
@@ -80,9 +49,6 @@ fieldset {
 }
 .--alteo .c-footer.-style.--01 .ct-content.-data .-block.--01 span, .--alteo .c-footer.-style.--01 .ct-content.-data .-block.--02 span, .--alteo .c-footer.-style.--01 .ct-content.-data .-block.--03 span {
   color: #282828;
-}
-.--alteo .c-footer.-style.--01 .ct-content.-data .-block.--01 {
-  flex-wrap: wrap;
 }
 .--alteo .c-footer.-style.--01 .ct-content.-data .-block.--01 .nav.-item {
   flex-basis: 0;
@@ -112,72 +78,253 @@ fieldset {
   background-image: url("../assets/social-whatsapp-brands.svg");
 }
 
-/* Article */
-#experiences.--alteo .c-article.-style.--01 {
+/* EXPERIENCES - START */
+#experiences.--alteo {
+  /* EXPERIENCES: Hero */
+  /* EXPERIENCES Article */
+}
+#experiences.--alteo .c-hero.-style.--01 {
+  height: 710px;
   font-family: "Montserrat", sans-serif;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--01 {
-  max-width: 800px;
+#experiences.--alteo .c-hero.-style.--01 .ct-content.-img {
+  background-image: url("../assets/backdrop-image-006-HR-2880px.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#experiences.--alteo .c-hero.-style.--01 .-block.--01 {
   gap: 10px;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--01 h4 {
+#experiences.--alteo .c-hero.-style.--01 .-block.--01 h4 {
   font-size: 1.4em;
   color: #d3d1d3;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--01 h1 {
+#experiences.--alteo .c-hero.-style.--01 .-block.--01 h1 {
   font-size: 3em;
-  color: #282828;
-}
-#experiences.--alteo .c-article.-style.--01 .-block.--01 h2 {
   color: #bb9d58;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--02, #experiences.--alteo .c-article.-style.--01 .-block.--04 {
+#experiences.--alteo .c-hero.-style.--01 .-window {
+  height: 45%;
+}
+#experiences.--alteo .c-hero.-style.--01 .-block.--02 {
+  gap: 20px;
+}
+#experiences.--alteo .c-hero.-style.--01 .-block.--02 h2 {
+  color: #bb9d58;
+}
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 {
+  font-family: "Montserrat", sans-serif;
+}
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--01 {
   max-width: 800px;
   gap: 10px;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--02 p, #experiences.--alteo .c-article.-style.--01 .-block.--04 p {
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--01 h4 {
+  font-size: 1.4em;
+  color: #d3d1d3;
+}
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--01 h1 {
+  font-size: 3em;
+  color: #282828;
+}
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--01 h2 {
+  color: #bb9d58;
+}
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--02, #experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--04 {
+  max-width: 800px;
+  gap: 10px;
+}
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--02 p, #experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--04 p {
   font-family: "Rokkitt", Courier, monospace;
   font-size: 1.5em;
   color: #282828;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--02 h2, #experiences.--alteo .c-article.-style.--01 .-block.--04 h2 {
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--02 h2, #experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--04 h2 {
   text-transform: uppercase;
   color: #bb9d58;
   text-align: center;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--03 {
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--03 {
   width: 100%;
   max-width: 800px;
   gap: 15px;
   /* Working on This*/
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 {
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 {
   min-width: 198px;
   font-family: "Montserrat", sans-serif;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text {
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text {
   gap: 0.5em;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h1 {
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h1 {
   font-size: 1.2em;
   font-weight: 700;
   text-transform: capitalize;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h2 {
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h2 {
   font-size: 1.2em;
   opacity: 0.75;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--02.-services {
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--02.-services {
   align-items: flex-start;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--02.-services h4 {
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--02.-services h4 {
   color: #bb9d58;
   text-align: left;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--04.-cta h2 {
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--04.-cta h2 {
   color: #282828;
 }
-#experiences.--alteo .c-article.-style.--01 .-block.--04.-cta a.button.-style.--01 {
+#experiences.--alteo #experiences.--alteo .c-article.-style.--01 .-block.--04.-cta a.button.-style.--01 {
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+/* EXPERIENCES - END */
+/* DESTINATIONS - START */
+#destination.--alteo {
+  /* DESTINATIONS: Hero */
+  /* DESTINATIONS: Stripe */
+  /* DESTINATIONS: Article */
+}
+#destination.--alteo .c-hero.-style.--01 {
+  height: 710px;
+  font-family: "Montserrat", sans-serif;
+}
+#destination.--alteo .c-hero.-style.--01 .ct-content.-img {
+  background-image: none;
+  background-image: url("../assets/world-map-point-a25.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#destination.--alteo .c-hero.-style.--01 .-block.--01 {
+  gap: 10px;
+}
+#destination.--alteo .c-hero.-style.--01 .-block.--01 h4 {
+  font-size: 1.4em;
+  color: #d3d1d3;
+}
+#destination.--alteo .c-hero.-style.--01 .-block.--01 h1 {
+  font-size: 3em;
+  color: #bb9d58;
+}
+#destination.--alteo .c-hero.-style.--01 .-block.--01 h2 {
+  color: #282828;
+}
+#destination.--alteo .c-hero.-style.--01 .-block.--01 p {
+  font-family: "Rokkitt", Courier, monospace;
+  font-size: 2em;
+  color: #282828;
+}
+#destination.--alteo .c-hero.-style.--01 .-window {
+  height: 0%;
+  border: none;
+}
+#destination.--alteo .c-hero.-style.--01 .-block.--02 {
+  gap: 20px;
+}
+#destination.--alteo .c-hero.-style.--01 .-block.--02 h2 {
+  color: #bb9d58;
+}
+#destination.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar {
+  max-width: 920px;
+  background: none;
+  border-radius: 5px;
+}
+#destination.--alteo .c-image-stripe.-style.--01 {
+  min-height: 200px;
+  border-bottom: 2px solid #bb9d58;
+}
+#destination.--alteo .c-image-stripe.-style.--01 .ct-content.-img {
+  background-image: url("../assets/destination-stripe-007.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#destination.--alteo .c-image-stripe.-style.--01 .-block.--01 {
+  gap: 0.75em;
+}
+#destination.--alteo .c-image-stripe.-style.--01 .-block.--01 h4 {
+  font-size: 1.4em;
+  color: #bb9d58;
+}
+#destination.--alteo .c-image-stripe.-style.--01 .-block.--01 h1 {
+  font-family: "Rokkitt", Courier, monospace;
+  font-size: 3em;
+  color: #282828;
+}
+#destination.--alteo .c-image-stripe.-style.--01 .-block.--01 p {
+  font-size: 1.4em;
+  color: #bb9d58;
+  text-transform: uppercase;
+}
+#destination.--alteo .c-article.-style.--01 {
+  font-family: "Montserrat", sans-serif;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--01 {
+  max-width: 800px;
+  gap: 10px;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--01 h4 {
+  font-size: 1.4em;
+  color: #d3d1d3;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--01 h1 {
+  font-size: 3em;
+  color: #282828;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--01 h2 {
+  color: #bb9d58;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--02, #destination.--alteo .c-article.-style.--01 .-block.--04 {
+  max-width: 800px;
+  gap: 10px;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--02 p, #destination.--alteo .c-article.-style.--01 .-block.--04 p {
+  font-family: "Rokkitt", Courier, monospace;
+  font-size: 1.5em;
+  color: #282828;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--02 h2, #destination.--alteo .c-article.-style.--01 .-block.--04 h2 {
+  text-transform: uppercase;
+  color: #bb9d58;
+  text-align: center;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--03 {
+  width: 100%;
+  max-width: 800px;
+  gap: 15px;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 {
+  min-width: 198px;
+  font-family: "Montserrat", sans-serif;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text {
+  gap: 0.5em;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h2 {
+  font-size: 1.2em;
+  opacity: 0.75;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--02.-services {
+  align-items: flex-start;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--02.-services h4 {
+  color: #bb9d58;
+  text-align: left;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--04.-cta h2 {
+  color: #282828;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--04.-cta a.button.-style.--01 {
   margin-top: 0.5em;
   width: 100%;
 }/*# sourceMappingURL=style-rsp.css.map */

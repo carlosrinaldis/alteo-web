@@ -9,13 +9,12 @@ body {
     flex-direction: column;
     overflow: hidden;
     font-size: 10px;
-    
-    margin-top: 25px; /* Temporary */
 
     .ct-content.-bar {
         max-width: 920px;
         width: 100%;
-        min-height: 36px;
+        min-height: 62px;
+        height: 200%;
         margin: auto;
         background: whitesmoke;
         border-radius: 5px;
