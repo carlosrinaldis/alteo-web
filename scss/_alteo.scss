@@ -2,7 +2,7 @@
 
 body {
     // background-color: lime;
-    min-width: 375px;
+    min-width: 374px;
 }
 
 .--alteo {
@@ -277,7 +277,16 @@ body {
 
     .c-image-stripe.-style.--01 {
         min-height: 200px;
-        border-bottom: 2px solid $gold;
+        border-top: 2px solid $silver;
+        border-bottom: 2px solid $silver;
+
+        @media screen and (max-width: 694px) {
+            min-height: 255px;
+        }
+
+        @media screen and (max-width: 394px) {
+            min-height: 275px;
+        }
 
         .ct-content.-img {
             background-image: url("../assets/destination-stripe-007.jpg");
