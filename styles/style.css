@@ -547,7 +547,7 @@ footer .sitemap ul a.current {
   bottom: 35px;
   right: 15px;
   font-size: 12px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #experiences main section.experiences .image-box.one h6 {
   position: absolute;
@@ -567,7 +567,7 @@ footer .sitemap ul a.current {
   bottom: 35px;
   left: 15px;
   font-size: 12px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #experiences main section.experiences .image-box.two h6 {
   position: absolute;
@@ -587,7 +587,7 @@ footer .sitemap ul a.current {
   bottom: 35px;
   right: 15px;
   font-size: 12px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #experiences main section.experiences .image-box.three h6 {
   position: absolute;
@@ -1476,7 +1476,7 @@ footer .sitemap ul a.current {
   bottom: 35px;
   right: 15px;
   font-size: 12px;
-  color: #282828;
+  color: rgb(40, 40, 40);
 }
 #destination main section.next-trip .image-box.one h6 {
   position: absolute;
@@ -1503,7 +1503,7 @@ footer .sitemap ul a.current {
   top: 15px;
   left: 15px;
   font-size: 12px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #destination main section.next-trip .image-box.six h6 {
   position: absolute;

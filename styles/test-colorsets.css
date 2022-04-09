@@ -107,7 +107,7 @@
   bottom: 35px;
   right: 15px;
   font-size: 12px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #test-colorset main section.experiences .image-box h6 {
   position: absolute;
@@ -403,7 +403,7 @@
   width: 100%;
   max-width: none;
   background: none;
-  background: linear-gradient(180deg, #282828 15%, rgba(40, 40, 40, 0.75) 50%, rgba(40, 40, 40, 0) 100%);
+  background: linear-gradient(180deg, rgb(40, 40, 40) 15%, rgba(40, 40, 40, 0.75) 50%, rgba(40, 40, 40, 0) 100%);
 }
 #test-colorset header .max-width {
   display: flex;
