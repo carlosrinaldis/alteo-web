@@ -29,6 +29,7 @@ body {
             }
 
             .-block.--01 {
+                gap: 10px;
 
                 .nav.-item {
                     flex-basis: 0;
@@ -819,10 +820,24 @@ body {
         .-block.--01 {
             max-width: 800px;  
             gap: 10px;
+            flex-direction: row;
+            flex-wrap: wrap;
 
-            h4 {
-                font-size: 1.4em;
-                color: $silver;  
+            div {
+                flex-basis: 100%;
+                min-width: 365px;
+                min-height: 50px;
+                border-radius: 10px;
+                border: 1px solid $silver;
+                line-height: 50px;
+                color: $silver;
+
+                &.xxx-button {
+                    background-color: whitesmoke;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 600;
+                    font-size: 1.4em;
+                }
             }
 
             h1 {
@@ -834,17 +849,17 @@ body {
                 color: $gold;
             }
 
-            .ct-form {
-                display: block;
-                height: 250px;
-                min-width: 365px;
-                background-color: whitesmoke;
-                padding-top: 100px;
+            // .ct-form {
+            //     display: block;
+            //     height: 250px;
+            //     min-width: 365px;
+            //     background-color: whitesmoke;
+            //     padding-top: 100px;
                 
-                h1 {
-                    color: silver;
-                }
-            }
+            //     h1 {
+            //         color: silver;
+            //     }
+            // }
         }
 
         .-block.--02, .-block.--04 {
