@@ -607,7 +607,7 @@ body {
         }
     }
 
-    /* DESTINATIONS: Article */
+    /* ABOUT: Article */
 
     .c-article.-style.--01 {
         font-family: 'Montserrat', sans-serif;
@@ -705,7 +705,7 @@ body {
         }
     }
 
-    /* DESTINATION: Details */
+    /* ABOUT: Details */
 
     .-block.--04.-calendar .c-details.-style.--01 {
         gap: 15px;
@@ -742,4 +742,185 @@ body {
             // }
         }
     }
+}
+
+/* CONTACT START */
+
+#contact.--alteo {
+
+    /* CONTACT: Hero */
+
+    .c-hero.-style.--01 {
+        height: 710px;
+
+        font-family: 'Montserrat', sans-serif;
+
+        .ct-content.-img {
+            background-image: none;
+            // background-image: url("../assets/world-map-point-a25.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .-block.--01 {
+            gap: 10px;
+
+            h4 {
+                font-size: 1.4em;
+                color: $silver;  
+            }
+
+            h1 {
+                font-size: 3em;
+                color: $gold; 
+            }
+
+            h2 {
+                color: $black; 
+            }
+
+            p {
+                font-family: 'Rokkitt', Courier, monospace;
+                font-size: 2em;
+                color: $black;
+            }
+        }
+
+        .-window {
+            height: 0%;
+            border: none;
+        }
+
+        .-block.--02 {
+            gap: 20px;
+
+            h2 {
+                color: $gold; 
+            }
+
+            .c-segment-toggle.-style.--01 {
+
+                .ct-content.-bar {
+                    max-width: 920px;
+                    background: none;
+                    border-radius: 5px;
+                    // border: 1px solid $silver;
+                }
+            }
+        }
+    }
+    
+    /* CONTACT: Article */
+
+    .c-article.-style.--01 {
+        font-family: 'Montserrat', sans-serif;
+
+        .-block.--01 {
+            max-width: 800px;  
+            gap: 10px;
+
+            h4 {
+                font-size: 1.4em;
+                color: $silver;  
+            }
+
+            h1 {
+                font-size: 3em;
+                color: $black;
+            }
+
+            h2 {
+                color: $gold;
+            }
+
+            .ct-form {
+                display: block;
+                height: 250px;
+                min-width: 365px;
+                background-color: whitesmoke;
+                padding-top: 100px;
+                
+                h1 {
+                    color: silver;
+                }
+            }
+        }
+
+        .-block.--02, .-block.--04 {
+            width: 100%;
+            max-width: 800px;  
+            gap: 10px;
+
+            p {
+                font-family: 'Rokkitt', Courier, monospace;
+                font-size: 1.5em;
+                color: $black;
+            }
+
+            h2 {
+                text-transform: uppercase;
+                color: $gold;
+                text-align: center;
+            }
+        }
+
+        // .-block.--03 {
+        //     width: 100%;
+        //     max-width: 800px;  
+        //     gap: 15px;
+
+        //     .c-image-card.-style.--01 {
+        //         min-width: 198px;
+        //         font-family: 'Montserrat', sans-serif;
+        //     }
+        //     .-block.--01.-text {
+        //         gap: 0.5em;
+
+        //         h1 {
+        //             font-size: 1.2em;
+        //             font-weight: 700;
+        //             text-transform: capitalize;
+        //         }
+
+        //         h2 {
+        //             font-size: 1.2em;
+        //             opacity: 0.75;
+        //         }
+        //     }
+
+        // }
+
+        .-block.--02.-services {
+            align-items: flex-start;
+
+            h4 {
+                color: $gold;
+                text-align: left;
+            }
+            // text-align: left;
+        }
+
+        .-block.--04.-cta {
+
+            h2 {
+                text-transform: uppercase;
+                color: $black;
+            }
+
+            p {
+                text-transform: uppercase;
+                color: $black;
+                text-align: center;
+            }
+
+            a.button.-style.--01 {
+                margin-top: 0.5em;
+                width: 100%;
+            }
+        }
+    }
+
+
+
 }
