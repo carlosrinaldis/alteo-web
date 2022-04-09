@@ -817,7 +817,23 @@ body {
     .c-article.-style.--01 {
         font-family: 'Montserrat', sans-serif;
 
-        .-block.--01 {
+        .-block.--01.-headings {
+            max-width: 800px;  
+            gap: 10px;
+            h4 {
+                font-size: 1.4em;
+                color: $silver;  
+            }
+            h1 {
+                font-size: 3em;
+                color: $black;
+            }
+            h2 {
+                color: $gold;
+            }
+        }
+
+        .-block.--01.-form {
             max-width: 800px;  
             gap: 10px;
             flex-direction: row;
@@ -838,15 +854,6 @@ body {
                     font-weight: 600;
                     font-size: 1.4em;
                 }
-            }
-
-            h1 {
-                font-size: 3em;
-                color: $black;
-            }
-
-            h2 {
-                color: $gold;
             }
 
             // .ct-form {

@@ -663,13 +663,28 @@ body {
 #contact.--alteo .c-article.-style.--01 {
   font-family: "Montserrat", sans-serif;
 }
-#contact.--alteo .c-article.-style.--01 .-block.--01 {
+#contact.--alteo .c-article.-style.--01 .-block.--01.-headings {
+  max-width: 800px;
+  gap: 10px;
+}
+#contact.--alteo .c-article.-style.--01 .-block.--01.-headings h4 {
+  font-size: 1.4em;
+  color: #d3d1d3;
+}
+#contact.--alteo .c-article.-style.--01 .-block.--01.-headings h1 {
+  font-size: 3em;
+  color: #282828;
+}
+#contact.--alteo .c-article.-style.--01 .-block.--01.-headings h2 {
+  color: #bb9d58;
+}
+#contact.--alteo .c-article.-style.--01 .-block.--01.-form {
   max-width: 800px;
   gap: 10px;
   flex-direction: row;
   flex-wrap: wrap;
 }
-#contact.--alteo .c-article.-style.--01 .-block.--01 div {
+#contact.--alteo .c-article.-style.--01 .-block.--01.-form div {
   flex-basis: 100%;
   min-width: 365px;
   min-height: 50px;
@@ -678,18 +693,11 @@ body {
   line-height: 50px;
   color: #d3d1d3;
 }
-#contact.--alteo .c-article.-style.--01 .-block.--01 div.xxx-button {
+#contact.--alteo .c-article.-style.--01 .-block.--01.-form div.xxx-button {
   background-color: whitesmoke;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 1.4em;
-}
-#contact.--alteo .c-article.-style.--01 .-block.--01 h1 {
-  font-size: 3em;
-  color: #282828;
-}
-#contact.--alteo .c-article.-style.--01 .-block.--01 h2 {
-  color: #bb9d58;
 }
 #contact.--alteo .c-article.-style.--01 .-block.--02, #contact.--alteo .c-article.-style.--01 .-block.--04 {
   width: 100%;
