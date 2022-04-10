@@ -572,7 +572,16 @@ body {
   min-width: 198px;
   font-family: "Montserrat", sans-serif;
 }
+#about.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 .ct-content.-img.--01 {
+  background-image: url(../assets/rsp-about-image-001-800x160px.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #about.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text {
+  right: initial;
+  left: 20px;
+  text-align: left;
   gap: 0.5em;
 }
 #about.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h1 {

@@ -535,7 +535,6 @@ body {
                     max-width: 920px;
                     background: none;
                     border-radius: 5px;
-                    // border: 1px solid $silver;
                 }
             }
         }
@@ -677,8 +676,18 @@ body {
             .c-image-card.-style.--01 {
                 min-width: 198px;
                 font-family: 'Montserrat', sans-serif;
+
+                .ct-content.-img.--01 {
+                    background-image: url(../assets/rsp-about-image-001-800x160px.jpg);
+                    background-position: right;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
             }
             .-block.--01.-text {
+                right: initial;
+                left: 20px;
+                text-align: left;
                 gap: 0.5em;
 
                 h1 {
@@ -875,18 +884,6 @@ body {
                     font-size: 1.4em;
                 }
             }
-
-            // .ct-form {
-            //     display: block;
-            //     height: 250px;
-            //     min-width: 365px;
-            //     background-color: whitesmoke;
-            //     padding-top: 100px;
-                
-            //     h1 {
-            //         color: silver;
-            //     }
-            // }
         }
 
         .-block.--02, .-block.--04 {
@@ -907,32 +904,6 @@ body {
             }
         }
 
-        // .-block.--03 {
-        //     width: 100%;
-        //     max-width: 800px;  
-        //     gap: 15px;
-
-        //     .c-image-card.-style.--01 {
-        //         min-width: 198px;
-        //         font-family: 'Montserrat', sans-serif;
-        //     }
-        //     .-block.--01.-text {
-        //         gap: 0.5em;
-
-        //         h1 {
-        //             font-size: 1.2em;
-        //             font-weight: 700;
-        //             text-transform: capitalize;
-        //         }
-
-        //         h2 {
-        //             font-size: 1.2em;
-        //             opacity: 0.75;
-        //         }
-        //     }
-
-        // }
-
         .-block.--02.-services {
             align-items: flex-start;
 
@@ -940,7 +911,6 @@ body {
                 color: $gold;
                 text-align: left;
             }
-            // text-align: left;
         }
 
         .-block.--04.-cta {
