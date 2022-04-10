@@ -159,27 +159,46 @@ body {
             .c-image-card.-style.--01 {
                 min-width: 198px;
                 font-family: 'Montserrat', sans-serif;
+
+                .ct-content.-img.--01 {
+                    background-image: url(../assets/rsp-experiences-image-001-800x160px.jpg);
+                    background-position: left;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .ct-content.-img.--02 {
+                    background-image: url(../assets/rsp-experiences-image-002-800x160px.jpg);
+                    background-position: left;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .ct-content.-img.--03 {
+                    background-image: url(../assets/rsp-experiences-image-003-800x160px.jpg);
+                    background-position: left;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
             }
+
             .-block.--01.-text {
                 gap: 0.5em;
                 h1 {
+                    color: white;
                     font-size: 1.2em;
                     font-weight: 700;
                     text-transform: capitalize;
                 }
             
                 h2 {
+                    color: white;
                     font-size: 1.2em;
                     opacity: 0.75;
                 }
             }
-            /* Working on This*/
-            // .c-image-card.-style.--01 .ct-content.-img.--02 {
-            //     .-block.--01.-text {
-            //         left: 30px;
-            //     }
-            // }
         }
+
         .-block.--02.-services {
             align-items: flex-start;
             h4 {

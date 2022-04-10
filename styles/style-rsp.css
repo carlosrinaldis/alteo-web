@@ -157,21 +157,40 @@ body {
   width: 100%;
   max-width: 800px;
   gap: 15px;
-  /* Working on This*/
 }
 #experiences.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 {
   min-width: 198px;
   font-family: "Montserrat", sans-serif;
 }
+#experiences.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 .ct-content.-img.--01 {
+  background-image: url(../assets/rsp-experiences-image-001-800x160px.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#experiences.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 .ct-content.-img.--02 {
+  background-image: url(../assets/rsp-experiences-image-002-800x160px.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#experiences.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 .ct-content.-img.--03 {
+  background-image: url(../assets/rsp-experiences-image-003-800x160px.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text {
   gap: 0.5em;
 }
 #experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h1 {
+  color: white;
   font-size: 1.2em;
   font-weight: 700;
   text-transform: capitalize;
 }
 #experiences.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h2 {
+  color: white;
   font-size: 1.2em;
   opacity: 0.75;
 }
