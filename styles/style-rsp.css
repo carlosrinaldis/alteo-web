@@ -416,9 +416,10 @@ body {
 }
 #about.--alteo .c-hero.-style.--01 .ct-content.-img {
   background-image: none;
+  background-image: url("../assets/about-point-a25.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 #about.--alteo .c-hero.-style.--01 .-block.--01 {
   gap: 10px;
