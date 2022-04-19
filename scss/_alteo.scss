@@ -487,10 +487,10 @@ body {
     
         .ct-content.-img {
             background-image: none;
-            background-image: url("../assets/about-point-a25.png");
+            background-image: url("../assets/backdrop-image-clean-point-a25.png");
             background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+            background-repeat: repeat;
+            background-size: auto;
         }
     
         .-block.--01 {
@@ -786,10 +786,10 @@ body {
 
         .ct-content.-img {
             background-image: none;
-            // background-image: url("../assets/world-map-point-a25.png");
+            background-image: url("../assets/backdrop-image-clean-point-a25.png");
             background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
+            background-repeat: repeat;
+            background-size: auto;
         }
 
         .-block.--01 {
