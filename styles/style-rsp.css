@@ -768,8 +768,8 @@ body {
 
 /* HOME START */
 #home.--alteo, #index.--alteo {
-  /* CONTACT: Hero */
-  /* CONTACT: Article */
+  /* HOME: Hero */
+  /* HOME: Article */
 }
 #home.--alteo .c-hero.-style.--01, #index.--alteo .c-hero.-style.--01 {
   height: 710px;
@@ -872,6 +872,7 @@ body {
   width: 100%;
 }
 
+/* FORM */
 #xxx-testing {
   display: flex;
   width: 100%;
@@ -920,4 +921,9 @@ body {
   font-size: 1.4em;
   color: #d3d1d3;
   text-transform: uppercase;
+}
+
+/* MAINTENANCE */
+#index.--alteo.--maintenance .c-article.-style.--01 .ct-content.-data {
+  height: 798px;
 }/*# sourceMappingURL=style-rsp.css.map */

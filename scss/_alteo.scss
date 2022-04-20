@@ -938,7 +938,7 @@ body {
 
 #home.--alteo, #index.--alteo {
 
-    /* CONTACT: Hero */
+    /* HOME: Hero */
 
     .c-hero.-style.--01 {
         height: 710px;
@@ -1001,7 +1001,7 @@ body {
         }
     }
     
-    /* CONTACT: Article */
+    /* HOME: Article */
 
     .c-article.-style.--01 {
         font-family: 'Montserrat', sans-serif;
@@ -1074,6 +1074,8 @@ body {
     }
 }
 
+/* FORM */
+
 #xxx-testing {
     display: flex;
     width: 100%;
@@ -1113,4 +1115,14 @@ body {
         color: $silver;
         text-transform: uppercase;
     }
+}
+
+/* MAINTENANCE */
+
+#index.--alteo.--maintenance {
+
+    .c-article.-style.--01 .ct-content.-data {
+        height: 798px;
+    }
+
 }
