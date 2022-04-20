@@ -709,27 +709,6 @@ body {
 #contact.--alteo .c-article.-style.--01 .-block.--01.-headings h2 {
   color: #bb9d58;
 }
-#contact.--alteo .c-article.-style.--01 .-block.--01.-form {
-  max-width: 800px;
-  gap: 10px;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-#contact.--alteo .c-article.-style.--01 .-block.--01.-form div {
-  flex-basis: 100%;
-  min-width: 365px;
-  min-height: 50px;
-  border-radius: 10px;
-  border: 1px solid #d3d1d3;
-  line-height: 50px;
-  color: #d3d1d3;
-}
-#contact.--alteo .c-article.-style.--01 .-block.--01.-form div.xxx-button {
-  background-color: whitesmoke;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 1.4em;
-}
 #contact.--alteo .c-article.-style.--01 .-block.--02, #contact.--alteo .c-article.-style.--01 .-block.--04 {
   width: 100%;
   max-width: 800px;
@@ -744,13 +723,6 @@ body {
   text-transform: uppercase;
   color: #bb9d58;
   text-align: center;
-}
-#contact.--alteo .c-article.-style.--01 .-block.--02.-services {
-  align-items: flex-start;
-}
-#contact.--alteo .c-article.-style.--01 .-block.--02.-services h4 {
-  color: #bb9d58;
-  text-align: left;
 }
 #contact.--alteo .c-article.-style.--01 .-block.--04.-cta h2 {
   text-transform: uppercase;
@@ -834,29 +806,20 @@ body {
 #home.--alteo .c-article.-style.--01 .-block.--01.-headings h2, #index.--alteo .c-article.-style.--01 .-block.--01.-headings h2 {
   color: #bb9d58;
 }
-#home.--alteo .c-article.-style.--01 .-block.--01.-form, #index.--alteo .c-article.-style.--01 .-block.--01.-form {
+#home.--alteo .c-article.-style.--01 .-block.--02, #home.--alteo .c-article.-style.--01 .-block.--04, #index.--alteo .c-article.-style.--01 .-block.--02, #index.--alteo .c-article.-style.--01 .-block.--04 {
+  width: 100%;
   max-width: 800px;
   gap: 10px;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
-#home.--alteo .c-article.-style.--01 .-block.--01.-form div, #index.--alteo .c-article.-style.--01 .-block.--01.-form div {
-  flex-basis: 100%;
-  min-width: 365px;
-  min-height: 50px;
-  border-radius: 10px;
-  border: 1px solid #d3d1d3;
-  line-height: 50px;
-  color: #d3d1d3;
+#home.--alteo .c-article.-style.--01 .-block.--02 p, #home.--alteo .c-article.-style.--01 .-block.--04 p, #index.--alteo .c-article.-style.--01 .-block.--02 p, #index.--alteo .c-article.-style.--01 .-block.--04 p {
+  font-family: "Rokkitt", Courier, monospace;
+  font-size: 1.5em;
+  color: #282828;
 }
-#home.--alteo .c-article.-style.--01 .-block.--01.-form div.xxx-button, #index.--alteo .c-article.-style.--01 .-block.--01.-form div.xxx-button {
-  background-color: whitesmoke;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 1.4em;
-}
-#home.--alteo .c-article.-style.--01 .-block.--02.-form, #index.--alteo .c-article.-style.--01 .-block.--02.-form {
-  max-width: 800px;
+#home.--alteo .c-article.-style.--01 .-block.--02 h2, #home.--alteo .c-article.-style.--01 .-block.--04 h2, #index.--alteo .c-article.-style.--01 .-block.--02 h2, #index.--alteo .c-article.-style.--01 .-block.--04 h2 {
+  text-transform: uppercase;
+  color: #bb9d58;
+  text-align: center;
 }
 #home.--alteo .c-article.-style.--01 .-block.--04.-cta h2, #index.--alteo .c-article.-style.--01 .-block.--04.-cta h2 {
   text-transform: uppercase;
@@ -873,14 +836,14 @@ body {
 }
 
 /* FORM */
-#xxx-testing {
+.site-form.-style.--01 {
   display: flex;
   width: 100%;
   gap: 10px;
   flex-direction: column;
   flex-wrap: wrap;
 }
-#xxx-testing input {
+.site-form.-style.--01 input {
   min-width: 365px;
   min-height: 50px;
   border-radius: 10px;
@@ -891,25 +854,25 @@ body {
   text-transform: uppercase;
   font-size: 10px;
 }
-#xxx-testing input::-moz-placeholder {
+.site-form.-style.--01 input::-moz-placeholder {
   color: #d3d1d3;
   font-size: 10px;
   text-align: center;
   text-transform: uppercase;
 }
-#xxx-testing input:-ms-input-placeholder {
+.site-form.-style.--01 input:-ms-input-placeholder {
   color: #d3d1d3;
   font-size: 10px;
   text-align: center;
   text-transform: uppercase;
 }
-#xxx-testing input::placeholder {
+.site-form.-style.--01 input::placeholder {
   color: #d3d1d3;
   font-size: 10px;
   text-align: center;
   text-transform: uppercase;
 }
-#xxx-testing .xxx-button {
+.site-form.-style.--01 .submit-button {
   min-width: 365px;
   min-height: 50px;
   background-color: whitesmoke;

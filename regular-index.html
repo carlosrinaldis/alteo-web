@@ -31,7 +31,7 @@
             <div class="ct-content -img"></div>
             <div class="ct-content -data">
                 <div class="-block --01">
-                    <h4>ALTEO LANDING</h4>
+                    <h4>ALTEO ACTIVE HOLIDAYS Landing</h4>
                     <h1>DISCOVER BEYOND EXTRAORDINARY</h1>
                     <!-- <h2>We look forward to hearing from you, let us inspire you by completing the contact form below. </h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa delectus ab voluptas laborum odit quo nulla incidunt labore magnam illum. Ullam nobis nihil in perferendis dolorem magni quia nulla quam, corporis quis fuga sequi tempore ipsam dolores, temporibus sit est sunt molestias.</p> -->
@@ -39,24 +39,26 @@
                 <span class="-window"></span>
                 <div class="-block --02">
                     <h2>Custom Winter Escapades Specifically Catered to Your Desires</h2>
-                    <a class="button -style --01" href="#"><span><h1>Onwards!</h1></span></a>
+                    <a class="button -style --01" href="#home-A01"><span><h1>Onwards!</h1></span></a>
                   </div>
                 </div>
             </div>
         </section>  
         <article class="c-article -style --01">
             <div class="ct-content -data">
-                <div class="-block --01 -headings">
+                <div id="home-A01" class="-block --01 -headings">
                     <h4>This is your adventure</h4>
                     <h1>Start your Journey</h1>
                     <h2>Everyone is different, let us discover your unique interests, we’ll take care of the rest.</h2>
                 </div>
-                <div class="-block --01 -form">
-                    <div>YOUR FIRST AND LAST NAME</div>
-                    <div>YOUR CONTACT EMAIL</div>
-                    <div>YOUR CONTACT PHONE</div>
-                    <div>YOUR COUNTRY OF RESIDENCE</div>
-                    <div class="xxx-button">REGISTER YOUR INTEREST</div>
+                <div class="-block --02 -form">
+                    <form class="site-form -style --01" name="landing-form" method="POST" data-netlify="true">
+                        <input type="text" name="name" placeholder="Your First and Last Name" required>
+                        <input type="email" name="email" placeholder="Your Contact Email" required>
+                        <input type="tel" name="phone" placeholder="Your Contact Phone" required>
+                        <input type="text" name="country" placeholder="Your Country of Residence" required>
+                        <button class="submit-button" type="submit">Register your Interest</button>
+                    </form>
                 </div>
                 <hr>
                 <div class="-block --04 -cta">

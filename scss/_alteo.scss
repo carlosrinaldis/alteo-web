@@ -862,30 +862,6 @@ body {
             }
         }
 
-        .-block.--01.-form {
-            max-width: 800px;  
-            gap: 10px;
-            flex-direction: row;
-            flex-wrap: wrap;
-
-            div {
-                flex-basis: 100%;
-                min-width: 365px;
-                min-height: 50px;
-                border-radius: 10px;
-                border: 1px solid $silver;
-                line-height: 50px;
-                color: $silver;
-
-                &.xxx-button {
-                    background-color: whitesmoke;
-                    font-family: 'Montserrat', sans-serif;
-                    font-weight: 600;
-                    font-size: 1.4em;
-                }
-            }
-        }
-
         .-block.--02, .-block.--04 {
             width: 100%;
             max-width: 800px;  
@@ -901,15 +877,6 @@ body {
                 text-transform: uppercase;
                 color: $gold;
                 text-align: center;
-            }
-        }
-
-        .-block.--02.-services {
-            align-items: flex-start;
-
-            h4 {
-                color: $gold;
-                text-align: left;
             }
         }
 
@@ -1023,34 +990,22 @@ body {
             }
         }
 
-        .-block.--01.-form {
+        .-block.--02, .-block.--04 {
+            width: 100%;
             max-width: 800px;  
             gap: 10px;
-            flex-direction: row;
-            flex-wrap: wrap;
 
-            div {
-                flex-basis: 100%;
-                min-width: 365px;
-                min-height: 50px;
-                border-radius: 10px;
-                border: 1px solid $silver;
-                line-height: 50px;
-                color: $silver;
-
-                &.xxx-button {
-                    background-color: whitesmoke;
-                    font-family: 'Montserrat', sans-serif;
-                    font-weight: 600;
-                    font-size: 1.4em;
-                }
+            p {
+                font-family: 'Rokkitt', Courier, monospace;
+                font-size: 1.5em;
+                color: $black;
             }
-        }
 
-        .-block.--02.-form {
-            max-width: 800px;  
-
-
+            h2 {
+                text-transform: uppercase;
+                color: $gold;
+                text-align: center;
+            }
         }
 
         .-block.--04.-cta {
@@ -1076,7 +1031,7 @@ body {
 
 /* FORM */
 
-#xxx-testing {
+.site-form.-style.--01 {
     display: flex;
     width: 100%;
     gap: 10px;
@@ -1102,7 +1057,7 @@ body {
         }
     }
 
-    .xxx-button {
+    .submit-button {
         min-width: 365px;
         min-height: 50px;
         background-color: whitesmoke;
