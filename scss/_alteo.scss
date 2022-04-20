@@ -387,7 +387,50 @@ body {
             .c-image-card.-style.--01 {
                 min-width: 198px;
                 font-family: 'Montserrat', sans-serif;
+
+                .ct-content.-img.--01 {
+                    background-image: url(../assets/rsp-destinations-image-001.jpg);
+                    background-position: left top;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .ct-content.-img.--02 {
+                    background-image: url(../assets/rsp-destinations-image-002.jpg);
+                    background-position: left center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .ct-content.-img.--03 {
+                    background-image: url(../assets/rsp-destinations-image-007.jpg);
+                    background-position: left;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .ct-content.-img.--04 {
+                    background-image: url(../assets/rsp-destinations-image-008.jpg);
+                    background-position: left;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .ct-content.-img.--05 {
+                    background-image: url(../assets/rsp-destinations-image-009.jpg);
+                    background-position: left;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .ct-content.-img.--06 {
+                    background-image: url(../assets/rsp-destinations-image-003.jpg);
+                    background-position: left;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
             }
+
             .-block.--01.-text {
                 gap: 0.5em;
 
@@ -402,7 +445,6 @@ body {
                     opacity: 0.75;
                 }
             }
-
         }
 
         .-block.--02.-services {
