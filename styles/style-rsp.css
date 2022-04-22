@@ -393,6 +393,17 @@ body {
   font-size: 1.2em;
   opacity: 0.75;
 }
+#destination.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h1 {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+#destination.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h2 {
+  color: white;
+  font-size: 1.2em;
+  opacity: 0.75;
+}
 #destination.--alteo .c-article.-style.--01 .-block.--02.-services {
   align-items: flex-start;
 }
@@ -817,7 +828,7 @@ body {
   gap: 20px;
 }
 #home.--alteo .c-hero.-style.--01 .-block.--02 h2, #index.--alteo .c-hero.-style.--01 .-block.--02 h2 {
-  color: #bb9d58;
+  color: #282828;
 }
 #home.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar, #index.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar {
   max-width: 920px;
