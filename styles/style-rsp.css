@@ -891,7 +891,7 @@ body {
   flex-wrap: wrap;
 }
 .site-form.-style.--01 input {
-  min-width: 365px;
+  min-width: 300px;
   min-height: 50px;
   border-radius: 10px;
   border: 1px solid #d3d1d3;
@@ -920,7 +920,7 @@ body {
   text-transform: uppercase;
 }
 .site-form.-style.--01 .submit-button {
-  min-width: 365px;
+  min-width: 300px;
   min-height: 50px;
   background-color: whitesmoke;
   border-radius: 10px;
