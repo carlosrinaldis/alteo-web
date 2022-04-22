@@ -86,6 +86,30 @@ fieldset {
     display: block;
   }
 }
+.c-header.-style.--01 .ct-content.--dropdown {
+  display: grid;
+  max-width: 920px;
+  min-height: 100px;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 45px) 10px;
+  background-color: white;
+  border-bottom: 1px solid #bb9d58;
+}
+.c-header.-style.--01 .ct-content.--dropdown .nav.-item.--02,
+.c-header.-style.--01 .ct-content.--dropdown .nav.-item.--03,
+.c-header.-style.--01 .ct-content.--dropdown .nav.-item.--04,
+.c-header.-style.--01 .ct-content.--dropdown .nav.-item.--06,
+.c-header.-style.--01 .ct-content.--dropdown .nav.-item.--07,
+.c-header.-style.--01 .ct-content.--dropdown .nav.-item.--08 {
+  display: initial;
+}
+.c-header.-style.--01 .ct-content.--dropdown.---hidden {
+  display: none;
+}
 
 .c-header.-style.--01.--alteo {
   font-family: "Montserrat", sans-serif;
