@@ -87,7 +87,7 @@ fieldset {
   }
 }
 .c-header.-style.--01 .ct-content.--dropdown {
-  display: grid;
+  display: none;
   max-width: 920px;
   min-height: 100px;
   height: 100%;
