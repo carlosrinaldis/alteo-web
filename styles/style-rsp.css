@@ -539,6 +539,31 @@ body {
   background: none;
   border-radius: 5px;
 }
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-items .-item h1 {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  border-radius: 10px;
+  background-position: center center;
+  background-size: contain;
+  background-color: #d3d1d3;
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-item.--01 h1 {
+  background-image: url(../assets/icons-ski-a75.png);
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-item.--02 h1 {
+  background-image: url(../assets/icons-conciergebell-a75.png);
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-item.--03 h1 {
+  background-image: url(../assets/icons-world-a75.png);
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-item.--04 h1 {
+  background-image: url(../assets/icons-car-a75.png);
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-item.--05 h1 {
+  background-image: url(../assets/icons-stopclock-a75.png);
+}
 #about.--alteo .c-image-stripe.-style.--01 {
   min-height: 200px;
   border-top: 2px solid #d3d1d3;

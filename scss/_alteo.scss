@@ -640,6 +640,37 @@ body {
                     max-width: 920px;
                     background: none;
                     border-radius: 5px;
+
+                    .-items .-item h1 {
+                        display: block;
+                        height: 50px;
+                        width: 50px;
+                        margin: auto;
+                        border-radius: 10px;
+                        background-position: center center;
+                        background-size: contain;
+                        background-color: $silver;
+                    }
+
+                    .-item.--01 h1 {
+                        background-image: url(../assets/icons-ski-a75.png);
+                    }
+
+                    .-item.--02 h1 {
+                        background-image: url(../assets/icons-conciergebell-a75.png);
+                    }
+
+                    .-item.--03 h1 {
+                        background-image: url(../assets/icons-world-a75.png);
+                    }
+
+                    .-item.--04 h1 {
+                        background-image: url(../assets/icons-car-a75.png);
+                    }
+
+                    .-item.--05 h1 {
+                        background-image: url(../assets/icons-stopclock-a75.png);
+                    }
                 }
             }
         }
