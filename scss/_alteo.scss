@@ -390,44 +390,107 @@ body {
 
                 .ct-content.-img.--01 {
                     background-image: url(../assets/rsp-destinations-image-001.jpg);
-                    background-position: left top;
+                    background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
+                    
+                    h1 {
+                        color: $black;
+                    }
+                
+                    h2 {
+                        color: $gold;
+                    }
                 }
 
                 .ct-content.-img.--02 {
                     background-image: url(../assets/rsp-destinations-image-002.jpg);
-                    background-position: left center;
+                    background-position: right;
                     background-repeat: no-repeat;
                     background-size: cover;
+
+                    .-block.--01.-text {
+                        left: 20px;
+                        text-align: left;
+                    }
+
+                    h1 {
+                        color: $black;
+                    }
+                
+                    h2 {
+                        color: $gold;
+                    }
                 }
 
                 .ct-content.-img.--03 {
                     background-image: url(../assets/rsp-destinations-image-007.jpg);
-                    background-position: left;
+                    background-position: right;
                     background-repeat: no-repeat;
                     background-size: cover;
+
+                    h1 {
+                        color: $black;
+                    }
+                
+                    h2 {
+                        color: $gold;
+                    }
                 }
 
                 .ct-content.-img.--04 {
                     background-image: url(../assets/rsp-destinations-image-008.jpg);
-                    background-position: left;
+                    background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
+
+                    .-block.--01.-text {
+                        left: 20px;
+                        text-align: left;
+                    }
+
+                    h1 {
+                        color: white;
+                    }
+                
+                    h2 {
+                        color: white;
+                    }
                 }
 
                 .ct-content.-img.--05 {
                     background-image: url(../assets/rsp-destinations-image-009.jpg);
-                    background-position: left;
+                    background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
+
+                    h1 {
+                        color: white;
+                    }
+                
+                    h2 {
+                        color: white;
+                    }
                 }
 
                 .ct-content.-img.--06 {
                     background-image: url(../assets/rsp-destinations-image-003.jpg);
-                    background-position: left;
+                    background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
+
+                    .-block.--01.-text {
+                        left: 20px;
+                        text-align: left;
+                    }
+
+                    h1 {
+                        color: white;
+                    }
+                
+                    h2 {
+                        color: white;
+                    }
                 }
             }
 
@@ -441,19 +504,6 @@ body {
                 }
 
                 h2 {
-                    font-size: 1.2em;
-                    opacity: 0.75;
-                }
-
-                h1 {
-                    color: white;
-                    font-size: 1.2em;
-                    font-weight: 700;
-                    text-transform: capitalize;
-                }
-            
-                h2 {
-                    color: white;
                     font-size: 1.2em;
                     opacity: 0.75;
                 }
