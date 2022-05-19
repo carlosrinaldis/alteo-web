@@ -3,19 +3,24 @@ const dropDown_icon = document.querySelector(".c-header.-style.--01.--alteo .nav
 const header = document.querySelector(".c-header.-style.--01.--alteo");
 let N = 0;
 
-function myFunction() {
-    N = N + 1;
-    if (N % 2 == 0) {
-        dropDown_block.style.display = "none";
-        header.style.backgroundColor = "initial";
+// function firstTest() {
+//     N = N + 1;
+//     if (N % 2 == 0) {
+//         dropDown_block.style.display = "none";
+//         header.style.backgroundColor = "initial";
 
-    } else {
-        dropDown_block.style.display = "grid";
-        header.style.background = "white";
-    }
+//     } else {
+//         dropDown_block.style.display = "grid";
+//         header.style.background = "white";
+//     }
+// }
+
+function dropDownMenuToggle() {
+    dropDown_block.classList.toggle("---show");
+    header.classList.toggle("--bk-white")
 }
 
-dropDown_icon.addEventListener("click", myFunction);
+dropDown_icon.addEventListener("click", dropDownMenuToggle);
 
 console.log(header);
 

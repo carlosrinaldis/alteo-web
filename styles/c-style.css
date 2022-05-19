@@ -49,6 +49,9 @@ fieldset {
   font-size: 10px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
 }
+.c-header.-style.--01.--bk-white {
+  background: white;
+}
 .c-header.-style.--01 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2em;
@@ -72,20 +75,6 @@ fieldset {
 .c-header.-style.--01 .nav.-item.--08 {
   display: none;
 }
-@media screen and (min-width: 768px) {
-  .c-header.-style.--01 .nav.-item.--01,
-.c-header.-style.--01 .nav.-item.--09 {
-    display: none;
-  }
-  .c-header.-style.--01 .nav.-item.--02,
-.c-header.-style.--01 .nav.-item.--03,
-.c-header.-style.--01 .nav.-item.--04,
-.c-header.-style.--01 .nav.-item.--06,
-.c-header.-style.--01 .nav.-item.--07,
-.c-header.-style.--01 .nav.-item.--08 {
-    display: block;
-  }
-}
 .c-header.-style.--01 .ct-content.--dropdown {
   display: none;
   max-width: 920px;
@@ -105,10 +94,24 @@ fieldset {
 .c-header.-style.--01 .ct-content.--dropdown .nav.-item.--06,
 .c-header.-style.--01 .ct-content.--dropdown .nav.-item.--07,
 .c-header.-style.--01 .ct-content.--dropdown .nav.-item.--08 {
-  display: initial;
+  display: block;
 }
-.c-header.-style.--01 .ct-content.--dropdown.---hidden {
-  display: none;
+.c-header.-style.--01 .ct-content.--dropdown.---show {
+  display: grid;
+}
+@media screen and (min-width: 768px) {
+  .c-header.-style.--01 .nav.-item.--01,
+.c-header.-style.--01 .nav.-item.--09 {
+    display: none;
+  }
+  .c-header.-style.--01 .nav.-item.--02,
+.c-header.-style.--01 .nav.-item.--03,
+.c-header.-style.--01 .nav.-item.--04,
+.c-header.-style.--01 .nav.-item.--06,
+.c-header.-style.--01 .nav.-item.--07,
+.c-header.-style.--01 .nav.-item.--08 {
+    display: block;
+  }
 }
 
 .c-header.-style.--01.--alteo {
