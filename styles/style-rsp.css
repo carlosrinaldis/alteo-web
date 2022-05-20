@@ -998,4 +998,13 @@ body {
 /* MAINTENANCE */
 #index.--alteo.--maintenance .c-article.-style.--01 .ct-content.-data {
   height: 798px;
+}
+
+/* FORM-SUCCESS */
+#index.--alteo.--form-success .c-article.-style.--01 .ct-content.-data {
+  height: 798px;
+}
+#index.--alteo.--form-success .c-article.-style.--01 .ct-content.-data .button.-style.--01 {
+  min-width: 200px;
+  max-width: 250px;
 }/*# sourceMappingURL=style-rsp.css.map */
