@@ -1854,5 +1854,267 @@ body {
   height: 798px;
 }
 
+/* ABOUT - START */
+#about.--alteo {
+  /* ABOUT: Hero */
+  /* ABOUT: Stripe */
+  /* ABOUT: Article */
+  /* ABOUT: Details */
+}
+#about.--alteo .c-hero.-style.--01 {
+  height: 710px;
+  font-family: "Montserrat", sans-serif;
+}
+#about.--alteo .c-hero.-style.--01 .ct-content.-img {
+  background-image: none;
+  background-image: url("../assets/backdrop-image-clean-point-a25.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto;
+}
+#about.--alteo .c-hero.-style.--01 .-block.--01 {
+  gap: 10px;
+}
+#about.--alteo .c-hero.-style.--01 .-block.--01 h4 {
+  font-size: 1.4em;
+  color: #d3d1d3;
+}
+#about.--alteo .c-hero.-style.--01 .-block.--01 h1 {
+  font-size: 3em;
+  color: #bb9d58;
+}
+#about.--alteo .c-hero.-style.--01 .-block.--01 h2 {
+  color: #282828;
+}
+#about.--alteo .c-hero.-style.--01 .-block.--01 p {
+  font-family: "Rokkitt", Courier, monospace;
+  font-size: 2em;
+  color: #282828;
+}
+#about.--alteo .c-hero.-style.--01 .-window {
+  height: 0%;
+  border: none;
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 {
+  gap: 20px;
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 h2 {
+  color: #bb9d58;
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar {
+  max-width: 920px;
+  background: none;
+  border-radius: 5px;
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-items .-item h1 {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  border-radius: 10px;
+  background-position: center center;
+  background-size: contain;
+  background-color: #d3d1d3;
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-item.--01 h1 {
+  background-image: url(../assets/icons-ski-a75.png);
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-item.--02 h1 {
+  background-image: url(../assets/icons-conciergebell-a75.png);
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-item.--03 h1 {
+  background-image: url(../assets/icons-world-a75.png);
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-item.--04 h1 {
+  background-image: url(../assets/icons-car-a75.png);
+}
+#about.--alteo .c-hero.-style.--01 .-block.--02 .c-segment-toggle.-style.--01 .ct-content.-bar .-item.--05 h1 {
+  background-image: url(../assets/icons-stopclock-a75.png);
+}
+#about.--alteo .c-image-stripe.-style.--01 {
+  min-height: 200px;
+  border-top: 2px solid #d3d1d3;
+  border-bottom: 2px solid #d3d1d3;
+}
+@media screen and (max-width: 694px) {
+  #about.--alteo .c-image-stripe.-style.--01 {
+    min-height: 255px;
+  }
+}
+@media screen and (max-width: 394px) {
+  #about.--alteo .c-image-stripe.-style.--01 {
+    min-height: 275px;
+  }
+}
+#about.--alteo .c-image-stripe.-style.--01 .ct-content.-img {
+  background-image: url("../assets/about-stripe-001.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about.--alteo .c-image-stripe.-style.--01 .-block.--01 {
+  gap: 0.75em;
+}
+#about.--alteo .c-image-stripe.-style.--01 .-block.--01 h4 {
+  font-size: 1.4em;
+  color: #bb9d58;
+}
+#about.--alteo .c-image-stripe.-style.--01 .-block.--01 h1 {
+  font-family: "Rokkitt", Courier, monospace;
+  font-size: 3em;
+  color: #282828;
+}
+#about.--alteo .c-image-stripe.-style.--01 .-block.--01 p {
+  font-size: 1.4em;
+  color: #bb9d58;
+  text-transform: uppercase;
+}
+#about.--alteo .c-image-stripe.-style.--01.-quote {
+  min-height: 200px;
+  border-top: 2px solid #bb9d58;
+  border-bottom: 2px solid #bb9d58;
+}
+@media screen and (max-width: 694px) {
+  #about.--alteo .c-image-stripe.-style.--01.-quote {
+    min-height: 255px;
+  }
+}
+@media screen and (max-width: 394px) {
+  #about.--alteo .c-image-stripe.-style.--01.-quote {
+    min-height: 275px;
+  }
+}
+#about.--alteo .c-image-stripe.-style.--01.-quote .ct-content.-img {
+  background-image: url("../assets/about-stripe-002.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about.--alteo .c-image-stripe.-style.--01.-quote .-block.--01 {
+  gap: 0.75em;
+}
+#about.--alteo .c-image-stripe.-style.--01.-quote .-block.--01 h4 {
+  font-size: 1.4em;
+  color: #bb9d58;
+}
+#about.--alteo .c-image-stripe.-style.--01.-quote .-block.--01 h1 {
+  font-family: "Rokkitt", Courier, monospace;
+  font-size: 2em;
+  color: #d3d1d3;
+}
+#about.--alteo .c-image-stripe.-style.--01.-quote .-block.--01 p {
+  font-size: 1.4em;
+  color: #bb9d58;
+  text-transform: uppercase;
+}
+#about.--alteo .c-article.-style.--01 {
+  font-family: "Montserrat", sans-serif;
+}
+#about.--alteo .c-article.-style.--01 .-block.--01 {
+  max-width: 800px;
+  gap: 10px;
+}
+#about.--alteo .c-article.-style.--01 .-block.--01 h4 {
+  font-size: 1.4em;
+  color: #d3d1d3;
+}
+#about.--alteo .c-article.-style.--01 .-block.--01 h1 {
+  font-size: 3em;
+  color: #282828;
+}
+#about.--alteo .c-article.-style.--01 .-block.--01 h2 {
+  color: #bb9d58;
+}
+#about.--alteo .c-article.-style.--01 .-block.--02, #about.--alteo .c-article.-style.--01 .-block.--04 {
+  width: 100%;
+  max-width: 800px;
+  gap: 10px;
+}
+#about.--alteo .c-article.-style.--01 .-block.--02 p, #about.--alteo .c-article.-style.--01 .-block.--04 p {
+  font-family: "Rokkitt", Courier, monospace;
+  font-size: 1.5em;
+  color: #282828;
+}
+#about.--alteo .c-article.-style.--01 .-block.--02 h2, #about.--alteo .c-article.-style.--01 .-block.--04 h2 {
+  text-transform: uppercase;
+  color: #bb9d58;
+  text-align: center;
+}
+#about.--alteo .c-article.-style.--01 .-block.--03 {
+  width: 100%;
+  max-width: 800px;
+  gap: 15px;
+}
+#about.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 {
+  min-width: 198px;
+  font-family: "Montserrat", sans-serif;
+}
+#about.--alteo .c-article.-style.--01 .-block.--03 .c-image-card.-style.--01 .ct-content.-img.--01 {
+  background-image: url(../assets/rsp-about-image-001-800x160px.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text {
+  right: initial;
+  left: 20px;
+  text-align: left;
+  gap: 0.5em;
+}
+#about.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+#about.--alteo .c-article.-style.--01 .-block.--03 .-block.--01.-text h2 {
+  font-size: 1.2em;
+  opacity: 0.75;
+}
+#about.--alteo .c-article.-style.--01 .-block.--02.-services {
+  align-items: flex-start;
+}
+#about.--alteo .c-article.-style.--01 .-block.--02.-services h4 {
+  color: #bb9d58;
+  text-align: left;
+}
+#about.--alteo .c-article.-style.--01 .-block.--04.-cta h2 {
+  text-transform: uppercase;
+  color: #282828;
+}
+#about.--alteo .c-article.-style.--01 .-block.--04.-cta p {
+  text-transform: uppercase;
+  color: #282828;
+  text-align: center;
+}
+#about.--alteo .c-article.-style.--01 .-block.--04.-cta a.button.-style.--01 {
+  margin-top: 0.5em;
+  width: 100%;
+}
+#about.--alteo .-block.--04.-calendar .c-details.-style.--01 {
+  gap: 15px;
+}
+#about.--alteo .-block.--04.-calendar .c-details.-style.--01 details {
+  border: none;
+  border-radius: 10px;
+  background: whitesmoke;
+}
+#about.--alteo .-block.--04.-calendar .c-details.-style.--01 details summary h3 {
+  color: #aaa;
+}
+#about.--alteo .-block.--04.-calendar .c-details.-style.--01 details .ct-details-content {
+  padding: 15px 30px 15px 30px;
+  gap: 15px;
+  background-color: white;
+  border-bottom: 2px solid whitesmoke;
+}
+#about.--alteo .-block.--04.-calendar .c-details.-style.--01 details p {
+  font-family: "Rokkitt", Courier, monospace;
+  min-height: 25px;
+  height: 100%;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #aaa;
+}
+
 /* With @FORWARD */
 /* With @USE *//*# sourceMappingURL=style-rsp.css.map */
