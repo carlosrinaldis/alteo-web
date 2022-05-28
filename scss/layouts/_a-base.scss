@@ -1,0 +1,73 @@
+@use '../variables' as *;
+
+body {
+    // background-color: lime;
+    min-width: 374px;
+}
+
+.--alteo {
+
+    hr {
+        width: 100%;
+        border: 1px solid $gold;
+    }
+
+    /* Footer */
+
+    .c-footer.-style.--01 {
+        background-color: $silver;
+        font-family: 'Montserrat', sans-serif;
+
+        .ct-content.-data {
+            background-color: initial;
+
+            .-block.--01, .-block.--02, .-block.--03{
+                
+                span {
+                    color: $black;
+                }
+            }
+
+            .-block.--01 {
+                gap: 10px;
+
+                .nav.-item {
+                    flex-basis: 0;
+                    flex-grow: 1;
+                    font-size: 1em;
+
+                    &:hover span {
+                        color: $gold;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .-block.--02 {
+
+                .-item {
+                    background-color: initial;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                
+                .-item.--01 {
+                    background-image: url("../assets/social-facebook-square-brands.svg");
+                }
+
+                .-item.--02 {
+                    background-image: url("../assets/social-instagram-brands.svg");
+                }
+
+                .-item.--03 {
+                    background-image: url("../assets/social-youtube-brands.svg");
+                }
+
+                .-item.--04 {
+                    background-image: url("../assets/social-whatsapp-brands.svg");
+                }
+            }
+        }
+    }
+}

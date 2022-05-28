@@ -1,0 +1,59 @@
+@use '../variables' as *;
+
+/* FORM */
+
+.site-form.-style.--01 {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    input {
+        min-width: 300px;
+        min-height: 50px;
+        border-radius: 10px;
+        border: 1px solid $silver;
+        line-height: 50px;
+        text-align: center;
+        color: $silver;
+        text-transform: uppercase;
+        font-size: 10px;
+
+        &::placeholder {
+            color: $silver;
+            font-size: 10px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    .submit-button {
+        min-width: 300px;
+        min-height: 50px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        border: 1px solid $silver;
+        line-height: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 1.4em;
+        color: $silver;
+        text-transform: uppercase;
+    }
+}
+
+/* FORM-SUCCESS */
+
+#index.--alteo.--form-success {
+
+    .c-article.-style.--01 .ct-content.-data {
+        height: 798px;
+
+        .button.-style.--01 {
+            min-width: 200px;
+            max-width: 250px;
+        }
+    }
+
+}

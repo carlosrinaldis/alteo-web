@@ -1,2 +1,29 @@
+/* With @FORWARD */
+
 @use 'reset';
-@use 'alteo';
+@use '../scss/components';
+@use '../scss/layouts';
+
+/* With @USE */
+
+// @use '../scss/reset';
+
+// @use '../scss/components/c-header';
+// @use '../scss/components/c-details';
+// @use '../scss/components/c-profile-card';
+// @use '../scss/components/c-hero';
+// @use '../scss/components/c-image-stripe';
+// @use '../scss/components/c-footer';
+// @use '../scss/components/c-segment-toggle';
+// @use '../scss/components/c-article';
+// @use '../scss/components/c-image-card';
+
+// @use '../scss/layouts/a-base';
+// @use '../scss/layouts/a-experiences';
+// @use '../scss/layouts/a-destination';
+// @use '../scss/layouts/a-about';
+// @use '../scss/layouts/a-contact';
+// @use '../scss/layouts/a-home';
+// @use '../scss/layouts/a-members';
+// @use '../scss/layouts/a-forms';
+// @use '../scss/layouts/a-extras';

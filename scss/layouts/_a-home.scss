@@ -1,0 +1,129 @@
+@use '../variables' as *;
+
+/* HOME START */
+
+#home.--alteo, #index.--alteo {
+
+    /* HOME: Hero */
+
+    .c-hero.-style.--01 {
+        height: 710px;
+
+        font-family: 'Montserrat', sans-serif;
+
+        .ct-content.-img {
+            background-image: none;
+            background-image: url("../assets/backdrop-image-006-HR-2880px.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .-block.--01 {
+            gap: 10px;
+
+            h4 {
+                font-size: 1.4em;
+                color: $silver;  
+            }
+
+            h1 {
+                font-size: 3em;
+                color: $gold; 
+            }
+
+            h2 {
+                color: $black; 
+            }
+
+            p {
+                font-family: 'Rokkitt', Courier, monospace;
+                font-size: 2em;
+                color: $black;
+            }
+        }
+
+        .-window {
+            height: 50%;
+            border: none;
+        }
+
+        .-block.--02 {
+            gap: 20px;
+
+            h2 {
+                color: $black; 
+            }
+
+            .c-segment-toggle.-style.--01 {
+
+                .ct-content.-bar {
+                    max-width: 920px;
+                    background: none;
+                    border-radius: 5px;
+                    // border: 1px solid $silver;
+                }
+            }
+        }
+    }
+    
+    /* HOME: Article */
+
+    .c-article.-style.--01 {
+        font-family: 'Montserrat', sans-serif;
+        // border-top: 2px solid $silver;
+
+        .-block.--01.-headings {
+            max-width: 800px;  
+            gap: 10px;
+            h4 {
+                font-size: 1.4em;
+                color: $silver;  
+            }
+            h1 {
+                font-size: 3em;
+                color: $black;
+            }
+            h2 {
+                color: $gold;
+            }
+        }
+
+        .-block.--02, .-block.--04 {
+            width: 100%;
+            max-width: 800px;  
+            gap: 10px;
+
+            p {
+                font-family: 'Rokkitt', Courier, monospace;
+                font-size: 1.5em;
+                color: $black;
+            }
+
+            h2 {
+                text-transform: uppercase;
+                color: $gold;
+                text-align: center;
+            }
+        }
+
+        .-block.--04.-cta {
+
+            h2 {
+                text-transform: uppercase;
+                color: $black;
+            }
+
+            p {
+                text-transform: uppercase;
+                color: $black;
+                text-align: center;
+            }
+
+            a.button.-style.--01 {
+                margin-top: 0.5em;
+                width: 100%;
+            }
+        }
+    }
+}
