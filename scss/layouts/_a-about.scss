@@ -2,7 +2,7 @@
 
 /* ABOUT - START */
 
-#about.--alteo {
+#about.--alteo.--v2 {
 
     /* ABOUT: Hero */
 
@@ -155,7 +155,7 @@
         }
 
         .ct-content.-img {
-            background-image: url("../assets/about-stripe-002.jpg");
+            background-image: url("../assets/rsp-about-stripe-003.jpg");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -225,22 +225,31 @@
             }
         }
 
-        .-block.--03 {
+        .-block.--03.-images {
             width: 100%;
             max-width: 800px;  
-            gap: 15px;
+            gap: 20px;
 
             .c-image-card.-style.--01 {
                 min-width: 198px;
                 font-family: 'Montserrat', sans-serif;
 
-                .ct-content.-img.--01 {
-                    background-image: url(../assets/rsp-about-image-001-800x160px.jpg);
-                    background-position: right;
+                .ct-content.-img {
+                    min-height: 320px;
+                    background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
+
+                    &.--01 {
+                        background-image: url(../assets/rsp-about-image-001-800x320px.jpg);
+                    }
+
+                    &.--02 {
+                        background-image: url(../assets/rsp-about-image-002-800x320px.jpg);
+                    }
                 }
             }
+
             .-block.--01.-text {
                 right: initial;
                 left: 20px;
@@ -258,7 +267,6 @@
                     opacity: 0.75;
                 }
             }
-
         }
 
         .-block.--02.-services {
@@ -268,7 +276,6 @@
                 color: $gold;
                 text-align: left;
             }
-            // text-align: left;
         }
 
         .-block.--04.-cta {
@@ -291,37 +298,110 @@
         }
     }
 
-    /* ABOUT: Details */
+    /* ABOUT: Bios */
 
-    .-block.--04.-calendar .c-details.-style.--01 {
-        gap: 15px;
+    .c-bio-card {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
 
-        details {
-            border: none;
-            border-radius: 10px;
-            background: whitesmoke;
+        h1, h2 {
+            font-family: $fontMain;
+            text-transform: uppercase;
+        }
 
-            summary {
-                h3 {
-                    color: #aaa;
+        h1 {
+            font-size: 16px;
+            color: $gold;
+        }
+
+        h2 {
+            font-size: 14px;
+            color: $silver;
+        }
+
+        p {
+            font-family: $fontAlt;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        .box-l, .box-r {
+            min-width: 50%;
+            min-height: 320px;
+        }
+
+        .box-l {            
+            border-right: solid 1px $gold;
+            padding-right: 20px;
+        }
+
+        .box-r {
+            border-left: solid 1px $gold;
+            padding-left: 20px;
+        }
+
+        &.--laurie {
+            
+            .img {
+                min-width: 100%;
+                min-height: 100%;
+                border-top-left-radius: 15px 15px;
+                border-bottom-left-radius: 15px 15px;
+
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(../assets/rsp-about-image-003-800x320px.jpg);
+                background-color: whitesmoke;
+            }
+
+            .text {
+                min-width: 100%;
+                min-height: 100%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 10px;
+
+                p {
+                    text-align: justify;
                 }
             }
+        }
 
-            .ct-details-content {
-                padding: 15px 30px 15px 30px;
-                gap: 15px;
-                background-color: white;
-                border-bottom: 2px solid whitesmoke;
+        &.--mateo {
+
+            .img {
+                min-width: 100%;
+                min-height: 100%;
+                border-top-right-radius: 15px 15px;
+                border-bottom-right-radius: 15px 15px;
+
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(../assets/rsp-about-image-004-800x320px.jpg);
+                background-color: whitesmoke;
             }
-    
-            p { 
-                font-family: "Rokkitt", Courier, monospace;
-                min-height: 25px;
-                height: 100%;
-                font-size: 1.5em;
-                font-weight: 500;
-                color: #aaa;
+
+            .text {
+                min-width: 100%;
+                min-height: 100%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 10px;
+                direction: rtl;
+
+                p {
+                    text-align: justify;
+                }
             }
         }
     }
+
+
 }
