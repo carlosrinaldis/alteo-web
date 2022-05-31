@@ -953,14 +953,25 @@ body {
   color: #bb9d58;
 }
 #experiences.--alteo .c-hero.-style.--01 .-window {
-  height: 45%;
+  height: 50%;
   border: none;
+}
+@media screen and (max-width: 1080px) {
+  #experiences.--alteo .c-hero.-style.--01 .-window {
+    height: 40%;
+  }
+}
+@media screen and (max-width: 586px) {
+  #experiences.--alteo .c-hero.-style.--01 .-window {
+    height: 30%;
+  }
 }
 #experiences.--alteo .c-hero.-style.--01 .-block.--02 {
   gap: 20px;
 }
 #experiences.--alteo .c-hero.-style.--01 .-block.--02 h2 {
   color: #bb9d58;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
 }
 #experiences.--alteo .c-article.-style.--01 {
   font-family: "Montserrat", sans-serif;
@@ -1858,11 +1869,22 @@ body {
   height: 50%;
   border: none;
 }
+@media screen and (max-width: 1080px) {
+  #home.--alteo .c-hero.-style.--01 .-window, #index.--alteo .c-hero.-style.--01 .-window {
+    height: 40%;
+  }
+}
+@media screen and (max-width: 586px) {
+  #home.--alteo .c-hero.-style.--01 .-window, #index.--alteo .c-hero.-style.--01 .-window {
+    height: 35%;
+  }
+}
 #home.--alteo .c-hero.-style.--01 .-block.--02, #index.--alteo .c-hero.-style.--01 .-block.--02 {
   gap: 20px;
 }
 #home.--alteo .c-hero.-style.--01 .-block.--02 h2, #index.--alteo .c-hero.-style.--01 .-block.--02 h2 {
   color: #282828;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
 }
 #home.--alteo .c-article.-style.--01, #index.--alteo .c-article.-style.--01 {
   font-family: "Montserrat", sans-serif;

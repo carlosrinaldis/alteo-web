@@ -46,6 +46,14 @@
         .-window {
             height: 50%;
             border: none;
+
+            @media screen and (max-width: 1080px) {
+                height: 40%;
+            }
+
+            @media screen and (max-width: 586px) {
+                height: 35%;
+            }
         }
 
         .-block.--02 {
@@ -53,6 +61,7 @@
 
             h2 {
                 color: $black;
+                text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
             }
         }
     }
