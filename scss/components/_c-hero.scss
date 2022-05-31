@@ -79,10 +79,20 @@ html, body {
         text-align: center;
         overflow: hidden;
         padding: 10px 20px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
         h1 {
             font-size: 1.4em;
             color: #aaa;
+            // color: red;
         }
+
+        // h1 {
+        //     background-color: darkslategray;
+        //     color: transparent;
+        //     text-shadow: 0px 1px 2px #d3d1d3;
+        //     -webkit-background-clip: text;
+        //     background-clip: text;
+        // }
     }
 }
