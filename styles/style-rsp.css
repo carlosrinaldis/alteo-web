@@ -1071,6 +1071,7 @@ body {
   /* DESTINATIONS: Stripe */
   /* DESTINATIONS: Article */
   /* DESTINATION: Details */
+  /* DESTINATION: Seasons */
   /* DESTINATION: Itinerary */
 }
 #destination.--alteo.--v2 .c-hero.-style.--01 {
@@ -1333,29 +1334,99 @@ body {
   font-weight: 500;
   color: #aaa;
 }
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 {
+  gap: 15px;
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details {
+  border: none;
+  border-top: 1px solid #bb9d58;
+  border-bottom: 1px solid #bb9d58;
+  border-radius: 0px;
+  background: whitesmoke;
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details summary {
+  background-color: white;
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details summary h3 {
+  font-size: 15px;
+  color: #bb9d58;
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details summary span {
+  background-image: url("/assets/angle-circle-left-gold.svg");
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details .ct-details-content {
+  padding: 15px 15px 15px 15px;
+  background-color: white;
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details .ct-details-content .schedule {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  justify-items: center stretch;
+  align-items: center stretch;
+  gap: 20px;
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details .ct-details-content .schedule h1 {
+  color: #282828;
+  font-size: 14px;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+  margin-bottom: 15px;
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details .ct-details-content .schedule .description {
+  padding: 20px;
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details .ct-details-content .schedule .description h4 {
+  color: #bb9d58;
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details .ct-details-content .schedule .description p {
+  margin-top: 10px;
+  text-align: justify;
+  color: #282828;
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details .ct-details-content .schedule .note {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  border-left: 1px solid #bb9d58;
+}
+#destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 details .ct-details-content p {
+  font-family: "Rokkitt", Courier, monospace;
+  min-height: 25px;
+  height: 100%;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #aaa;
+}
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 {
   gap: 15px;
 }
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details {
   border: none;
-  border-top: 2px solid #d3d1d3;
-  border-bottom: 2px solid #d3d1d3;
+  border-top: 1px solid #d3d1d3;
+  border-bottom: 1px solid #d3d1d3;
   border-radius: 0px;
   background: whitesmoke;
 }
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary {
   background-color: white;
+  background-image: url(/assets/destination-details-001.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary h3 {
   font-size: 15px;
-  color: #aaa;
+  color: #d3d1d3;
+}
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary span {
+  background-image: url("/assets/angle-circle-left-white.svg");
 }
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content {
   padding: 15px 15px 15px 15px;
   gap: 15px;
   background-color: white;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule {
   display: grid;
