@@ -151,135 +151,6 @@
             }
         }
 
-        .-block.--03.-images {
-            gap: 15px;
-
-            .c-image-card.-style.--01 {
-                min-width: 198px;
-                font-family: 'Montserrat', sans-serif;
-
-                .ct-content.-img.--01 {
-                    background-image: url(../assets/rsp-destinations-image-001.jpg);
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    
-                    h1 {
-                        color: $black;
-                    }
-                
-                    h2 {
-                        color: $gold;
-                    }
-                }
-
-                .ct-content.-img.--02 {
-                    background-image: url(../assets/rsp-destinations-image-002.jpg);
-                    background-position: right;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-
-                    .-block.--01.-text {
-                        left: 20px;
-                        text-align: left;
-                    }
-
-                    h1 {
-                        color: $black;
-                    }
-                
-                    h2 {
-                        color: $gold;
-                    }
-                }
-
-                .ct-content.-img.--03 {
-                    background-image: url(../assets/rsp-destinations-image-007.jpg);
-                    background-position: right;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-
-                    h1 {
-                        color: $black;
-                    }
-                
-                    h2 {
-                        color: $gold;
-                    }
-                }
-
-                .ct-content.-img.--04 {
-                    background-image: url(../assets/rsp-destinations-image-008.jpg);
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-
-                    .-block.--01.-text {
-                        left: 20px;
-                        text-align: left;
-                    }
-
-                    h1 {
-                        color: white;
-                    }
-                
-                    h2 {
-                        color: white;
-                    }
-                }
-
-                .ct-content.-img.--05 {
-                    background-image: url(../assets/rsp-destinations-image-009.jpg);
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-
-                    h1 {
-                        color: white;
-                    }
-                
-                    h2 {
-                        color: white;
-                    }
-                }
-
-                .ct-content.-img.--06 {
-                    background-image: url(../assets/rsp-destinations-image-003.jpg);
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-
-                    .-block.--01.-text {
-                        left: 20px;
-                        text-align: left;
-                    }
-
-                    h1 {
-                        color: white;
-                    }
-                
-                    h2 {
-                        color: white;
-                    }
-                }
-            }
-
-            .-block.--01.-text {
-                gap: 0.5em;
-
-                h1 {
-                    font-size: 1.2em;
-                    font-weight: 700;
-                    text-transform: capitalize;
-                }
-
-                h2 {
-                    font-size: 1.2em;
-                    opacity: 0.75;
-                }
-            }
-        }
-
         .-block.--02.-services {
             align-items: flex-start;
 
@@ -309,6 +180,99 @@
             }
         }
     }
+
+
+    /* DESTINATION: Images */
+
+    .-block.--03.-images {
+        gap: 15px;
+
+        .image-grid {
+            display: grid;
+            gap: 20px;
+            min-width: 100%;
+            grid-template-columns: repeat(2 , 1fr);
+
+            .grid-col-span-2 {
+                grid-column: span 2;
+            }
+
+            .grid-row-span-2 {
+                grid-row: span 2;
+            }
+
+        }
+
+        .c-image-card.-style.--01 {
+            min-width: 198px;
+            font-family: 'Montserrat', sans-serif;
+
+
+            .ct-content.-img {
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+
+                &.--01 {
+                    background-image: url(../assets/rsp-destinations-image-001.jpg);
+                }
+
+                &.--02 {
+                    background-image: url(../assets/destinations-image-012.jpg);
+                    min-height: 100%;
+    
+                    .-block.--01.-text {
+                        left: 20px;
+                        text-align: left;
+                    }
+                }
+
+                &.--03 {
+                    background-image: url(../assets/rsp-destinations-image-009.jpg);
+                    background-position: center left;                    
+                }
+
+                &.--04 {
+                    background-image: url(../assets/rsp-destinations-image-007.jpg);
+                }
+
+                &.--05 {
+
+                }
+                
+                &.--06 {
+                    background-image: url(../assets/backdrop-image-005.jpg);
+                    background-position: bottom right;
+                    min-height: 100%;
+                }
+
+                &.--07 {
+                    background-image: url(../assets/rsp-destinations-image-008.jpg);
+                }
+                
+                &.--08 {
+                    background-image: url(../assets/rsp-destinations-image-003.jpg);
+                }
+            }
+        }
+
+        .-block.--01.-text {
+            gap: 0.5em;
+
+            h1 {
+                font-size: 1.2em;
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+
+            h2 {
+                font-size: 1.2em;
+                opacity: 0.75;
+            }
+        }
+    }
+
+
 
     /* DESTINATION: Details */
 

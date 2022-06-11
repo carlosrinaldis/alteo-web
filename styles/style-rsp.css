@@ -1070,6 +1070,7 @@ body {
   /* DESTINATIONS: Hero */
   /* DESTINATIONS: Stripe */
   /* DESTINATIONS: Article */
+  /* DESTINATION: Images */
   /* DESTINATION: Details */
   /* DESTINATION: Seasons */
   /* DESTINATION: Itinerary */
@@ -1186,109 +1187,6 @@ body {
   color: #bb9d58;
   text-align: center;
 }
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images {
-  gap: 15px;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 {
-  min-width: 198px;
-  font-family: "Montserrat", sans-serif;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--01 {
-  background-image: url(../assets/rsp-destinations-image-001.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--01 h1 {
-  color: #282828;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--01 h2 {
-  color: #bb9d58;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--02 {
-  background-image: url(../assets/rsp-destinations-image-002.jpg);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--02 .-block.--01.-text {
-  left: 20px;
-  text-align: left;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--02 h1 {
-  color: #282828;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--02 h2 {
-  color: #bb9d58;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--03 {
-  background-image: url(../assets/rsp-destinations-image-007.jpg);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--03 h1 {
-  color: #282828;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--03 h2 {
-  color: #bb9d58;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--04 {
-  background-image: url(../assets/rsp-destinations-image-008.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--04 .-block.--01.-text {
-  left: 20px;
-  text-align: left;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--04 h1 {
-  color: white;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--04 h2 {
-  color: white;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--05 {
-  background-image: url(../assets/rsp-destinations-image-009.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--05 h1 {
-  color: white;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--05 h2 {
-  color: white;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--06 {
-  background-image: url(../assets/rsp-destinations-image-003.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--06 .-block.--01.-text {
-  left: 20px;
-  text-align: left;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--06 h1 {
-  color: white;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--06 h2 {
-  color: white;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .-block.--01.-text {
-  gap: 0.5em;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .-block.--01.-text h1 {
-  font-size: 1.2em;
-  font-weight: 700;
-  text-transform: capitalize;
-}
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .-block.--01.-text h2 {
-  font-size: 1.2em;
-  opacity: 0.75;
-}
 #destination.--alteo.--v2 .c-article.-style.--01 .-block.--02.-services {
   align-items: flex-start;
 }
@@ -1308,6 +1206,71 @@ body {
 #destination.--alteo.--v2 .c-article.-style.--01 .-block.--04.-cta a.button.-style.--01 {
   margin-top: 0.5em;
   width: 100%;
+}
+#destination.--alteo.--v2 .-block.--03.-images {
+  gap: 15px;
+}
+#destination.--alteo.--v2 .-block.--03.-images .image-grid {
+  display: grid;
+  gap: 20px;
+  min-width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+}
+#destination.--alteo.--v2 .-block.--03.-images .image-grid .grid-col-span-2 {
+  grid-column: span 2;
+}
+#destination.--alteo.--v2 .-block.--03.-images .image-grid .grid-row-span-2 {
+  grid-row: span 2;
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 {
+  min-width: 198px;
+  font-family: "Montserrat", sans-serif;
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--01 {
+  background-image: url(../assets/rsp-destinations-image-001.jpg);
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--02 {
+  background-image: url(../assets/destinations-image-012.jpg);
+  min-height: 100%;
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--02 .-block.--01.-text {
+  left: 20px;
+  text-align: left;
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--03 {
+  background-image: url(../assets/rsp-destinations-image-009.jpg);
+  background-position: center left;
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--04 {
+  background-image: url(../assets/rsp-destinations-image-007.jpg);
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--06 {
+  background-image: url(../assets/backdrop-image-005.jpg);
+  background-position: bottom right;
+  min-height: 100%;
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--07 {
+  background-image: url(../assets/rsp-destinations-image-008.jpg);
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--08 {
+  background-image: url(../assets/rsp-destinations-image-003.jpg);
+}
+#destination.--alteo.--v2 .-block.--03.-images .-block.--01.-text {
+  gap: 0.5em;
+}
+#destination.--alteo.--v2 .-block.--03.-images .-block.--01.-text h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+#destination.--alteo.--v2 .-block.--03.-images .-block.--01.-text h2 {
+  font-size: 1.2em;
+  opacity: 0.75;
 }
 #destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 {
   gap: 15px;
