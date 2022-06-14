@@ -133,7 +133,7 @@
             }
         }
 
-        .-block.--01, .-block.--02, .-block.--03, .-block.--04, .-block.--05 {
+        .-block.--01, .-block.--02, .-block.--03, .-block.--04, .-block.--05, .-block.--06 {
             width: 100%;
             max-width: 800px;  
             gap: 10px;
@@ -190,8 +190,10 @@
         .image-grid {
             display: grid;
             gap: 20px;
-            min-width: 100%;
+            min-width: 314px;
+            width: 100%;
             grid-template-columns: repeat(2 , 1fr);
+            overflow: hidden;
 
             .grid-col-span-2 {
                 grid-column: span 2;
@@ -199,6 +201,18 @@
 
             .grid-row-span-2 {
                 grid-row: span 2;
+            }
+
+            @media screen and (max-width: 475px) {
+                grid-template-columns: repeat(1 , 1fr);
+
+                .grid-col-span-2 {
+                    grid-column: span 1;
+                }
+    
+                .grid-row-span-2 {
+                    display: none;
+                }
             }
 
         }
@@ -401,7 +415,7 @@
 
     /* DESTINATION: Itinerary */
 
-    .-block.--05.-itinerary .c-details.-style.--01 {
+    .-block.--05.-itinerary .c-details.-style.--01, .-block.--06.-itinerary .c-details.-style.--01 {
         gap: 15px;
 
         details {
@@ -427,6 +441,20 @@
                 span {
                     background-image: url("/assets/angle-circle-left-white.svg");
                 }
+
+                @media screen and (max-width: 475px) {
+                    background-image: none;
+
+                    span {
+                        background-image: url("/assets/angle-circle-left-silver.svg");
+                    }
+
+                    h3 {
+                        max-width: 200px;
+                        font-size: 15px;
+                        color: $silver;
+                    }
+                }
             }
 
             .ct-details-content {
@@ -438,7 +466,7 @@
                 
                 .schedule {
                     display: grid;
-                    grid-template-columns: 1fr 4fr 1fr;
+                    grid-template-columns: 1fr 5fr;
                     justify-items: center stretch;
                     align-items: center stretch;
 
@@ -499,5 +527,15 @@
                 }
             }
         }
+    }
+
+    .-block.--06.-itinerary .c-details.-style.--01 details summary {
+
+        background-image: url(/assets/destination-details-002.jpg);
+
+        @media screen and (max-width: 475px) {
+            background-image: none;
+        }
+
     }
 }

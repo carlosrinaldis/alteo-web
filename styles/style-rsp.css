@@ -1172,17 +1172,17 @@ body {
 #destination.--alteo.--v2 .c-article.-style.--01 .-block.--01 h2 {
   color: #bb9d58;
 }
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--01, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--02, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--03, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--04, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--05 {
+#destination.--alteo.--v2 .c-article.-style.--01 .-block.--01, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--02, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--03, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--04, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--05, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--06 {
   width: 100%;
   max-width: 800px;
   gap: 10px;
 }
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--01 p, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--02 p, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--03 p, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--04 p, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--05 p {
+#destination.--alteo.--v2 .c-article.-style.--01 .-block.--01 p, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--02 p, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--03 p, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--04 p, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--05 p, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--06 p {
   font-family: "Rokkitt", Courier, monospace;
   font-size: 1.5em;
   color: #282828;
 }
-#destination.--alteo.--v2 .c-article.-style.--01 .-block.--01 h2, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--02 h2, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--03 h2, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--04 h2, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--05 h2 {
+#destination.--alteo.--v2 .c-article.-style.--01 .-block.--01 h2, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--02 h2, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--03 h2, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--04 h2, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--05 h2, #destination.--alteo.--v2 .c-article.-style.--01 .-block.--06 h2 {
   text-transform: uppercase;
   color: #bb9d58;
   text-align: center;
@@ -1213,14 +1213,27 @@ body {
 #destination.--alteo.--v2 .-block.--03.-images .image-grid {
   display: grid;
   gap: 20px;
-  min-width: 100%;
+  min-width: 314px;
+  width: 100%;
   grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
 }
 #destination.--alteo.--v2 .-block.--03.-images .image-grid .grid-col-span-2 {
   grid-column: span 2;
 }
 #destination.--alteo.--v2 .-block.--03.-images .image-grid .grid-row-span-2 {
   grid-row: span 2;
+}
+@media screen and (max-width: 475px) {
+  #destination.--alteo.--v2 .-block.--03.-images .image-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #destination.--alteo.--v2 .-block.--03.-images .image-grid .grid-col-span-2 {
+    grid-column: span 1;
+  }
+  #destination.--alteo.--v2 .-block.--03.-images .image-grid .grid-row-span-2 {
+    display: none;
+  }
 }
 #destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 {
   min-width: 198px;
@@ -1364,53 +1377,66 @@ body {
   font-weight: 500;
   color: #aaa;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 {
   gap: 15px;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details {
   border: none;
   border-top: 1px solid #d3d1d3;
   border-bottom: 1px solid #d3d1d3;
   border-radius: 0px;
   background: whitesmoke;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary {
   background-color: white;
   background-image: url(/assets/destination-details-001.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary h3 {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary h3, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary h3 {
   font-size: 15px;
   color: #d3d1d3;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary span {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary span, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary span {
   background-image: url("/assets/angle-circle-left-white.svg");
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content {
+@media screen and (max-width: 475px) {
+  #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary {
+    background-image: none;
+  }
+  #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary span, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary span {
+    background-image: url("/assets/angle-circle-left-silver.svg");
+  }
+  #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary h3, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary h3 {
+    max-width: 200px;
+    font-size: 15px;
+    color: #d3d1d3;
+  }
+}
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content {
   padding: 15px 15px 15px 15px;
   gap: 15px;
   background-color: white;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule {
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 5fr;
   justify-items: center stretch;
   align-items: center stretch;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule h1 {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule h1, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule h1 {
   color: #282828;
   font-size: 14px;
   text-align: center;
   padding: 0px 10px 0px 10px;
   margin-bottom: 15px;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule h1:nth-child(2) {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule h1:nth-child(2), #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule h1:nth-child(2) {
   padding-left: 20px;
   text-align: left;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .time {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .time, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .time {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1418,18 +1444,18 @@ body {
   text-align: center;
   border-right: 1px solid #d3d1d3;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .description {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .description, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .description {
   padding: 20px;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .description h4 {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .description h4, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .description h4 {
   color: #bb9d58;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .description p {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .description p, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .description p {
   margin-top: 10px;
   text-align: justify;
   color: #282828;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .place {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .place, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .place {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1437,13 +1463,21 @@ body {
   text-align: center;
   border-left: 1px solid #d3d1d3;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content p {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content p, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content p {
   font-family: "Rokkitt", Courier, monospace;
   min-height: 25px;
   height: 100%;
   font-size: 1.5em;
   font-weight: 500;
   color: #aaa;
+}
+#destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary {
+  background-image: url(/assets/destination-details-002.jpg);
+}
+@media screen and (max-width: 475px) {
+  #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary {
+    background-image: none;
+  }
 }
 
 /* ABOUT - START */
