@@ -468,7 +468,7 @@
                     display: grid;
                     grid-template-columns: 1fr 5fr;
                     justify-items: center stretch;
-                    align-items: center stretch;
+                    align-items: center stretch;f
 
                     h1 {
                         color: $black;
@@ -506,15 +506,18 @@
                             color: $black;
                         }
                     }
+                }
 
-                    .place {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        padding: 10px;
-                        text-align: center;
-                        border-left: 1px solid $silver;
-                    }
+                @media screen and (max-width: 475px) {
+                    .schedule {
+                        grid-template-columns: 1fr;
+    
+                        .time {
+                            border-right: none;
+                            border-bottom: 1px solid $silver;
+                            // border-top: 1px solid $silver;
+                        }
+                    }                    
                 }
         
                 p { 

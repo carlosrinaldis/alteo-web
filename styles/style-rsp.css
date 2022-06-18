@@ -1425,14 +1425,14 @@ body {
   justify-items: center stretch;
   align-items: center stretch;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule h1, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule h1 {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule f h1, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule f h1 {
   color: #282828;
   font-size: 14px;
   text-align: center;
   padding: 0px 10px 0px 10px;
   margin-bottom: 15px;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule h1:nth-child(2), #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule h1:nth-child(2) {
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule f h1:nth-child(2), #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule f h1:nth-child(2) {
   padding-left: 20px;
   text-align: left;
 }
@@ -1455,13 +1455,14 @@ body {
   text-align: justify;
   color: #282828;
 }
-#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .place, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .place {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
-  text-align: center;
-  border-left: 1px solid #d3d1d3;
+@media screen and (max-width: 475px) {
+  #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule {
+    grid-template-columns: 1fr;
+  }
+  #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .time, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content .schedule .time {
+    border-right: none;
+    border-bottom: 1px solid #d3d1d3;
+  }
 }
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content p, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content p {
   font-family: "Rokkitt", Courier, monospace;
