@@ -1671,6 +1671,14 @@ body {
   max-width: 800px;
   gap: 20px;
 }
+#about.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images hr {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  #about.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images hr {
+    display: block;
+  }
+}
 #about.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 {
   min-width: 198px;
   font-family: "Montserrat", sans-serif;
@@ -1684,8 +1692,18 @@ body {
 #about.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--01 {
   background-image: url(../assets/rsp-about-image-001-800x320px.jpg);
 }
+@media screen and (max-width: 500px) {
+  #about.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--01 {
+    background-image: url(../assets/rsp-about-image-001-380x320px.jpg);
+  }
+}
 #about.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--02 {
   background-image: url(../assets/rsp-about-image-002-800x320px.jpg);
+}
+@media screen and (max-width: 500px) {
+  #about.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--02 {
+    background-image: url(../assets/rsp-about-image-002-380x320px.jpg);
+  }
 }
 #about.--alteo.--v2 .c-article.-style.--01 .-block.--03.-images .-block.--01.-text {
   right: initial;
@@ -1764,7 +1782,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../assets/rsp-about-image-003-800x320px.jpg);
+  background-image: url(../assets/rsp-about-image-003-380x320px.jpg);
   background-color: whitesmoke;
 }
 #about.--alteo.--v2 .c-bio-card.--laurie .text {
@@ -1786,7 +1804,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../assets/rsp-about-image-004-800x320px.jpg);
+  background-image: url(../assets/rsp-about-image-004-380x320px.jpg);
   background-color: whitesmoke;
 }
 #about.--alteo.--v2 .c-bio-card.--mateo .text {
@@ -1800,6 +1818,43 @@ body {
 }
 #about.--alteo.--v2 .c-bio-card.--mateo .text p {
   text-align: justify;
+}
+@media screen and (max-width: 500px) {
+  #about.--alteo.--v2 .c-bio-card {
+    flex-direction: column;
+  }
+  #about.--alteo.--v2 .c-bio-card .box-l, #about.--alteo.--v2 .c-bio-card .box-r {
+    min-height: 235px;
+  }
+  #about.--alteo.--v2 .c-bio-card .box-l {
+    border-right: none;
+    padding-right: 0px;
+  }
+  #about.--alteo.--v2 .c-bio-card .box-r {
+    border-left: none;
+    padding-left: 0px;
+  }
+  #about.--alteo.--v2 .c-bio-card.--laurie .img {
+    min-height: 320px;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-left-radius: 0px 0px;
+    border-bottom: 2px solid #bb9d58;
+  }
+  #about.--alteo.--v2 .c-bio-card.--laurie .text {
+    margin-top: 15px;
+  }
+  #about.--alteo.--v2 .c-bio-card.--mateo .img {
+    min-height: 320px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+    border-top: 2px solid #bb9d58;
+  }
+  #about.--alteo.--v2 .c-bio-card.--mateo .text {
+    margin-bottom: 15px;
+    direction: ltr;
+  }
 }
 
 /* CONTACT START */

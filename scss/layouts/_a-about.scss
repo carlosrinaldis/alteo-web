@@ -230,6 +230,14 @@
             max-width: 800px;  
             gap: 20px;
 
+            hr {
+                display: none;
+
+                @media screen and (max-width: 500px) {
+                    display: block;
+                }
+            }
+
             .c-image-card.-style.--01 {
                 min-width: 198px;
                 font-family: 'Montserrat', sans-serif;
@@ -242,10 +250,18 @@
 
                     &.--01 {
                         background-image: url(../assets/rsp-about-image-001-800x320px.jpg);
+
+                        @media screen and (max-width: 500px) {
+                            background-image: url(../assets/rsp-about-image-001-380x320px.jpg); 
+                        }
                     }
 
                     &.--02 {
                         background-image: url(../assets/rsp-about-image-002-800x320px.jpg);
+
+                        @media screen and (max-width: 500px) {
+                            background-image: url(../assets/rsp-about-image-002-380x320px.jpg); 
+                        }
                     }
                 }
             }
@@ -352,7 +368,7 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                background-image: url(../assets/rsp-about-image-003-800x320px.jpg);
+                background-image: url(../assets/rsp-about-image-003-380x320px.jpg);
                 background-color: whitesmoke;
             }
 
@@ -382,7 +398,7 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                background-image: url(../assets/rsp-about-image-004-800x320px.jpg);
+                background-image: url(../assets/rsp-about-image-004-380x320px.jpg);
                 background-color: whitesmoke;
             }
 
@@ -398,6 +414,61 @@
 
                 p {
                     text-align: justify;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .c-bio-card {
+            flex-direction: column;
+    
+            .box-l, .box-r {
+                min-height: 235px;
+            }
+    
+            .box-l {            
+                border-right: none;
+                padding-right: 0px;
+            }
+    
+            .box-r {
+                border-left: none;
+                padding-left: 0px;
+            }
+    
+            &.--laurie {
+                
+                .img {
+                    min-height: 320px;
+                    border-top-left-radius: 15px 15px;
+                    border-top-right-radius: 15px 15px;
+                    border-bottom-left-radius: 0px 0px;
+
+                    border-bottom: 2px solid $gold;
+                }
+    
+                .text {
+                    margin-top: 15px;
+                }
+            }
+    
+            &.--mateo {
+    
+                .img {
+                    min-height: 320px;
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 15px 15px;
+                    border-bottom-left-radius: 15px 15px;
+    
+
+                    border-top: 2px solid $gold;
+                }
+    
+                .text {
+                    margin-bottom: 15px;
+                    direction: ltr;
                 }
             }
         }
