@@ -409,7 +409,79 @@
             }
         }
     }
+    
+    /* DESTINATION: Season Details #02 */
+    
+    .-block.--04.-calendar {
+        gap: 15px;
 
+        .schedule {
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+            justify-items: center stretch;
+            align-items: center stretch;
+            gap: 20px;
+            // background-color: red;
+
+            h1 {
+                color: $black;
+                font-size: 14px;
+                text-align: center;
+                padding: 0px 10px 0px 10px;
+                margin-bottom: 15px;
+
+                // &:nth-child(2) {
+                //     padding-left: 20px;
+                //     text-align: left;
+                // }
+            }
+
+            .description {
+                // background-color: blue;
+                padding: 20px;
+
+                h4 {
+                    color: $gold;
+                }
+
+                p {
+                    margin-top: 10px;
+                    text-align: justify;
+                    color: $black;
+                }
+            }
+
+            .note {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 10px;
+                text-align: center;
+                border-left: 1px solid $silver;
+
+                h4 {
+                    color: $silver;
+                }
+            }
+        }
+
+        @media screen and (max-width: 475px) {
+            .schedule {
+                grid-template-columns: 1fr;
+                gap: 10px;
+
+                .note {
+                    border-left: none;
+                    border-bottom: 1px solid $silver;
+                    border-top: 1px solid $silver;
+
+                    // &:last-child {
+                    //     border-bottom: none;
+                    // }
+                }
+            }                    
+        }
+    }
 
 
 
