@@ -1396,7 +1396,7 @@ body {
 }
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary h3, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary h3 {
   font-size: 15px;
-  color: #d3d1d3;
+  color: #aaa;
 }
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary span, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary span {
   background-image: url("/assets/angle-circle-left-white.svg");
@@ -1410,8 +1410,6 @@ body {
   }
   #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary h3, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary h3 {
     max-width: 200px;
-    font-size: 15px;
-    color: #d3d1d3;
   }
 }
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details .ct-details-content, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details .ct-details-content {
