@@ -122,25 +122,13 @@ fieldset {
 .c-header.-style.--01.--alteo a {
   color: #282828;
 }
-.c-header.-style.--01.--alteo a:hover {
+.c-header.-style.--01.--alteo div:hover {
   color: #bb9d58;
   font-weight: 500;
 }
-.c-header.-style.--01.--alteo a:active {
-  color: #282828;
-  font-weight: 500;
-}
-.c-header.-style.--01.--alteo a:visited {
-  color: #282828;
-  font-weight: 500;
-}
-.c-header.-style.--01.--alteo a.---current {
+.c-header.-style.--01.--alteo a.---current div {
   color: #bb9d58;
   font-weight: 600;
-}
-.c-header.-style.--01.--alteo a:-webkit-any-link {
-  color: #282828;
-  font-weight: 500;
 }
 .c-header.-style.--01.--alteo .nav.-item.--01 div {
   display: block;
