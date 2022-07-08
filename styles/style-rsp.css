@@ -2104,6 +2104,7 @@ body {
 /* FORM */
 .site-form.-style.--01 {
   display: flex;
+  position: relative;
   width: 100%;
   gap: 10px;
   flex-direction: column;
@@ -2159,6 +2160,60 @@ body {
 #index.--alteo.--form-success .c-article.-style.--01 .ct-content.-data .button.-style.--01 {
   min-width: 200px;
   max-width: 250px;
+}
+
+/* FORM VALIDATION MESSAGES */
+.error-message {
+  display: none;
+  position: absolute;
+  top: 81px;
+  left: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #FF4242;
+  background-color: white;
+}
+
+/* Only show invalid ring while not focused */
+input:not(:focus):not(:-moz-placeholder-shown):invalid {
+  border-color: #FF4242;
+  color: #FF4242;
+}
+input:not(:focus):not(:-ms-input-placeholder):invalid {
+  border-color: #FF4242;
+  color: #FF4242;
+}
+input:not(:focus):not(:placeholder-shown):invalid {
+  border-color: #FF4242;
+  color: #FF4242;
+}
+
+/* Only display the error message while not focused */
+input:not(:focus):not(:-moz-placeholder-shown):invalid ~ .error-message {
+  display: block;
+}
+input:not(:focus):not(:-ms-input-placeholder):invalid ~ .error-message {
+  display: block;
+}
+input:not(:focus):not(:placeholder-shown):invalid ~ .error-message {
+  display: block;
+}
+
+/* Only show valid ring while not focused and if a value is entered */
+/* :empty won't work here as that targets elements that have no childeren. Therefore we abuse :placeholder-shown */
+input:not(:focus):not(:-moz-placeholder-shown):valid {
+  border-color: #bb9d58;
+  color: #bb9d58;
+}
+input:not(:focus):not(:-ms-input-placeholder):valid {
+  border-color: #bb9d58;
+  color: #bb9d58;
+}
+input:not(:focus):not(:placeholder-shown):valid {
+  border-color: #bb9d58;
+  color: #bb9d58;
 }
 
 /* MAINTENANCE */

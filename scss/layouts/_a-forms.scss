@@ -4,6 +4,7 @@
 
 .site-form.-style.--01 {
     display: flex;
+    position: relative;
     width: 100%;
     gap: 10px;
     flex-direction: column;
@@ -56,4 +57,37 @@
         }
     }
 
+}
+
+/* FORM VALIDATION MESSAGES */
+
+.error-message {
+	display: none;
+    position: absolute;
+    top: 81px;
+    left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    color: $red-xl;
+    background-color: white;
+}
+
+/* Only show invalid ring while not focused */
+input:not(:focus):not(:placeholder-shown):invalid {
+	border-color: $red-xl;
+    color: $red-xl;
+}
+
+/* Only display the error message while not focused */
+input:not(:focus):not(:placeholder-shown):invalid ~ .error-message {
+	display: block;	
+}
+
+/* Only show valid ring while not focused and if a value is entered */
+/* :empty won't work here as that targets elements that have no childeren. Therefore we abuse :placeholder-shown */
+input:not(:focus):not(:placeholder-shown):valid {
+	border-color: $gold;
+    color: $gold;
 }
