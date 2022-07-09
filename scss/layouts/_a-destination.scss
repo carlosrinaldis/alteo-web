@@ -235,10 +235,10 @@
                     background-image: url(../assets/rsp-destinations-image-010.jpg);
                     min-height: 100%;
     
-                    .-block.--01.-text {
-                        left: 20px;
-                        text-align: left;
-                    }
+                    // .-block.--01.-text {
+                    //     left: 20px;
+                    //     text-align: left;
+                    // }
                 }
 
                 &.--03 {
@@ -270,7 +270,15 @@
         }
 
         .-block.--01.-text {
+            display: none;
             gap: 0.5em;
+            // padding: 10px;
+
+            // background: linear-gradient(
+            //     -90deg,
+            //     rgba(255, 255, 255, 0.75) 25%,
+            //     rgba(255, 255, 255, 0) 75%
+            // );
 
             h1 {
                 font-size: 1.2em;
@@ -281,6 +289,12 @@
             h2 {
                 font-size: 1.2em;
                 opacity: 0.75;
+                text-transform: capitalize;
+                text-align: right;
+            }
+
+            &.monkey {
+                display: block;
             }
         }
     }

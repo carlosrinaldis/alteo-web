@@ -1240,10 +1240,6 @@ body {
   background-image: url(../assets/rsp-destinations-image-010.jpg);
   min-height: 100%;
 }
-#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--02 .-block.--01.-text {
-  left: 20px;
-  text-align: left;
-}
 #destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--03 {
   background-image: url(../assets/destinations-image-012.jpg);
 }
@@ -1265,6 +1261,7 @@ body {
   background-image: url(../assets/rsp-destinations-image-003.jpg);
 }
 #destination.--alteo.--v2 .-block.--03.-images .-block.--01.-text {
+  display: none;
   gap: 0.5em;
 }
 #destination.--alteo.--v2 .-block.--03.-images .-block.--01.-text h1 {
@@ -1275,6 +1272,11 @@ body {
 #destination.--alteo.--v2 .-block.--03.-images .-block.--01.-text h2 {
   font-size: 1.2em;
   opacity: 0.75;
+  text-transform: capitalize;
+  text-align: right;
+}
+#destination.--alteo.--v2 .-block.--03.-images .-block.--01.-text.monkey {
+  display: block;
 }
 #destination.--alteo.--v2 .-block.--04.-calendar .c-details.-style.--01 {
   gap: 15px;
