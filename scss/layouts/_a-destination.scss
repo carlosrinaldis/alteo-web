@@ -519,6 +519,14 @@
                 background-position: right;
                 // border-radius: 15px;
 
+                &:hover {
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+                    h3 {
+                        color: rgb(150, 150, 150);
+                    }
+                }
+
                 h3 {
                     font-size: 15px;
                     color: #aaa;

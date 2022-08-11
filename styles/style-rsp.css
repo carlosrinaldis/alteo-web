@@ -1435,6 +1435,12 @@ body {
   background-repeat: no-repeat;
   background-position: right;
 }
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary:hover, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary:hover h3, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary:hover h3 {
+  color: rgb(150, 150, 150);
+}
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01 details summary h3, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 details summary h3 {
   font-size: 15px;
   color: #aaa;
