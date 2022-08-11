@@ -229,6 +229,12 @@
 
                 &.--01 {
                     background-image: url(../assets/rsp-destinations-image-001.jpg);
+
+                    &:hover .info-icon {
+                        visibility: visible;
+                    }
+
+
                 }
 
                 &.--02 {
@@ -265,6 +271,27 @@
                 
                 &.--08 {
                     background-image: url(../assets/rsp-destinations-image-003.jpg);
+                }
+
+                .info-icon {
+                    display: block;
+                    border-radius: 100%;
+                    width: 20px;
+                    height: 20px;
+                    background-color: $gold;
+                    text-align: center;
+                    vertical-align: middle;
+                    visibility: hidden;
+
+                    h5 {
+                        text-transform: lowercase;
+                        font-style: italic;
+                        font-weight: 600;
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: 15px;
+                        color: $silver;
+                        line-height: 20px;
+                    }
                 }
             }
         }

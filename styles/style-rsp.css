@@ -1236,6 +1236,9 @@ body {
 #destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--01 {
   background-image: url(../assets/rsp-destinations-image-001.jpg);
 }
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--01:hover .info-icon {
+  visibility: visible;
+}
 #destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--02 {
   background-image: url(../assets/rsp-destinations-image-011.jpg);
   min-height: 100%;
@@ -1259,6 +1262,25 @@ body {
 }
 #destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img.--08 {
   background-image: url(../assets/rsp-destinations-image-003.jpg);
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img .info-icon {
+  display: block;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  background-color: #bb9d58;
+  text-align: center;
+  vertical-align: middle;
+  visibility: hidden;
+}
+#destination.--alteo.--v2 .-block.--03.-images .c-image-card.-style.--01 .ct-content.-img .info-icon h5 {
+  text-transform: lowercase;
+  font-style: italic;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: #d3d1d3;
+  line-height: 20px;
 }
 #destination.--alteo.--v2 .-block.--03.-images .-block.--01.-text {
   display: none;
