@@ -1404,6 +1404,9 @@ body {
   text-align: center;
   border-left: 1px solid #d3d1d3;
 }
+#destination.--alteo.--v2 .-block.--04.-calendar .schedule .note:hover h4 {
+  color: #aaa;
+}
 #destination.--alteo.--v2 .-block.--04.-calendar .schedule .note h4 {
   color: #d3d1d3;
 }
@@ -1416,6 +1419,9 @@ body {
     border-left: none;
     border-bottom: 1px solid #d3d1d3;
     border-top: 1px solid #d3d1d3;
+  }
+  #destination.--alteo.--v2 .-block.--04.-calendar .schedule .note h4 {
+    color: #aaa;
   }
 }
 #destination.--alteo.--v2 .-block.--05.-itinerary .c-details.-style.--01, #destination.--alteo.--v2 .-block.--06.-itinerary .c-details.-style.--01 {

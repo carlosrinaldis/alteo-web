@@ -473,6 +473,10 @@
                 text-align: center;
                 border-left: 1px solid $silver;
 
+                &:hover h4 {
+                    color: #aaa;
+                }
+
                 h4 {
                     color: $silver;
                 }
@@ -488,6 +492,10 @@
                     border-left: none;
                     border-bottom: 1px solid $silver;
                     border-top: 1px solid $silver;
+
+                    h4 {
+                        color: #aaa;
+                    }
 
                     // &:last-child {
                     //     border-bottom: none;
