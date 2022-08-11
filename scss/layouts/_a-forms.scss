@@ -41,6 +41,11 @@
         font-size: 1.4em;
         color: $silver;
         text-transform: uppercase;
+
+        &:hover {
+            border: 1px solid #aaa;
+            color: #aaa;
+        }
     }
 }
 
@@ -88,6 +93,6 @@ input:not(:focus):not(:placeholder-shown):invalid ~ .error-message {
 /* Only show valid ring while not focused and if a value is entered */
 /* :empty won't work here as that targets elements that have no childeren. Therefore we abuse :placeholder-shown */
 input:not(:focus):not(:placeholder-shown):valid {
-	border-color: $gold;
-    color: $gold;
+	border-color: #aaa;
+    color: #aaa;
 }

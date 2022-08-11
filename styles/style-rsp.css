@@ -2166,6 +2166,10 @@ body {
   color: #d3d1d3;
   text-transform: uppercase;
 }
+.site-form.-style.--01 .submit-button:hover {
+  border: 1px solid #aaa;
+  color: #aaa;
+}
 
 /* FORM-SUCCESS */
 #index.--alteo.--form-success .c-article.-style.--01 .ct-content.-data {
@@ -2218,16 +2222,16 @@ input:not(:focus):not(:placeholder-shown):invalid ~ .error-message {
 /* Only show valid ring while not focused and if a value is entered */
 /* :empty won't work here as that targets elements that have no childeren. Therefore we abuse :placeholder-shown */
 input:not(:focus):not(:-moz-placeholder-shown):valid {
-  border-color: #bb9d58;
-  color: #bb9d58;
+  border-color: #aaa;
+  color: #aaa;
 }
 input:not(:focus):not(:-ms-input-placeholder):valid {
-  border-color: #bb9d58;
-  color: #bb9d58;
+  border-color: #aaa;
+  color: #aaa;
 }
 input:not(:focus):not(:placeholder-shown):valid {
-  border-color: #bb9d58;
-  color: #bb9d58;
+  border-color: #aaa;
+  color: #aaa;
 }
 
 /* MAINTENANCE */
